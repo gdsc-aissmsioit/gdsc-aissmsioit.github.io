@@ -63,8 +63,8 @@
 }
 
 .tag-brown {
-  background: #d1913c;
-  background: linear-gradient(to bottom, #ffd194, #d1913c);
+  background: #fbbc05;
+  background: linear-gradient(to bottom, #fbbc05 #ffd194);
   color: #fafafa;
 }
 
@@ -205,10 +205,7 @@
     width: 65%;
     height: 20em;
     overflow: hidden;
-    /* box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 10%); */
     border-radius: 5px;
-    /* background: #ece9e6; */
-    /* background: linear-gradient(to right, #ffffff, #ece9e6); */
   }
 
   .card_main {
@@ -229,7 +226,6 @@
 .post-img {
   height: 400px;
   overflow: hidden;
-  /* margin-top: 14px; */
 }
 
 .post-img img {

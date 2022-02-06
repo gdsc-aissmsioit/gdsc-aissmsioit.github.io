@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  /*outline: 1px solid red;*/
 }
 
 .team-body {
@@ -82,14 +81,14 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px 4px rgb(0 0 0 / 20%);
 }
 
 .team-img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px 4px rgb(0 0 0 / 20%);
 }
 
 .social-ico {
@@ -97,7 +96,7 @@
 }
 
 .social-ico-team a i {
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   color: #000;
   transition: all 0.2s ease-in-out;
@@ -108,7 +107,7 @@
 }
 
 .social-ico a i {
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   color: #000;
   transition: all 0.2s ease-in-out;
@@ -144,7 +143,7 @@
   border-width: 10px 8px 0 8px;
   border-style: solid;
   border-color: #43bfa2 transparent transparent transparent;
-  top: 0.2em;
+  top: 0.4em;
   left: 7em;
   transform: translateY(20px);
 }
@@ -156,7 +155,7 @@
   height: 11.8em;
   font-size: 12px;
   font-weight: 300;
-  top: -11.4em;
+  top: -11.2em;
   left: -6em;
   padding: 10px;
   border-radius: 5px;
@@ -172,33 +171,33 @@
 }
 
 .gdsc_lead_tooltip:before {
-  top: 3.7em;
-  left: 15em;
+  top: 4em;
+  left: 16.5em;
 }
 
 .gdsc_lead_tooltip:after {
   height: 11em;
-  top: -6em;
-  left: 4em;
+  top: -5.6em;
+  left: 6.8em;
 }
 
 .dsa_cp_tooltip::before {
-  top: 0em;
-  left: 36em;
+  top: -0.7em !important;
+  left: 36.8em;
 }
 
 .dsa_cp_tooltip::after {
   height: 8em;
-  top: -7.9em;
+  top: -8.9em !important;
   left: 34em;
 }
 
 .cloud_ml_tooltip::before {
-  left: 16em;
+  left: 16.5em;
 }
 
 .cloud_ml_tooltip::after {
-  left: 5em;
+  left: 6em;
 }
 
 .management_tooltip::before {
@@ -263,16 +262,23 @@
     padding: 0;
   }
 
+  .Tooltip:before {
+    top: -0.6em;
+  }
+
   .Tooltip:after {
+    top: -12.5em;
     left: 0em;
   }
 
   .gdsc_lead_tooltip:before {
     left: 8em;
+    top: 3.7em;
   }
 
   .gdsc_lead_tooltip:after {
     left: 1em;
+    top: -6em;
   }
 
   .dsa_cp_tooltip::before {
@@ -284,21 +290,36 @@
   }
 
   .cloud_ml_tooltip::before {
+    top: -0.7em;
     left: 6em;
   }
 
+  .cloud_ml_tooltip::after {
+    top: -12.7em;
+  }
+
   .management_tooltip::before {
+    top: -0.7em;
     left: 6em;
   }
+
+  .management_tooltip::after {
+    top: -12.7em;
+  }
 }
+
 .profile-name {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .team-profile-link {
-  display: inline-block;
-} */
+
 .team-gdsc-logo {
+  display: inline-block;
   width: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-gdsc-logo:hover {
+  transform: scale(1.2);
 }

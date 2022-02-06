@@ -12,7 +12,7 @@ const EventCard = (props) => {
       data-aos-delay="100"
       data-aos-anchor=".example-selector"
       data-aos-anchor-placement="top-center"
-      className="col-lg-4 Group_55 mb-5"
+      className="col-lg-4 mb-5"
       id="myDiv"
     >
       <svg className="Path_39_ba" viewBox="0 0 471 619.705">
@@ -23,20 +23,23 @@ const EventCard = (props) => {
       </svg>
       <NavLink onClick={scrollToTop} to={`/events/${props.event.id}/`}>
         <img
-          className="n_0_days_of_Google_Cloud_Progr"
+          className="n_0_days_of_Google_Cloud_Progr img-date"
           src={props.event.imageSrc}
           alt="Event_Image"
         />
       </NavLink>
-      <div className="n_0_Days_Of_Google__Cloud_Prog_bb">
+      <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-13 mt-lg-0 mt-3">
         <span>{props.event.name}</span>
       </div>
-      <div className="OPEN_bc">
+      <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-10">
+        <span>{props.event.dateAlt}</span>
+      </div>
+      <div className="OPEN_bc btm-11 mt-lg-3">
         <NavLink to={`/events/${props.event.id}/`}>
           <span>OPEN</span>
         </NavLink>
       </div>
-      <svg className="Line_2_bd" viewBox="0 0 111.917 18.782">
+      <svg className="Line_2_bd btm-18" viewBox="0 0 111.917 18.782">
         <path
           className="Line_2"
           d="M 0 0.7822184562683105 L 111.9168548583984 0"

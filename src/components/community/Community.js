@@ -39,7 +39,7 @@ const Community = () => {
           >
             <div className="card p-lg-2 p-0">
               <div className="card-body">
-                <h1 className="card-title text-center font-weight-bolder mt-3 mt-lg-4 mb-0">
+                <h1 className="card-title text-center font-weight-bolder mt-3 mt-lg-5 mb-0">
                   About Us
                 </h1>
                 <p className="card-text about-para font-weight-light px-lg-5">
@@ -99,6 +99,49 @@ const Community = () => {
       </Fade>
 
       <Fade up>
+        <div
+          className="msg-img cursor-pointer text-center"
+          style={{ margin: "3em auto" }}
+        >
+          <img src={about_us} alt="about_us" className="about_us" />
+        </div>
+      </Fade>
+
+      <Fade up>
+        <Row className="who_block">
+          <Col sm={12} lg={6} md={6} xl={6}>
+            <div className="container ">
+              <div className="card who">
+                <div className="card-body">
+                  <img
+                    src={Logo}
+                    className="img-fluid who-design-left"
+                    alt="Logo"
+                  />
+
+                  <h2 className="card-title text-center font-weight-bolder">
+                    Our Mission and Vision
+                  </h2>
+
+                  <img
+                    src={Logo}
+                    className="img-fluid who-design-right"
+                    alt="Logo"
+                  />
+                  <p className="card-text pt-2 text-center">
+                    Our MISSION and VISION is to build an environment for
+                    students where they can grow as coders and developers and
+                    contribute to the community. We strive to learn and grow
+                    together as one.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Fade>
+
+      {/* <Fade up>
         <Row className="row2 justify-content-center our_mission">
           <Col sm={12} lg={9} md={9} xl={8} className="col2">
             <div className="msg-card">
@@ -121,7 +164,7 @@ const Community = () => {
             </div>
           </Col>
         </Row>
-      </Fade>
+      </Fade> */}
     </>
   );
 };

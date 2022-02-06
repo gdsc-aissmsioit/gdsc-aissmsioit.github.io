@@ -21,6 +21,8 @@ import Fade from "react-reveal/Fade";
 
 import emailjs from "@emailjs/browser";
 
+import { scrollToTop } from "../footer/ScrollToTop";
+
 const Event = () => {
   const { popup } = useParams();
 
@@ -116,9 +118,9 @@ const Event = () => {
   events.forEach((event) => {
     if (event) {
       const event_date = new Date(event.date);
-      if (event_date.getTime() < curr_date.getTime() - 86400)
+      if (event_date.getTime() + 18060000 < curr_date.getTime())
         past_events.push(event);
-      else if (event_date.getTime() > curr_date.getTime() + 86400)
+      else if (event_date.getTime() + 18060000 > curr_date.getTime())
         upcoming_events.push(event);
       else live_events.push(event);
     }
@@ -127,9 +129,9 @@ const Event = () => {
   workshops.forEach((workshop) => {
     if (workshop) {
       const workshop_date = new Date(workshop.date);
-      if (workshop_date.getTime() < curr_date.getTime() - 86400)
+      if (workshop_date.getTime() + 18060000 < curr_date.getTime())
         past_workshops.push(workshop);
-      else if (workshop_date.getTime() > curr_date.getTime() + 86400)
+      else if (workshop_date.getTime() + 18060000 > curr_date.getTime())
         upcoming_workshops.push(workshop);
       else live_workshops.push(workshop);
     }
@@ -318,12 +320,6 @@ const Event = () => {
     );
   };
 
-  const submitEventIdea = (id) => {
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -362,7 +358,7 @@ const Event = () => {
     ) {
       submitEventIdeaError.classList.remove("d-none");
     } else {
-      setSubmitBtn(<div class="loader"></div>);
+      setSubmitBtn(<div className="loader"></div>);
 
       const response = await fetch(
         "https://gdsc-web-default-rtdb.firebaseio.com/event_ideas.json",
@@ -382,8 +378,8 @@ const Event = () => {
 
       emailjs
         .send(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_EVENT_IDEA_TEMPLATE_ID,
+          "service_qczueio",
+          "template_0rti798",
           {
             to_name: "Prarthana Chandak",
             to_email: "prarthanachandak@gmail.com",
@@ -392,7 +388,7 @@ const Event = () => {
             email: values.email,
             eventIdea: values.eventIdea,
           },
-          process.env.REACT_APP_USER_ID
+          "user_N5oJI9nV7pdO3wXurZ08r"
         )
         .then(
           (result) => {
@@ -430,7 +426,7 @@ const Event = () => {
           data-aos-delay="100"
           data-aos-anchor=".example-selector"
           data-aos-anchor-placement="top-center"
-          className="row pl-lg-5"
+          className="row pl-lg-5 mb-4"
         >
           <div id="Events">
             <span>Events</span>
@@ -480,7 +476,7 @@ const Event = () => {
         <Fade up>
           <div className="container text-center submit_event_idea">
             <span
-              onClick={() => submitEventIdea("pop-up")}
+              onClick={() => scrollToTop()}
               className="cta button"
             >
               <span>Submit Event Idea</span>
@@ -559,7 +555,7 @@ const Event = () => {
         </div>
 
         <Fade up>
-          <div className="row workshops pl-lg-5">
+          <div className="row workshops pl-lg-5 mb-4">
             <div id="Worshops">
               <span>Workshops</span>
               <span role="img" aria-label=""></span>

@@ -10,7 +10,7 @@ const TeamCard = (props) => {
       <div className={`col-lg-${props.member.col} col-12 teams`}>
         <div id="anim">
           <span
-            class={`Tooltip ${props.member.tooltip}`}
+            className={`Tooltip ${props.member.tooltip}`}
             data-tooltip={props.member.details}
           >
             <img
@@ -21,17 +21,7 @@ const TeamCard = (props) => {
           </span>
         </div>
 
-        <h5 className="mt-4 profile-name">
-          {props.member.name}
-          <a
-            href={props.member.profile}
-            className="team-profile-link ml-1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Gdsc_All} alt="gdsc_logo" className="team-gdsc-logo" />
-          </a>
-        </h5>
+        <h5 className="mt-4 profile-name">{props.member.name}</h5>
 
         <h5>{props.member.position}</h5>
         <span></span>
@@ -47,6 +37,19 @@ const TeamCard = (props) => {
           </a>
           <a href={props.member.link} target="_blank" rel="noreferrer">
             <i className="fa fa-link ico-link"></i>
+          </a>
+          <a
+            href={props.member.profile}
+            className="team-profile-link ml-1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={Gdsc_All}
+              alt="gdsc_logo"
+              className="team-gdsc-logo"
+              style={{ display: "inline-block" }}
+            />
           </a>
         </div>
       </div>

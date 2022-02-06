@@ -212,10 +212,11 @@ const Contact = () => {
                             <input
                               style={inputStyle}
                               autoComplete="off"
-                              type="email"
+                              type="tel"
+                              maxlength="10"
                               className="form-control contact-input"
                               id="exampleFormControlInput1"
-                              name="email"
+                              name="mobile_number"
                               value={data.mobile_number}
                               onChange={InputEvent}
                             />

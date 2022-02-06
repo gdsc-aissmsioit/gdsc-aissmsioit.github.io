@@ -124,7 +124,7 @@ const Navbar = () => {
                     <NavLink to="/events">
                       <span
                         onClick={(event) => NavDisplay(event)}
-                        className="gred active"
+                        className="gyellow active"
                       >
                         Events
                       </span>
@@ -134,7 +134,7 @@ const Navbar = () => {
                     <NavLink to="/blogs">
                       <span
                         onClick={(event) => NavDisplay(event)}
-                        className="gyellow active"
+                        className="gred active"
                       >
                         Blogs
                       </span>
@@ -144,7 +144,7 @@ const Navbar = () => {
                     <NavLink to="/team">
                       <span
                         onClick={(event) => NavDisplay(event)}
-                        className="ggreen active"
+                        className="gyellow active"
                       >
                         Team
                       </span>
@@ -154,9 +154,9 @@ const Navbar = () => {
                     <NavLink to="/about">
                       <span
                         onClick={(event) => NavDisplay(event)}
-                        className="gblue active"
+                        className="ggreen active"
                       >
-                        About
+                        About Us
                       </span>
                     </NavLink>
                   </li>
@@ -164,7 +164,7 @@ const Navbar = () => {
                     <NavLink to="/getintouch">
                       <span
                         onClick={(event) => NavDisplay(event)}
-                        className="gred active"
+                        className="gblue active"
                       >
                         Get In Touch
                       </span>

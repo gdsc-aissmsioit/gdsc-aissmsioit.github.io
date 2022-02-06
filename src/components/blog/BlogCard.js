@@ -24,14 +24,33 @@ const BlogCard = ({ blog }) => {
       <Fade right>
         <div className="card_main">
           <div className="card__body">
-            <span className="tag tag-blue">{blog.tag}</span>
+            <span
+              className={
+                "tag " +
+                (blog.tag === "Cloud"
+                  ? "tag-blue"
+                  : blog.tag === "Andriod"
+                  ? "tag-brown"
+                  : blog.tag === "Web"
+                  ? "tag-green"
+                  : blog.tag === "Machine Learning"
+                  ? "tag-red"
+                  : "")
+              }
+            >
+              {blog.tag}
+            </span>
             <NavLink onClick={scrollToTop} to={`/blogs/${blog.id}/`}>
               <h4>{blog.name}</h4>
             </NavLink>
 
             <p>
               {blog.shortDescription.substr(0, 500)}
-              <NavLink className="text-primary" onClick={scrollToTop} to={`/blogs/${blog.id}/`}>
+              <NavLink
+                className="text-primary"
+                onClick={scrollToTop}
+                to={`/blogs/${blog.id}/`}
+              >
                 ....Read More
               </NavLink>
             </p>

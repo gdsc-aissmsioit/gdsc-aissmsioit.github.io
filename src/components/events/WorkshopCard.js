@@ -22,20 +22,23 @@ const WorkshopCard = (props) => {
       </svg>
       <NavLink onClick={scrollToTop} to={`/workshops/${props.workshop.id}/`}>
         <img
-          className="n_0_days_of_Google_Cloud_Progr"
+          className="n_0_days_of_Google_Cloud_Progr img-date"
           src={props.workshop.imageSrc}
           alt="Workshop_Image"
         />
       </NavLink>
-      <div className="n_0_Days_Of_Google__Cloud_Prog_bb">
+      <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-13">
         <span>{props.workshop.name}</span>
       </div>
-      <div className="OPEN_bc">
+      <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-10">
+        <span>{props.workshop.dateAlt}</span>
+      </div>
+      <div className="OPEN_bc btm-11">
         <NavLink to={`/workshops/${props.workshop.id}/`}>
           <span>OPEN</span>
         </NavLink>
       </div>
-      <svg className="Line_2_bd" viewBox="0 0 111.917 18.782">
+      <svg className="Line_2_bd btm-18" viewBox="0 0 111.917 18.782">
         <path
           className="Line_2"
           d="M 0 0.7822184562683105 L 111.9168548583984 0"

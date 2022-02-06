@@ -92,14 +92,12 @@ ul.social-network {
 
 ul.social-network li {
   display: inline;
-  margin: 0 5px;
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 0px 10px;
   border-radius: 100%;
   font-size: 2em;
-  padding: 0em 1em;
+  padding: 0em 10%;
 }
 
 .social-circle li a {
@@ -148,15 +146,6 @@ ul.social-network li {
 }
 
 .social-network a.icoInstagram:hover i {
-  /* color: linear-gradient(59deg, #fbad50, #fccc63, #e95950, #bc2a8d, #8a3ab9); */
-  /* background: -webkit-linear-gradient(
-      59deg,
-      #fbad50,
-      #fccc63,
-      #e95950,
-      #bc2a8d,
-      #8a3ab9
-    ); */
   color: #bc2a8d;
 }
 
@@ -221,7 +210,8 @@ ul.social-network li {
 }
 
 .Gdsc-Logo {
-  width: 26%;
+  width: 64%;
+  margin-left: -15%;
 }
 
 .list-unstyled li {
@@ -260,7 +250,8 @@ ul.social-network li {
   }
 
   .Gdsc-Logo {
-    width: 40%;
+    width: 80%;
+    margin: 0%;
   }
 
   .list-unstyled li {
@@ -276,7 +267,8 @@ ul.social-network li {
   }
 
   ul.social-network li {
-    padding: 0em;
+    margin: 0 10px;
+    padding: 0%;
   }
 
   .teams_div {

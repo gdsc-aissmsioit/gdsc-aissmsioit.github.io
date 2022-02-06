@@ -84,10 +84,147 @@ const blogs = [
       />
     ),
     author: "Ashish Patil: Web Lead - GDSC, AISSMS IOIT",
-    imageSrc: "https://i.ibb.co/Y2tnV7N/Full-Stack.png",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643207608/blogs/FullStack_dkrske.png",
     category: "Technical",
     fade: "left",
     read: "8 min",
+  },
+  {
+    id: 3,
+    tag: "Machine Learning",
+    name: "Machine Learning: An Overview",
+    email: "adityagandhamal1327@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aditya-gandhamal-3750b9209/",
+    date: "25th Jan 2022",
+    day: "Tuesday",
+    shortDescription: `
+    Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field,
+      `,
+    about: (
+      <BlogAbout content="Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field, be it for predicting weather patterns to recommending your next YouTube video. Can’t imagine a day in life influenced without it. But if you take a deeper look, you deserve a pat on your back because of the data you are generating for these AI systems to work so effectively to bring you an experience like no other. It’s a cycle of events, you generate data, you get what you want! @#$& So, you put forward your data as your digital identity to the world (think about it!) and in return, you get satisfaction from the content you are consuming. Finally, it all boils down to the crux of Machine Learning which is DATA. @#$& Machine Learning came into the picture with an approach to getting insights from data. Applications like Facebook, Instagram, and YouTube use your data to provide you with your desired content whilst making money by advertising, and Machine Learning plays an important role in this system. @#$& According to Wikipedia, “Machine Learning is the study of computer algorithms that can improve automatically through experience and by the use of data”. Breaking down, this definition is composed of three main parts. Algorithms, Experience, and Data, three of which form an integral part of Machine Learning. @#$& Algorithms are programs having a statistical approach towards having a conclusion. These algorithms often revolve around Linear Algebra, Probability, and Calculus. Algorithms are fed on data to get insights from it. A Machine Learning model tries to understand (or learn) the underlying pattern hidden inside the data whilst following a statistical approach. @#$& Experience in the sense, an algorithm processes data multiple times to get better insights from it. This can be understood by the following example. @#$& Let's take the example of predicting flight ticket fares. You have this data wherein several features are affecting the flight fare. (E.g. Source, Destination, TravelDistance, TravelTime, FlightName, PassengerClass, TotalFare, etc.) Usually, the features are denoted by X and the thing which we want to predict, often considered as a target label, is denoted by Y. So the machine learning model is fed upon this data of observations to learn the mappings from X to Y over several times until it gets better at predicting the TotalFare. For this sole purpose, we divide our original data into training and testing (validation) sets to evaluate the performance of the model as it tries to learn the data. This evaluation tells us about the experience of our model with the data which is fed to it to learn and predict the flight fare. @#$& Talking about Artificial Intelligence, Machine Learning is just a subset of it. The same goes with Deep Learning and Data Science. @#$& The one good point to differentiate Machine Learning and Deep Learning is the amount of data. Deep Learning algorithms perform well only if you have tons of data to train on and also the more advanced AI applications like Computer Vision, Speech Recognition, GANs, etc involve deep learning concepts. @#$&  Machine Learning addresses three types of problems in general. @#$&  1) Supervised Learning @#$& 2) Unsupervised Learning @#$& 3) Reinforcement Learning @#$& Supervised Learning :  Supervised Learning involves a model to learn patterns and mappings in data. You have a dataset containing a set of features X and target labels Y. The model’s job is to learn the mapping function Y=f(X). The function (f) acts as a supervisor for the model. The above-discussed example of flight fare prediction is an example of Supervised Learning. @#$& There are two main types of problems in Supervised Learning viz. Regression and Classification. Regression involves predicting a number whereas Classification involves predicting a category of data. @#$& Unsupervised Learning : Unsupervised Learning involves a model to learn the data by itself. Unlike supervised learning, you don't have X and Y. The model is given just the data, with no target label and its job is to extract patterns from it. @#$& Reinforcement Learning : Reinforcement Learning is a problem where an agent experiences an environment and based on the reward it receives, it optimizes its policy of exploring the environment. Agent, Environment and Rewards form three crucial aspects of a Reinforcement Learning problem. @#$& Lex Fridman has given a brilliant analogy saying “Supervised Learning is learning by example whereas Reinforcement Learning is learning by experience”. @#$& Now that you have gone through the overview of Machine Learning, you might be wondering how to even get started with it? @#$& Well, that's the point right. The first step is always the most difficult step. Where to start….? @#$& To be honest, there’s no specific way or plan as such. Rather, the best possible way is to explore the domain itself. That’s how you get an idea about it. Unless and until you won’t explore it, you won’t get the actual experience of studying it. Take that Reinforcement Learning (no pun intended!). @#$& But to give a headstart, refer to blogs on Medium, Machine Learning Mastery, and Kdnuggets. They have some awesome content right from beginner level to advanced. You can also take a course from Coursera if you wish to have a structured plan for learning AI/ML. @#$& Wish you all the best!" />
+    ),
+    resources: (
+      <BlogResources
+        resources={{
+          GitHub: "https://github.com/adityagandhamal",
+        }}
+      />
+    ),
+    author: "Aditya Gandhamal: ML Co-Lead - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643209543/blogs/bymc2ept7yivcqfrwacx.jpg",
+    category: "Technical",
+    fade: "left",
+    read: "5 min",
+  },
+
+  {
+    id: 4,
+    tag: "Andriod",
+    name: "My Journey to the App Store  !",
+    email: "parthraj1001@gmail.com",
+    linkedin: "https://www.linkedin.com/in/parth-desai-021027",
+    date: "21th Jan 2022",
+    day: "Tuesday",
+    shortDescription: `
+    Every month, approximately 20,000 new apps are added to the Google Play store.
+    The number of iPhone app downloads exceeds 30 billion, while Android app downloads total 15 billion.
+    We've gotten to the point where we can't imagine how our forefathers got by without the convenience of Apps.
+    We don't go a day without using an app, whether it's to calculate something on a simple Calculator app, check stock prices on UpStox, or order something from Amazon.
+    We've all wondered how these apps worked at some point.
+    This is exactly where I began my journey as an app developer.
+    
+      `,
+    about: (
+      <BlogAbout content="Every month, approximately 20,000 new apps are added to the Google Play store . The number of iPhone app downloads exceeds 30 billion, while Android app downloads total 15 billion. @#$& We've gotten to the point where we can't imagine how our forefathers got by without the convenience of Apps. @#$& We don't go a day without using an app, whether it's to calculate something on a simple Calculator app, check stock prices on UpStox, or order something from Amazon.We've all wondered how these apps worked at some point.This is exactly where I began my journey as an app developer.The key here is to never stop wondering. @#$& I began by considering how Google Pay manages all of these accounts, complete with payment history, rewards, and other features.Googling about it, well, tbh, it got me nowhere. But one day (finally!!) I discovered that Google Pay was created in Flutter. That piqued my curiosity. I couldn't figure out how a chubby-looking bird could be used to create such a complex application. Go check out Flutter’s logo if you didn’t understand the above quip @#$& Further research revealed that, in addition to Google Pay, a plethora of applications were being developed in Flutter, which was rapidly gaining popularity. That's when I decided to learn as much as I could about Flutter from the internet. @#$& I started with an Udemy Flutter course, but that only taught me the fundamentals. There was still a lot to learn, but no online course could help me with that. Every course I've taken has left me with a lot more to learn and discover. I began reading the Flutter documentation at all hours of the day and night, practicing more and more as the days passed. @#$& Then there was my first project. It was a billing site for a clothing store. I wasn't sure how I'd manage because it still required a lot of things I didn't know, but I decided to give it a shot. But, despite my best efforts, I was unable to meet the client's expectations and it was rejected. @#$& But I knew this was only the beginning, and there was a lot more ground to cover. And I was back to work on some personal projects to hone my resume. I even did a few of my juniors’ college projects ;). @#$& It had been a month and there had been no new clients. So clearly, freelancing was not working. There sprang an idea for a startup, doing the same things I used to do but under a different name. @#$& But there still was one major issue. Being a coder, I didn't have the creativity for designing.(I mean duh, even a Hello World application looks great to me). I'd heard about a fantastic UI/UX designer in our own college, who turned out to be our very own Design Lead. @#$& As a startup, we quickly got our first project. @#$& After a few sleepless nights of coding @#$& The app was finally done! We were astounded that we could deliver in such a short period of time. @#$& And so AppCentric's journey began with just one coder and one designer. @#$& Fast forward 8 months, and we've served a large number of clients and are now operating as a successful startup. @#$& This has been my adventure. I can't tell you what to refer to at what point in time because figuring it out on our own is an exciting part of the journey" />
+    ),
+    resources: (
+      <BlogResources
+        resources={{
+          Udemy:
+            "https://www.udemy.com/share/101Xwi3@abuyjkBEjHOGKY8nL9jwGCjU15yfJsv45eQ8W2OYCQ1FKXxwCJloL3aTL9obIKYJ/",
+          Flutter: "https://docs.flutter.dev/",
+        }}
+      />
+    ),
+    author: "Parth Desai: Android Lead - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643649387/blogs/erblti475ntbksl3arpu.jpg",
+    category: "Technical",
+    fade: "left",
+    read: "5 min",
+  },
+  {
+    id: 5,
+    tag: "Cloud",
+    name: "Journey to the Cloud",
+    email: "skhond32@gmail.com",
+    linkedin: "https://www.linkedin.com/in/shriniwas-khond-906329209/",
+    date: "20th Jan 2022",
+    day: "Tuesday",
+    shortDescription: `
+    Hi everyone, I am Shriniwas Khond and here I would be about my journey as a Cloud domain lead at a GDSC and Blockchain developer intern. 
+The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator (GCRF) program which was scheduled from 10th of April,2021 through the 10th of June,2021. The registration period for this campaign was around the end of March, the very same period when I had started hunting for internships. This was a 2-month long campaign, it was a totally new experience for me as I was a complete fresher in the field of cloud computing at that time. There were 4 learning tracks, each of which was perfectly designed to build an individual’s knowledge and gain experience while working
+    This is exactly where I began my journey as an app developer.
+    
+      `,
+    about: (
+      <BlogAbout
+        content="Hi everyone, I am Shriniwas Khond and here I would be about my journey as a Cloud domain lead at a GDSC and Blockchain developer intern. @#$& The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator (GCRF) program which was scheduled from 10th of April,2021 through the 10th of June,2021. The registration period for this campaign was around the end of March, the very same period when I had started hunting for internships. This was a 2-month long campaign, it was a totally new experience for me as I was a complete fresher in the field of cloud computing at that time. There were 4 learning tracks, each of which was perfectly designed to build an individual’s knowledge and gain experience while working on the Google Cloud Platform, similarly I went for Microsoft learn cloud skills challenge. @#$& As I progressed through this campaign, I kept taking notes of various products and services offered by Google cloud platform, throughout this campaign. It was during this campaign I was able to fetch an internship as a blockchain developer intern at a startup named “Richedu Co.”. I was a complete fresher in the field of blockchain, attracted by the then buzzword “cryptocurrency”. I had disciplined myself to one strategy i.e., “Jack of all trades, master of none, but oftentimes better than a master of none”. @#$& Thus, I started exploring the field of blockchain through Microsoft Learn, cybersecurity through Cisco Networking Academy. After the GCRF campaign ended, I was more focused towards my work at the startup, mostly dealing with Smart Contracts and networking with other interns, most of them are now my mentors. They used to share various resources and their tips and tricks with me, as I was the youngest amongst the interns. I came across the concept of learning platforms like Coursera, EDX, NPTEL and etc. which offered introductory courses for free. I exploited the “free courses” feature from various e-learning platforms and I used to gather as much knowledge as I could. Most of my motivation comes from scrolling on my LinkedIn feed. @#$& Then one day, a certain announcement was made on the college group regarding the establishment of Google Developer Students Club, and the fact that there was an opening for Cloud domain lead caught my attention, and then I applied for the position, which eventually help to me become a Cloud domain Lead at GDSC, AISSMS IOIT.
+      "
+      />
+    ),
+    // resources: <BlogResources resources={{}} />,
+    author: "Shrinivas Khond: Cloud Lead - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643644432/blogs/lrt2x6uj38ntipav5nhq.jpg",
+    category: "Technical",
+    fade: "left",
+    read: "3 min",
+  },
+  {
+    id: 6,
+    tag: "Andriod",
+    name: "Background of Application Development",
+    email: "aniruddhkarekar.1@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aniruddh-karekar-5711531a4/",
+    date: "25th Jan 2022",
+    day: "Tuesday",
+    shortDescription: `From the past 5-6 years, application development has been growing rapidly. The users tend to use mobile applications more than typical desktop websites. They spend more of their time using mobile phones, so it becomes obvious and natural for them to use more of things that can come up with mobile phones. So mobile applications have become a common thing in their day-to-day life. 
+Coming to the application development part, there are many options or tools for developing mobile apps. First, we must look at the platforms for developing the mobile apps there are three major platforms that developers target the most`,
+    about: (
+      <BlogAbout
+        content="
+      From the past 5-6 years, application development has been growing rapidly. The users tend to use mobile applications more than typical desktop websites. They spend more of their time using mobile phones, so it becomes obvious and natural for them to use more of things that can come up with mobile phones. So mobile applications have become a common thing in their day-to-day life. @#$& Coming to the application development part, there are many options or tools for developing mobile apps. First, we must look at the platforms for developing the mobile apps there are three major platforms that developers target the most. These are Android, iOS, and Windows. @#$& Android is supported by Google, iOS is supported by Apple Inc, and Windows is supported by Microsoft. All three platforms are reliable and supported by tech giants. Although If we focus on the majority of users then Android and iOS come out on top compared to the windows applications. @#$& Android development is done majorly in countries like India, and other Asian countries, but in the end, we can’t be that specific. iOS development Is done In less amount as It has some limitations like, you have to equip a macBook (A mac OS-based PC developed by Apple) to develop an iOS app. If you don’t have a macBook then you cannot develop an iOS application on it. That’s the restriction applied by Apple Inc for their security concerns. This can be a reason for less iOS development compared to Android. Android is an open-source platform provided by Google and for developing an android application we just need to have a Windows PC that’s all. Android development Is done In far more amount compared to iOS, as It Is very easy and requires few pre-requisites. @#$& The Actual Application Development - @#$& Coming to the development part, we will focus on the major platforms that are Android and Apple. @#$& For developing the Android application we have the following options - @#$& 1) Android Studio + Java / Kotlin (Native) @#$& 2) Flutter + Dart (Cross Platform) @#$& 3) React native + JavaScript (Cross Platform) @#$& 4)Ionic (Cross Platform) @#$& For developing the iOS application we have the following options - @#$& 1)Xcode + Swift + Objective C (Native) @#$& 2)Flutter + Dart (Cross Platform) @#$& 3)React native + JavaScript (Cross Platform) @#$&  4)Ionic (Cross Platform) @#$& Personal Experience - @#$& My name is Aniruddh  Karekar. I am from Sangli, Maharashtra. I have completed my polytechnic diploma in Computer Engineering from Sangli and currently, I’m pursuing my third year In computer science and engineering from Aissms IOIT, Pune. I’m interested in Software development, AR, Computer Networks. @#$& From here on, I will share my own experience in the journey of application development. So let’s get started !. In the beginning, when I was In my second year of diploma, I have started learning Android development as my project for Software testing subject. @#$& I was learning it by watching the youtube tutorials. At first, It seemed to be very confusing. And the Android studio software is heavy and It lags a lot If your PC does not have sufficient RAM, So the beginning was very frustrating because the software was lagging and I was not able to understand the code and the software also. @#$& Eventually, I’ve managed to learn the Android studio and was able to develop a few applications. Currently, I have two apps published on the play store which are developed completely in the Android studio and with the help of Firebase.If you ask me, In 2022, If you wish to learn application development from scratch, I would suggest you learn either from Flutter or React. @#$& Why? Because learning native development in 2022 has no sense unless you have any particular kind of interest in native Android development. If you are a native android developer and you will stand next to a cross-platform developer, he will win the game without any second thought as he has the skill that you have, also, he has one more skill that you don’t. So It Is quite simple, If any company Is looking for a native android developer, still they will go for the cross-platform developer, and It Is not even surprising because why will they settle for less when they can get more. @#$& Learning cross-platform development is also beneficial to you in terms of the range of skills, flexibility, and variety of tools. @#$& Here are some advantages and disadvantages of learning native android development, (based on personal experience) - @#$& Advantages - @#$& 1) You will learn the XML (Extensible Markup Language). @#$& 2)You will learn how to add third-party libraries in the project. @#$& 3)You will learn to debug the code. If you can debug the code in the android studio then you will find debugging easy elsewhere. Debugging the android code is not that simple (for beginners and sometimes for experienced too). @#$& 4)You will get less apk size as compared to the apk size that flutter generates. @#$& 5)You will know about Android SDKs and features that support to the specific android versions. @#$& Disadvantages - @#$& 1)Complex IDE, difficult to understand for beginners. @#$& 2)Heavy software, requires more RAM. @#$& 3)Native. @#$& 4)It’s a bit hard to find and correct the error. (Especially SDK errors). @#$& Published Android Applications - @#$& 1) Venki - The Healthcare Chatbot - Apps on Google Play @#$& 2) Wildlife Explorer @#$& Choosing the right tool for development - @#$& Now the question Is why I switched to the flutter instead of sticking to the Android and developing the native mobile applications. Developing android applications seems cool and It’s really cool unless you realize that your application will not run in iOS or If your friend or anyone with an iPhone asks you to show your application on their phone. A true developer will find this situation really awkward and disappointing. This Is the same situation I was been through. I really wanted to run my application on an iOS device and personally, I like the components that Apple has. It’s called the Cupertino components. @#$& So later on, I thought of learning React for cross-platform development. For this, I have developed a simple “hello world” application on React and ran it on my sister’s iPhone. It seemed very satisfying to me at that time and the code was also seeming very friendly. Later on, I was thinking about my upcoming project in React, for that I was watching one project which was built In React. While looking at that code I found that code a little bit complex, Later I took another project and had a brief look at It. This time also I found the code a little bit messy, hard to read, and complex as well. The same thing happened with me for the next couple of projects. I was completely confused about what to do next, some of my friends told me to go on with React, but I was unsure about it. @#$& Meanwhile, I read the article about flutter somewhere. Previously I had already heard about flutter as well but didn’t know what It was used for. So I had done research on the flutter and Its usage. I found the flutter code very clean and composed. It was well documented and supported by Google as well. So from there on, I’ve decided to learn flutter for cross-platform development. @#$& The Flutter Way - @#$& Flutter uses dart as Its programming language so I have learned dart from the JavaTPoint website. It took me 1 week to learn the complete dart with all the major concepts. It took just 1 week for me to learn dart because I had already known the languages like Java, Python, etc. You will learn dart very quickly If you know these languages already, else learn any of these languages before switching to dart, It’s my personal advice so that you will find dart and flutter both very easy. @#$& For learning flutter, I have completed the course on Flutter which I bought from Udemy for 400 INR. The course is a self-paced course and you have lifetime access to It. There are 43 hours of online lecture material. According to me Its the best course you can get on Udemy. In that course, I have built 5 beautiful flutter apps. Personally, I would say, building a User Interface Is lot easier in flutter as compared to Android studio. Flutter is very flexible, convenient, and has clean code. @#$& Personally, I found flutter more reliable than React and Android studio as It has some great features as compared to other ones. @#$& In the end, flutter code is converted into a javascript code so basically flutter is built as the bridge between javascript and user. @#$& My Flutter Applications till now - @#$& Flutter projects @#$& Here are some advantages and disadvantages of learning native android development, (based on personal experience) - @#$& Advantages - @#$& 1) Fast and reliable. @#$& 2) Well documented and supported by Google. @#$& 3) Wide variety of widgets. @#$& 4) Flutter updates the only part of the screen that needs to be updated instead of reloading the whole screen which affects the performance of the application. @#$& 5) Flexible and reliable @#$& You can call native Android/ iOS code from the flutter code. @#$& Disadvantages - @#$& 1) Large apk size as compared to Android and React. @#$& 2) You have to write new code whenever the new flutter version is released. @#$& I hope you found this article helpful
+
+      "
+      />
+    ),
+    resources: (
+      <BlogResources
+        resources={{
+          "Android Developers": "https://developer.android.com/",
+          Flutter: "https://docs.flutter.dev/",
+          "React Native": "https://reactnative.dev/",
+          "Ionic Framework": "https://ionicframework.com/",
+          "Xcode + Swift + Objective C (Native)":
+            "https://developer.apple.com/xcode/",
+          "Venki - The Healthcare Chatbot - Apps on Google Play":
+            "https://play.google.com/store/apps/details?id=shindejayesharun.com.chatbot2&hl=en&gl=US",
+          "Wildlife Explorer":
+            "https://play.google.com/store/apps/details?id=com.aniruddh.wild&hl=en&gl=US",
+          "Flutter projects":
+            "https://drive.google.com/drive/folders/1d_ywT991jkGM3fOX9Kyo-_czASZdlNmi?usp=sharing",
+        }}
+      />
+    ),
+    author: "Aniruddh Karekar: Android Member - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643651023/blogs/bexi6u1apjrfwwhil8ik.png",
+    category: "Technical",
+    fade: "left",
+    read: "5 min",
   },
 ];
 

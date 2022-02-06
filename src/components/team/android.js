@@ -9,10 +9,11 @@ const Android = [
     linkedin: "https://www.linkedin.com/in/parth-desai-021027",
     instagram: "https://www.instagram.com/redpaladin1001",
     github: "https://www.linkedin.com/in/parth-desai-021027",
-    link: "",    
+    link: "",
     profile: "https://gdsc.community.dev/u/m477nk/#/about",
-    details: "I have been working in Flutter and Firebase since the past 3 years and currently have a startup where we build apps and websites and a lot of cool stuff using flutter and dart.",
-    tooltip: ""
+    details:
+      "I have been working in Flutter and Firebase since the past 3 years and currently have a startup where we build apps and websites and a lot of cool stuff using flutter and dart.",
+    tooltip: "",
   },
   {
     id: 2,
@@ -24,10 +25,11 @@ const Android = [
     linkedin: "https://www.linkedin.com/in/prathmeshchaudhari",
     instagram: "https://www.instagram.com/@prathmeshc_",
     github: "https://github.com/Retr094",
-    link: "", 
+    link: "",
     profile: "https://gdsc.community.dev/u/mpht4a/",
-    details: "I'm an aspiring Android Developer who wants to make a difference by developing applications that can make people's lives convenient and comfortable.",
-    tooltip: ""
+    details:
+      "I'm an aspiring Android Developer who wants to make a difference by developing applications that can make people's lives convenient and comfortable.",
+    tooltip: "",
   },
   {
     id: 3,
@@ -36,13 +38,14 @@ const Android = [
     image: "",
     alt: "Member_Image",
     col: 3,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/aniruddh-karekar-5711531a4/",
     instagram: "",
     github: "",
-    link: "https://leetcode.com/ani-codes-49/", 
+    link: "https://leetcode.com/ani-codes-49/",
     profile: "https://gdsc.community.dev/u/m49myd",
-    details: "Interested in software development. Curious about what I learn. Want to gain knowledge and experience about my interests.",
-    tooltip: ""
+    details:
+      "Interested in software development. Curious about what I learn. Want to gain knowledge and experience about my interests.",
+    tooltip: "",
   },
   {
     id: 4,
@@ -54,10 +57,10 @@ const Android = [
     linkedin: "https://www.linkedin.com/in/het-bhalala-38a979204",
     instagram: "https://www.instagram.com/hetbhalala11",
     github: "",
-    link: "", 
+    link: "",
     profile: "",
     details: "",
-    tooltip: ""
+    tooltip: "",
   },
 ];
 

@@ -25,8 +25,8 @@ const Web = [
     linkedin: "https://www.linkedin.com/in/ganesh-birajdar-a3a959219",
     instagram: "https://www.instagram.com/ganeshb_009",
     github: "https://github.com/ganeshbirajdar09",
-    link: "https://leetcode.com/GaneshBirajdar09/",
-    profile: "https://gdsc.community.dev/u/mv5r3f/",
+    link: "https://leetcode.com/ganeshb09/",
+    profile: "https://gdsc.community.dev/u/mv5r3f/#/about",
     details:
       "Hi, I'm Ganesh Birajdar, A passionate Full-Stack Developer. I am well-versed with multiple web development technologies and I can help you build Web apps in MERN stack.",
     tooltip: "",

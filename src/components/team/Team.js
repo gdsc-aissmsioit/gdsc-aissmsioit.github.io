@@ -158,7 +158,7 @@ const Team = () => {
 
               <div id="anim">
                 <span
-                  class="Tooltip gdsc_lead_tooltip"
+                  className="Tooltip gdsc_lead_tooltip"
                   data-tooltip="Hi! I'm Prarthana. I love to sleep but coding is my coffee ;) I enjoy problem solving and competitive coding. I'm currently learning Node.js and I'm loving it. Can't wait to meet you guys in a GDSC offline event!"
                 >
                   <img
@@ -168,30 +168,8 @@ const Team = () => {
                   />
                 </span>
               </div>
-              {/* 
-              <a
-                href="https://gdsc.community.dev/u/m84kjc/#/about"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <h5 className="mt-4">Prarthana Chandak</h5>
-              </a> */}
 
-              <h5 className="mt-4">
-                Prarthana Chandak
-                <a
-                  href="https://gdsc.community.dev/u/m84kjc/#/about"
-                  className="team-profile-link ml-1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Gdsc_All}
-                    alt="gdsc_logo"
-                    className="team-gdsc-logo"
-                  />
-                </a>
-              </h5>
+              <h5 className="mt-4">Prarthana Chandak</h5>
 
               <span></span>
               <div className="social-ico">
@@ -223,6 +201,18 @@ const Team = () => {
                 >
                   <i className="fa fa-link ico-link"></i>
                 </a>
+                <a
+                  href="https://gdsc.community.dev/u/m84kjc/#/about"
+                  className="team-profile-link ml-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Gdsc_All}
+                    alt="gdsc_logo"
+                    className="team-gdsc-logo"
+                  />
+                </a>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6 teams">
@@ -230,7 +220,7 @@ const Team = () => {
                 <h3 className="font-weight-bold">Faculty Advisor</h3>
               </Fade>
               <img
-                src=""
+                src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643105362/users/shvypywj5d43cemyomyo.jpg"
                 className="img-fluid lead-img"
                 alt="Faculty_Advisor"
               />
@@ -273,7 +263,7 @@ const Team = () => {
             <div className="col-lg-12 col-sm-12 teams">
               <div id="anim">
                 <span
-                  class="Tooltip dsa_cp_tooltip"
+                  className="Tooltip dsa_cp_tooltip"
                   data-tooltip="I am pursuing computer engineering , I like to code , listen songs and Wandering the empty roads alone."
                 >
                   <img
@@ -284,21 +274,7 @@ const Team = () => {
                 </span>
               </div>
 
-              <h5 className="mt-4">
-                Harshal Raundal
-                <a
-                  href="https://gdsc.community.dev/u/m22fkq/#/about"
-                  className="team-profile-link ml-1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Gdsc_All}
-                    alt="gdsc_logo"
-                    className="team-gdsc-logo"
-                  />
-                </a>
-              </h5>
+              <h5 className="mt-4">Harshal Raundal</h5>
 
               <h5>DSA Lead</h5>
               <span></span>
@@ -330,6 +306,18 @@ const Team = () => {
                   rel="noreferrer"
                 >
                   <i className="fa fa-link ico-link"></i>
+                </a>
+                <a
+                  href="https://gdsc.community.dev/u/m22fkq/#/about"
+                  className="team-profile-link ml-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Gdsc_All}
+                    alt="gdsc_logo"
+                    className="team-gdsc-logo"
+                  />
                 </a>
               </div>
             </div>

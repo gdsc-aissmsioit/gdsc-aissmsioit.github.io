@@ -3,10 +3,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.card {
-  border: none;
-}
-
 .card-title {
   font-style: normal;
   font-weight: bold;
@@ -122,10 +118,6 @@ body {
   margin-top: 6%;
 }
 
-.events .card {
-  margin: 0 50px 20px 50px;
-}
-
 @media (max-width: 768px) {
   .card-body {
     padding: 0;
@@ -199,16 +191,8 @@ body {
     margin-top: 20%;
   }
 
-  .events .card {
-    height: 310px;
-  }
-
   .what_we_do {
     margin-top: 22%;
-  }
-
-  .events .card {
-    margin: 0 80px 20px 30px;
   }
 }
 

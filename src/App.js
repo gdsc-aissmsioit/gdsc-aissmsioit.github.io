@@ -57,7 +57,11 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={() => <Home />} />
             <Route path="/events/" exact component={() => <Event />} />
-            <Route path="/events/idea/:popup/" exact component={() => <Event />} />
+            <Route
+              path="/events/idea/:popup/"
+              exact
+              component={() => <Event />}
+            />
             <Route
               path="/events/:id/"
               exact
@@ -70,10 +74,16 @@ const App = () => {
             />
             <Route path="/blogs/" exact component={() => <Blog />} />
             <Route path="/blogs/:id/" exact component={() => <Blogdetails />} />
+            <Route
+              path="/blogs/idea/:popup/"
+              exact
+              component={() => <Blog />}
+            />
             <Route path="/team/" exact component={() => <Team />} />
             <Route path="/team/:id/" exact component={() => <Team />} />
             <Route path="/about/" exact component={() => <Community />} />
             <Route path="/getintouch/" exact component={() => <GetInTouch />} />
+            <Route path="/web/" component={Home} />
             <Route path="*" exact component={Error} />
           </Switch>
           <Footer />
