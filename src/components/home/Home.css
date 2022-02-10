@@ -33,6 +33,10 @@ body {
   }
 }
 
+.slick-dots {
+  display: none !important;
+}
+
 .column {
   display: flex;
   flex-direction: column;

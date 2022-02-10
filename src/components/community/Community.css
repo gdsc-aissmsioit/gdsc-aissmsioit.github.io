@@ -2,6 +2,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
+.card {
+  border: none;
+}
 
 .card-title {
   font-style: normal;

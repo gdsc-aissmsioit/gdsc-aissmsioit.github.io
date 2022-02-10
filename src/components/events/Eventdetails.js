@@ -10,6 +10,11 @@ const Eventdetails = () => {
   const event = events[events.length - id];
   const points = event.about.split(". ");
 
+  const event_date = new Date(event.date);
+  const current_date = new Date();
+
+  const upcoming = event_date.getTime() + 18060000 > current_date.getTime();
+
   return (
     <>
       <div
@@ -28,7 +33,7 @@ const Eventdetails = () => {
       <div className="events-container">
         <div className="events-card">
           <div
-            className="events-header"
+            className={upcoming ? "events-header up" : "events-header"}
             data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
@@ -49,6 +54,7 @@ const Eventdetails = () => {
               />
             </a>
           </div>
+
           <div
             className="events-main"
             data-aos="fade-left"
@@ -63,7 +69,7 @@ const Eventdetails = () => {
                 <b> {event.name}</b>
               </span>
               <span>
-                <b>Date :</b> {event.date}
+                <b>Date :</b> {event.dateAlt}
               </span>
               <span>
                 <b>Day :</b> {event.day}
@@ -78,6 +84,13 @@ const Eventdetails = () => {
                 ))}
               </div>
             </div>
+            {upcoming ? (
+              <a target="_blank" rel="noreferrer" href={event.eventLink}>
+                <button className="rsvp-btn">Rsvp</button>
+              </a>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>

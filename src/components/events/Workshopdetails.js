@@ -10,6 +10,11 @@ const Workshopdetails = () => {
   const workshop = workshops[workshops.length - id];
   const points = workshop.about.split(". ");
 
+  const event_date = new Date(workshop.date);
+  const current_date = new Date();
+
+  const upcoming = event_date.getTime() + 18060000 > current_date.getTime();
+
   return (
     <>
       <div
@@ -29,7 +34,7 @@ const Workshopdetails = () => {
       <div className="events-container">
         <div className="events-card">
           <div
-            className="events-header"
+            className={upcoming ? "events-header up" : "events-header"}
             data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
@@ -72,6 +77,13 @@ const Workshopdetails = () => {
                 ))}
               </div>
             </div>
+            {upcoming ? (
+              <a target="_blank" rel="noreferrer" href={workshop.eventLink}>
+                <button className="rsvp-btn">Rsvp</button>
+              </a>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>

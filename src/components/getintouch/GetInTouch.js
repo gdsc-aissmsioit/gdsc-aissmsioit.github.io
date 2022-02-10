@@ -213,7 +213,7 @@ const Contact = () => {
                               style={inputStyle}
                               autoComplete="off"
                               type="tel"
-                              maxlength="10"
+                              maxLength="10"
                               className="form-control contact-input"
                               id="exampleFormControlInput1"
                               name="mobile_number"
