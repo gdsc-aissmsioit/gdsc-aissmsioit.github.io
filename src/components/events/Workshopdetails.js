@@ -5,6 +5,8 @@ import workshops from "./workshops";
 
 import "./Eventdetails.css";
 
+import { Helmet } from "react-helmet";
+
 const Workshopdetails = () => {
   const { id } = useParams();
   const workshop = workshops[workshops.length - id];
@@ -17,6 +19,15 @@ const Workshopdetails = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>WORKSHOP DETAILS GDSC - IOIT</title>
+        <meta name="description" content="" />
+        <meta
+          name="keywords"
+          content="gdsc workshop details, gdsc aissms workshop details, gdsc aissms ioit workshop details, dsc, dsc aissms workshop details, dsc aissms ioit workshop details, gdsc ioit workshop details, dsc ioit workshop details, ioit dsc workshop details, aissms dsc workshop details, aissms ioit dsc workshop details, aissms ioit gdsc workshop details, gdsc-aissms-ioit workshop details, gdsc-ioit workshop details, dsc-aissms-ioit workshop details, dsc-ioit workshop details"
+        />
+      </Helmet>
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"

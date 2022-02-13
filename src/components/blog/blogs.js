@@ -28,29 +28,70 @@ const BlogResources = (props) => {
 const blogs = [
   {
     id: 1,
-    tag: "Machine Learning",
-    name: "Machine Learning",
-    email: "akshada3654@gmail.com",
-    linkedin: "https://www.linkedin.com/in/akshada-bhandari-16bb90192/",
-    date: "18th Jan 2022",
-    day: "Tuesday",
-    shortDescription:
-      "The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites.",
+    tag: "GDSC Lead",
+    name: "My Coding Journey and How I became a Lead at GDSC",
+    email: "prarthanachandak@gmail.com",
+    linkedin: "https://www.linkedin.com/in/prarthana-chandak-2a84b81b7",
+    date: "13th Feb 2022",
+    day: "Sunday",
+    shortDescription: `Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Student Clubs,
+    AISSMS Institute of Information Technology. Currently, I’m also interning at Reliance Jio. I’m very
+    excited to share with you all about how I started my journey with coding and became the Lead at
+    GDSC.
+    So, I hated computers during my school days. I knew this was the last time that I was studying
+    computers.. When the whole class got excited about computer practicals, I was the one who would
+    prefer sitting in the class. Those HTML tags would really terrify me to the core.
+    I gave my JEE and CET attempt in class 12 and I still didn’t know what branch I’m gonna take. So, to
+    help me choose a branch, my mom and dad took me to a college in my hometown.`,
     about: (
-      <BlogAbout content="The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. @#$& It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites. I was so fascinated by the working of satellites, their automation, and the artificial intelligence research going in the space technology for India. Returning from the journey I had already planned my career in the field of artificial intelligence. @#$& And the hunt started ………..!!! @#$& I started researching about degrees in AI in India, but to my vain, there were not that many courses available in the destined field. I spoke to various industry persons and then came to conclusion about pursuing BE in Computer Engineering. This made me land in the AISSMS Institute of Information Technology. Being a sophomore I was unaware of the programming languages. After, my first sem I joined DISHA classes to get cleared with my concepts for C, C++. Within a year I had nearly mastered C, C++, Python along-with DSA. @#$& In my second year during my mid-vacations, I had attended the workshop conducted by Machine Learning India at Ai-adventures, Pune. And my journey towards ML started. Building projects, practising python programming, reading books and references started. I started learning from various youtube channels - Edureka, codewithharry, and many live sessions. But these were not enough. Machine learning is not a one day thing. @#$& Having many resources but not the best was the problem. During the covid pandemic I came across the ML Masters course by iNeuron.ai. It was indeed one of the best course I came across. The course started from basic python programming and ended with NLP, DL. It had various modules like database management, API, EDA, ML pipelines, Deep Learning and NLP. The course was not just theoretical but practical too. I had build a couple of projects too. Meanwhile I got selected as ML lead at GDSC and MLASC. @#$& After completing this course I interned at the same company as a ML intern. I had a major contribution in data researching, data analysing, data preprocessing and writing python scripts. After this, I started interning as a Developer at Apartmint solutions wherein my major tasks included scraping the data from real estate website and integrating it with postgresql using python scripts. @#$& There is a no complete roadmap for being a ML engineer. One needs to start self learning, practise and take advice from seniors, learn from mistakes and stop procrastinating. I would like to share some resources too. @#$& Reading blogs on medium, wire" />
-    ),
-    resources: (
-      <BlogResources
-        resources={{
-          "MLDL Masters": "https://courses.ineuron.ai/MLDL",
-        }}
+      <BlogAbout
+        content="
+        Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Student Clubs,
+        AISSMS Institute of Information Technology. Currently, I’m also interning at Reliance Jio. I’m very
+        excited to share with you all about how I started my journey with coding and became the Lead at
+        GDSC. @#$& So, I hated computers during my school days. I knew this was the last time that I was studying
+        computers.. When the whole class got excited about computer practicals, I was the one who would
+        prefer sitting in the class. Those HTML tags would really terrify me to the core.
+        I gave my JEE and CET attempt in class 12 and I still didn’t know what branch I’m gonna take. So, to
+        help me choose a branch, my mom and dad took me to a college in my hometown. We visited all the
+        labs, discussed with HODs of different branches, and I finally thought that Mechanical and
+        Computer(AI) would be good. But I still didn’t have that motivation to choose one single branch.
+        So one day, my mom casually suggested that I join a C language class in my hometown, because no
+        matter what branch I choose, it will have a programming language in the first year. So, we agreed
+        upon it and started finding good classes. After trying 3-4 classes, I found a class where instead of
+        teaching, they would make us solve problems, and give one-to-one guidance. And I loved that.
+        Initially I would sit there for 1-2 hours, Sir would give me problems, I would try solving. Later I found a
+        friend who enjoyed solving as much as I did, and we used to sit in the class for around 7 to 8 hours,
+        solving Hackerrank problems. And that’s when I got that kick, I was 100% sure that I’m gonna choose
+        the computer branch. So, that’s when my programming journey started. In my first year of college, I
+        started with python and kept solving various problems. That really made me more confident and I
+        enjoyed it as well. @#$& Now, as I couldn’t really do very well in JEE, I had this in my mind that I want to explore as much as I
+        can in college, and try everything to my best. That’s how, while exploring, I came across this 30 Days
+        of Google Cloud Program by GDSC AISSMS COE in my 2nd year. I joined the club, completed all the
+        challenges and really enjoyed it. I used to wonder why we don’t have a GDSC in our college and
+        that’s when I decided to start a club at our college. It was back in April, 2021 when the applications for
+        Lead position at Google Developer Student Clubs opened. I along with a few classmates applied for
+        the same. We were supposed to fill out an application form, and an introductory video. Results were
+        out in a few days, and I along with my 2 friends got selected for the interview round. @#$& I was very nervous as we three had equal chances of getting selected, and this was going to be my
+        first interview. We had to book slots for the interview, and my interview day finally came. I was
+        nervous but very excited. I had prepared well about my projects, my motivation to start a GDSC and I
+        knew I had to do my best for the interview. It was August 5, when I saw a letter in my mailbox,
+        congratulating me for getting selected as the Lead at Google Developer Student Clubs. Establishing a
+        GDSC at our campus wasn’t possible without constant support of Principal Sir, teachers and faculty
+        advisor of GDSC, Wagh Sir. And that’s how the journey began. @#$& I would encourage everyone reading this to apply for such programs. It really gives a boost to your
+        confidence, public speaking, handling critical situations at last moments, managing a team and a lot
+        more. It helps you build your personality overall. @#$& This was a brief about my journey, but in upcoming blogs, I’ll share more about resources to practice
+        coding and DSA, and will share a detailed article which will help you apply for the GDSC Lead
+        position. I hope you enjoyed this blog!
+      "
       />
     ),
-    author: "Akshada Bhandari: ML Lead - GDSC, AISSMS IOIT",
-    imageSrc: "https://i.ibb.co/ZWqPPn0/Artificial-Intelligence-v1.png",
+    author: "Prarthana Chandak: Lead - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644744738/blogs/yrs4m4qxhphlbktmmej1.jpg",
     category: "Technical",
-    fade: "right",
-    read: "6 min",
+    fade: "left",
+    read: "7 min",
   },
   {
     id: 2,
@@ -93,30 +134,28 @@ const blogs = [
   {
     id: 3,
     tag: "Machine Learning",
-    name: "Machine Learning: An Overview",
-    email: "adityagandhamal1327@gmail.com",
-    linkedin: "https://www.linkedin.com/in/aditya-gandhamal-3750b9209/",
-    date: "25th Jan 2022",
+    name: "Machine Learning",
+    email: "akshada3654@gmail.com",
+    linkedin: "https://www.linkedin.com/in/akshada-bhandari-16bb90192/",
+    date: "18th Jan 2022",
     day: "Tuesday",
-    shortDescription: `
-    Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field,
-      `,
+    shortDescription:
+      "The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites.",
     about: (
-      <BlogAbout content="Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field, be it for predicting weather patterns to recommending your next YouTube video. Can’t imagine a day in life influenced without it. But if you take a deeper look, you deserve a pat on your back because of the data you are generating for these AI systems to work so effectively to bring you an experience like no other. It’s a cycle of events, you generate data, you get what you want! @#$& So, you put forward your data as your digital identity to the world (think about it!) and in return, you get satisfaction from the content you are consuming. Finally, it all boils down to the crux of Machine Learning which is DATA. @#$& Machine Learning came into the picture with an approach to getting insights from data. Applications like Facebook, Instagram, and YouTube use your data to provide you with your desired content whilst making money by advertising, and Machine Learning plays an important role in this system. @#$& According to Wikipedia, “Machine Learning is the study of computer algorithms that can improve automatically through experience and by the use of data”. Breaking down, this definition is composed of three main parts. Algorithms, Experience, and Data, three of which form an integral part of Machine Learning. @#$& Algorithms are programs having a statistical approach towards having a conclusion. These algorithms often revolve around Linear Algebra, Probability, and Calculus. Algorithms are fed on data to get insights from it. A Machine Learning model tries to understand (or learn) the underlying pattern hidden inside the data whilst following a statistical approach. @#$& Experience in the sense, an algorithm processes data multiple times to get better insights from it. This can be understood by the following example. @#$& Let's take the example of predicting flight ticket fares. You have this data wherein several features are affecting the flight fare. (E.g. Source, Destination, TravelDistance, TravelTime, FlightName, PassengerClass, TotalFare, etc.) Usually, the features are denoted by X and the thing which we want to predict, often considered as a target label, is denoted by Y. So the machine learning model is fed upon this data of observations to learn the mappings from X to Y over several times until it gets better at predicting the TotalFare. For this sole purpose, we divide our original data into training and testing (validation) sets to evaluate the performance of the model as it tries to learn the data. This evaluation tells us about the experience of our model with the data which is fed to it to learn and predict the flight fare. @#$& Talking about Artificial Intelligence, Machine Learning is just a subset of it. The same goes with Deep Learning and Data Science. @#$& The one good point to differentiate Machine Learning and Deep Learning is the amount of data. Deep Learning algorithms perform well only if you have tons of data to train on and also the more advanced AI applications like Computer Vision, Speech Recognition, GANs, etc involve deep learning concepts. @#$&  Machine Learning addresses three types of problems in general. @#$&  1) Supervised Learning @#$& 2) Unsupervised Learning @#$& 3) Reinforcement Learning @#$& Supervised Learning :  Supervised Learning involves a model to learn patterns and mappings in data. You have a dataset containing a set of features X and target labels Y. The model’s job is to learn the mapping function Y=f(X). The function (f) acts as a supervisor for the model. The above-discussed example of flight fare prediction is an example of Supervised Learning. @#$& There are two main types of problems in Supervised Learning viz. Regression and Classification. Regression involves predicting a number whereas Classification involves predicting a category of data. @#$& Unsupervised Learning : Unsupervised Learning involves a model to learn the data by itself. Unlike supervised learning, you don't have X and Y. The model is given just the data, with no target label and its job is to extract patterns from it. @#$& Reinforcement Learning : Reinforcement Learning is a problem where an agent experiences an environment and based on the reward it receives, it optimizes its policy of exploring the environment. Agent, Environment and Rewards form three crucial aspects of a Reinforcement Learning problem. @#$& Lex Fridman has given a brilliant analogy saying “Supervised Learning is learning by example whereas Reinforcement Learning is learning by experience”. @#$& Now that you have gone through the overview of Machine Learning, you might be wondering how to even get started with it? @#$& Well, that's the point right. The first step is always the most difficult step. Where to start….? @#$& To be honest, there’s no specific way or plan as such. Rather, the best possible way is to explore the domain itself. That’s how you get an idea about it. Unless and until you won’t explore it, you won’t get the actual experience of studying it. Take that Reinforcement Learning (no pun intended!). @#$& But to give a headstart, refer to blogs on Medium, Machine Learning Mastery, and Kdnuggets. They have some awesome content right from beginner level to advanced. You can also take a course from Coursera if you wish to have a structured plan for learning AI/ML. @#$& Wish you all the best!" />
+      <BlogAbout content="The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. @#$& It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites. I was so fascinated by the working of satellites, their automation, and the artificial intelligence research going in the space technology for India. Returning from the journey I had already planned my career in the field of artificial intelligence. @#$& And the hunt started ………..!!! @#$& I started researching about degrees in AI in India, but to my vain, there were not that many courses available in the destined field. I spoke to various industry persons and then came to conclusion about pursuing BE in Computer Engineering. This made me land in the AISSMS Institute of Information Technology. Being a sophomore I was unaware of the programming languages. After, my first sem I joined DISHA classes to get cleared with my concepts for C, C++. Within a year I had nearly mastered C, C++, Python along-with DSA. @#$& In my second year during my mid-vacations, I had attended the workshop conducted by Machine Learning India at Ai-adventures, Pune. And my journey towards ML started. Building projects, practising python programming, reading books and references started. I started learning from various youtube channels - Edureka, codewithharry, and many live sessions. But these were not enough. Machine learning is not a one day thing. @#$& Having many resources but not the best was the problem. During the covid pandemic I came across the ML Masters course by iNeuron.ai. It was indeed one of the best course I came across. The course started from basic python programming and ended with NLP, DL. It had various modules like database management, API, EDA, ML pipelines, Deep Learning and NLP. The course was not just theoretical but practical too. I had build a couple of projects too. Meanwhile I got selected as ML lead at GDSC and MLASC. @#$& After completing this course I interned at the same company as a ML intern. I had a major contribution in data researching, data analysing, data preprocessing and writing python scripts. After this, I started interning as a Developer at Apartmint solutions wherein my major tasks included scraping the data from real estate website and integrating it with postgresql using python scripts. @#$& There is a no complete roadmap for being a ML engineer. One needs to start self learning, practise and take advice from seniors, learn from mistakes and stop procrastinating. I would like to share some resources too. @#$& Reading blogs on medium, wire" />
     ),
     resources: (
       <BlogResources
         resources={{
-          GitHub: "https://github.com/adityagandhamal",
+          "MLDL Masters": "https://courses.ineuron.ai/MLDL",
         }}
       />
     ),
-    author: "Aditya Gandhamal: ML Co-Lead - GDSC, AISSMS IOIT",
-    imageSrc:
-      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643209543/blogs/bymc2ept7yivcqfrwacx.jpg",
+    author: "Akshada Bhandari: ML Lead - GDSC, AISSMS IOIT",
+    imageSrc: "https://i.ibb.co/ZWqPPn0/Artificial-Intelligence-v1.png",
     category: "Technical",
-    fade: "left",
-    read: "5 min",
+    fade: "right",
+    read: "6 min",
   },
 
   {
@@ -157,6 +196,34 @@ const blogs = [
   },
   {
     id: 5,
+    tag: "Machine Learning",
+    name: "Machine Learning: An Overview",
+    email: "adityagandhamal1327@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aditya-gandhamal-3750b9209/",
+    date: "25th Jan 2022",
+    day: "Tuesday",
+    shortDescription: `
+    Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field,
+      `,
+    about: (
+      <BlogAbout content="Machine Learning has been a buzzword for the past few years and rightly so given the availability of data that is being generated these days. But the origin of the notion of Machine Learning or take Artificial Intelligence in general dates back to the 1950s. It was in the early 2010s when AI applications started shaping our world. Remember the first time you heard about Siri? It was in the year 2011 when for the first time Apple released an iPhone integrated with Siri. It was the iPhone 4s. And now ML is used in every possible field, be it for predicting weather patterns to recommending your next YouTube video. Can’t imagine a day in life influenced without it. But if you take a deeper look, you deserve a pat on your back because of the data you are generating for these AI systems to work so effectively to bring you an experience like no other. It’s a cycle of events, you generate data, you get what you want! @#$& So, you put forward your data as your digital identity to the world (think about it!) and in return, you get satisfaction from the content you are consuming. Finally, it all boils down to the crux of Machine Learning which is DATA. @#$& Machine Learning came into the picture with an approach to getting insights from data. Applications like Facebook, Instagram, and YouTube use your data to provide you with your desired content whilst making money by advertising, and Machine Learning plays an important role in this system. @#$& According to Wikipedia, “Machine Learning is the study of computer algorithms that can improve automatically through experience and by the use of data”. Breaking down, this definition is composed of three main parts. Algorithms, Experience, and Data, three of which form an integral part of Machine Learning. @#$& Algorithms are programs having a statistical approach towards having a conclusion. These algorithms often revolve around Linear Algebra, Probability, and Calculus. Algorithms are fed on data to get insights from it. A Machine Learning model tries to understand (or learn) the underlying pattern hidden inside the data whilst following a statistical approach. @#$& Experience in the sense, an algorithm processes data multiple times to get better insights from it. This can be understood by the following example. @#$& Let's take the example of predicting flight ticket fares. You have this data wherein several features are affecting the flight fare. (E.g. Source, Destination, TravelDistance, TravelTime, FlightName, PassengerClass, TotalFare, etc.) Usually, the features are denoted by X and the thing which we want to predict, often considered as a target label, is denoted by Y. So the machine learning model is fed upon this data of observations to learn the mappings from X to Y over several times until it gets better at predicting the TotalFare. For this sole purpose, we divide our original data into training and testing (validation) sets to evaluate the performance of the model as it tries to learn the data. This evaluation tells us about the experience of our model with the data which is fed to it to learn and predict the flight fare. @#$& Talking about Artificial Intelligence, Machine Learning is just a subset of it. The same goes with Deep Learning and Data Science. @#$& The one good point to differentiate Machine Learning and Deep Learning is the amount of data. Deep Learning algorithms perform well only if you have tons of data to train on and also the more advanced AI applications like Computer Vision, Speech Recognition, GANs, etc involve deep learning concepts. @#$&  Machine Learning addresses three types of problems in general. @#$&  1) Supervised Learning @#$& 2) Unsupervised Learning @#$& 3) Reinforcement Learning @#$& Supervised Learning :  Supervised Learning involves a model to learn patterns and mappings in data. You have a dataset containing a set of features X and target labels Y. The model’s job is to learn the mapping function Y=f(X). The function (f) acts as a supervisor for the model. The above-discussed example of flight fare prediction is an example of Supervised Learning. @#$& There are two main types of problems in Supervised Learning viz. Regression and Classification. Regression involves predicting a number whereas Classification involves predicting a category of data. @#$& Unsupervised Learning : Unsupervised Learning involves a model to learn the data by itself. Unlike supervised learning, you don't have X and Y. The model is given just the data, with no target label and its job is to extract patterns from it. @#$& Reinforcement Learning : Reinforcement Learning is a problem where an agent experiences an environment and based on the reward it receives, it optimizes its policy of exploring the environment. Agent, Environment and Rewards form three crucial aspects of a Reinforcement Learning problem. @#$& Lex Fridman has given a brilliant analogy saying “Supervised Learning is learning by example whereas Reinforcement Learning is learning by experience”. @#$& Now that you have gone through the overview of Machine Learning, you might be wondering how to even get started with it? @#$& Well, that's the point right. The first step is always the most difficult step. Where to start….? @#$& To be honest, there’s no specific way or plan as such. Rather, the best possible way is to explore the domain itself. That’s how you get an idea about it. Unless and until you won’t explore it, you won’t get the actual experience of studying it. Take that Reinforcement Learning (no pun intended!). @#$& But to give a headstart, refer to blogs on Medium, Machine Learning Mastery, and Kdnuggets. They have some awesome content right from beginner level to advanced. You can also take a course from Coursera if you wish to have a structured plan for learning AI/ML. @#$& Wish you all the best!" />
+    ),
+    resources: (
+      <BlogResources
+        resources={{
+          GitHub: "https://github.com/adityagandhamal",
+        }}
+      />
+    ),
+    author: "Aditya Gandhamal: ML Co-Lead - GDSC, AISSMS IOIT",
+    imageSrc:
+      "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643209543/blogs/bymc2ept7yivcqfrwacx.jpg",
+    category: "Technical",
+    fade: "left",
+    read: "5 min",
+  },
+  {
+    id: 6,
     tag: "Cloud",
     name: "Journey to the Cloud",
     email: "skhond32@gmail.com",
@@ -184,7 +251,7 @@ The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator
     read: "3 min",
   },
   {
-    id: 6,
+    id: 7,
     tag: "Andriod",
     name: "Background of Application Development",
     email: "aniruddhkarekar.1@gmail.com",

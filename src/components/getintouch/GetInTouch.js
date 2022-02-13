@@ -10,6 +10,8 @@ import Animation from "../../images/getintouch/Envelope-bro.svg";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
+import { Helmet } from "react-helmet";
+
 const Contact = () => {
   const defaultOptions = {
     loop: true,
@@ -98,206 +100,229 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-body">
-      <div className="container-fluid contact-divi p-3">
-        <Row>
-          {isSubmit === false && (
-            <div className="contact-tag px-lg-5">
-              <Typewriter
-                options={{
-                  strings: ["Want to ask something?"],
-                  autoStart: true,
-                  loop: true,
-                  pauseFor: 5000,
-                }}
-              />
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>GET IN TOUCH GDSC - IOIT</title>
+        <meta
+          name="description"
+          content="Google Developer Student Clubs (GDSC) are community groups for
+          college and university students interested in Google developer
+          technologies. Students from all undergraduate or graduate
+          programs with an interest in growing as a developer are
+          welcome. By joining a GDSC, students grow their knowledge in a
+          peer-to-peer learning environment and build solutions for
+          local businesses and their community."
+        />
+        <meta
+          name="keywords"
+          content="gdsc get in touch, gdsc aissms get in touch, gdsc aissms ioit get in touch, dsc, dsc aissms get in touch, dsc aissms ioit get in touch, gdsc ioit get in touch, dsc ioit get in touch, ioit dsc get in touch, aissms dsc get in touch, aissms ioit dsc get in touch, aissms ioit gdsc get in touch, gdsc-aissms-ioit get in touch, gdsc-ioit get in touch, dsc-aissms-ioit get in touch, dsc-ioit get in touch, gdsc contact, gdsc aissms contact, gdsc aissms ioit contact, dsc, dsc aissms contact, dsc aissms ioit contact, gdsc ioit contact, dsc ioit contact, ioit dsc contact, aissms dsc contact, aissms ioit dsc contact, aissms ioit gdsc contact, gdsc-aissms-ioit contact, gdsc-ioit contact, dsc-aissms-ioit contact, dsc-ioit contact"
+        />
+      </Helmet>
+      <div className="contact-body">
+        <div className="container-fluid contact-divi p-3">
+          <Row>
+            {isSubmit === false && (
+              <div className="contact-tag px-lg-5">
+                <Typewriter
+                  options={{
+                    strings: ["Want to ask something?"],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 5000,
+                  }}
+                />
 
-              <div className="h5">
-                Feel free to ask your doubts or to give us feedback
-              </div>
-            </div>
-          )}
-        </Row>
-
-        <div className="dots">
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-
-        {isSubmit === false ? (
-          <div>
-            <Row>
-              <Col sm={12} lg={5} md={5} xl={5}>
-                <div className="contact-illustration">
-                  <Fade left>
-                    <img
-                      className="img-fluid"
-                      src={Animation}
-                      alt="Animation_Image"
-                    />
-                  </Fade>
+                <div className="h5">
+                  Feel free to ask your doubts or to give us feedback
                 </div>
-              </Col>
+              </div>
+            )}
+          </Row>
 
-              <Col sm={12} lg={7} md={7} xl={7}>
-                <Zoom out>
-                  <h3 id="contact_error" className="text-danger d-none">
-                    Please Enter Valid Data!
-                  </h3>
-                  <div className="my-5 ">
-                    <h1
-                      className="text-center font-weight-bolder"
-                      style={{
-                        fontFamily: "Google Sans",
-                        fontStyle: " normal",
-                        fontWeight: "bold",
-                        color: "rgba(0,0,0,1)",
-                      }}
-                    >
-                      Get in Touch
-                    </h1>
+          <div className="dots">
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </div>
+
+          {isSubmit === false ? (
+            <div>
+              <Row>
+                <Col sm={12} lg={5} md={5} xl={5}>
+                  <div className="contact-illustration">
+                    <Fade left>
+                      <img
+                        className="img-fluid"
+                        src={Animation}
+                        alt="Animation_Image"
+                      />
+                    </Fade>
                   </div>
-                  <div className="row">
-                    <div className="col-md-6 col-10 mx-auto">
-                      <div className="mb-3">
-                        <form onSubmit={formSubmit}>
-                          <div className="mb-3">
-                            <label
-                              style={labelStyle}
-                              htmlFor="exampleFormControlInput1"
-                              className="form-label"
-                            >
-                              Name
-                            </label>
-                            <input
-                              style={inputStyle}
-                              autoComplete="off"
-                              type="text"
-                              className="form-control contact-input"
-                              id="exampleFormControlInput1"
-                              name="fullname"
-                              value={data.fullname}
-                              onChange={InputEvent}
-                            />
-                          </div>
+                </Col>
 
-                          <div className="mb-3">
-                            <label
-                              style={labelStyle}
-                              htmlFor="exampleFormControlInput1"
-                              className="form-label"
-                            >
-                              Email
-                            </label>
-                            <input
-                              style={inputStyle}
-                              autoComplete="off"
-                              type="email"
-                              className="form-control contact-input"
-                              id="exampleFormControlInput1"
-                              name="email"
-                              value={data.email}
-                              onChange={InputEvent}
-                            />
-                          </div>
+                <Col sm={12} lg={7} md={7} xl={7}>
+                  <Zoom out>
+                    <h3 id="contact_error" className="text-danger d-none">
+                      Please Enter Valid Data!
+                    </h3>
+                    <div className="my-5 ">
+                      <h1
+                        className="text-center font-weight-bolder"
+                        style={{
+                          fontFamily: "Google Sans",
+                          fontStyle: " normal",
+                          fontWeight: "bold",
+                          color: "rgba(0,0,0,1)",
+                        }}
+                      >
+                        Get in Touch
+                      </h1>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-6 col-10 mx-auto">
+                        <div className="mb-3">
+                          <form onSubmit={formSubmit}>
+                            <div className="mb-3">
+                              <label
+                                style={labelStyle}
+                                htmlFor="exampleFormControlInput1"
+                                className="form-label"
+                              >
+                                Name
+                              </label>
+                              <input
+                                style={inputStyle}
+                                autoComplete="off"
+                                type="text"
+                                className="form-control contact-input"
+                                id="exampleFormControlInput1"
+                                name="fullname"
+                                value={data.fullname}
+                                onChange={InputEvent}
+                              />
+                            </div>
 
-                          <div className="mb-3">
-                            <label
-                              style={labelStyle}
-                              htmlFor="exampleFormControlInput1"
-                              className="form-label"
-                            >
-                              Mobile Number
-                            </label>
-                            <input
-                              style={inputStyle}
-                              autoComplete="off"
-                              type="tel"
-                              maxLength="10"
-                              className="form-control contact-input"
-                              id="exampleFormControlInput1"
-                              name="mobile_number"
-                              value={data.mobile_number}
-                              onChange={InputEvent}
-                            />
-                          </div>
+                            <div className="mb-3">
+                              <label
+                                style={labelStyle}
+                                htmlFor="exampleFormControlInput1"
+                                className="form-label"
+                              >
+                                Email
+                              </label>
+                              <input
+                                style={inputStyle}
+                                autoComplete="off"
+                                type="email"
+                                className="form-control contact-input"
+                                id="exampleFormControlInput1"
+                                name="email"
+                                value={data.email}
+                                onChange={InputEvent}
+                              />
+                            </div>
 
-                          <div className="mb-3">
-                            <label
-                              style={labelStyle}
-                              htmlFor="exampleFormControlTextarea1"
-                              className="form-label"
-                            >
-                              Message
-                            </label>
-                            <textarea
-                              style={inputStyle}
-                              autoComplete="off"
-                              className="form-control contact-input"
-                              id="exampleFormControlTextarea1"
-                              rows="3"
-                              name="msg"
-                              value={data.msg}
-                              onChange={InputEvent}
-                            ></textarea>
-                          </div>
-                          <div className="col-12 text-center get-btndiv">
-                            <button className="get-btn">
-                              <div className="svg-wrapper-1">
-                                <div className="svg-wrapper">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    width="24"
-                                    height="24"
-                                  >
-                                    <path fill="none" d="M0 0h24v24H0z"></path>
-                                    <path
-                                      fill="currentColor"
-                                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                                    ></path>
-                                  </svg>
+                            <div className="mb-3">
+                              <label
+                                style={labelStyle}
+                                htmlFor="exampleFormControlInput1"
+                                className="form-label"
+                              >
+                                Mobile Number
+                              </label>
+                              <input
+                                style={inputStyle}
+                                autoComplete="off"
+                                type="tel"
+                                maxLength="10"
+                                className="form-control contact-input"
+                                id="exampleFormControlInput1"
+                                name="mobile_number"
+                                value={data.mobile_number}
+                                onChange={InputEvent}
+                              />
+                            </div>
+
+                            <div className="mb-3">
+                              <label
+                                style={labelStyle}
+                                htmlFor="exampleFormControlTextarea1"
+                                className="form-label"
+                              >
+                                Message
+                              </label>
+                              <textarea
+                                style={inputStyle}
+                                autoComplete="off"
+                                className="form-control contact-input"
+                                id="exampleFormControlTextarea1"
+                                rows="3"
+                                name="msg"
+                                value={data.msg}
+                                onChange={InputEvent}
+                              ></textarea>
+                            </div>
+                            <div className="col-12 text-center get-btndiv">
+                              <button className="get-btn">
+                                <div className="svg-wrapper-1">
+                                  <div className="svg-wrapper">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 24 24"
+                                      width="24"
+                                      height="24"
+                                    >
+                                      <path
+                                        fill="none"
+                                        d="M0 0h24v24H0z"
+                                      ></path>
+                                      <path
+                                        fill="currentColor"
+                                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                      ></path>
+                                    </svg>
+                                  </div>
                                 </div>
-                              </div>
-                              <span>Send</span>
-                            </button>
-                          </div>
-                        </form>
+                                <span>Send</span>
+                              </button>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                     </div>
+                  </Zoom>
+                </Col>
+              </Row>
+            </div>
+          ) : (
+            <div className="success-submit">
+              <Row className="p-2 m-2">
+                <Col sm={12} lg={7} md={7} xl={6.5}>
+                  <div className="contact-tag p-lg-5 p-0 h1">
+                    <Typewriter
+                      options={{
+                        strings: ["Thank you for your response..."],
+                        autoStart: true,
+                        loop: true,
+                        pauseFor: 5000,
+                      }}
+                    />
+
+                    <div className="h3"> We will reach out to you soon.</div>
                   </div>
-                </Zoom>
-              </Col>
-            </Row>
-          </div>
-        ) : (
-          <div className="success-submit">
-            <Row className="p-2 m-2">
-              <Col sm={12} lg={7} md={7} xl={6.5}>
-                <div className="contact-tag p-lg-5 p-0 h1">
-                  <Typewriter
-                    options={{
-                      strings: ["Thank you for your response..."],
-                      autoStart: true,
-                      loop: true,
-                      pauseFor: 5000,
-                    }}
-                  />
+                </Col>
 
-                  <div className="h3"> We will reach out to you soon.</div>
-                </div>
-              </Col>
-
-              <Col sm={12} lg={5} md={5} xl={5}>
-                <div className="lottie-social">
-                  <Lottie options={defaultOptions} />
-                </div>
-              </Col>
-            </Row>
-          </div>
-        )}
+                <Col sm={12} lg={5} md={5} xl={5}>
+                  <div className="lottie-social">
+                    <Lottie options={defaultOptions} />
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

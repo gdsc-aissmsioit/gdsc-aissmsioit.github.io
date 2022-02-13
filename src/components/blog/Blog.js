@@ -15,9 +15,11 @@ import Leads from "../home/Leads";
 
 import { scrollToTop } from "../footer/ScrollToTop";
 
+import { Helmet } from "react-helmet";
+
 const Blog = () => {
   const { popup } = useParams();
-  
+
   const technicalBlogs = [];
   const nonTechnicalBlogs = [];
 
@@ -185,6 +187,16 @@ const Blog = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BLOGS - GDSC IOIT</title>
+        <meta name="description" content="Learn about the latest technologies and happening in the IT
+                industry. Head to the page now to learn something new today." />
+        <meta
+          name="keywords"
+          content="gdsc blogs, gdsc aissms blogs, gdsc aissms ioit blogs, dsc, dsc aissms blogs, dsc aissms ioit blogs, gdsc ioit blogs, dsc ioit blogs, ioit dsc blogs, aissms dsc blogs, aissms ioit dsc blogs, aissms ioit gdsc blogs, gdsc-aissms-ioit blogs, gdsc-ioit blogs, dsc-aissms-ioit blogs, dsc-ioit blogs"
+        />
+      </Helmet>
       <div
         data-aos="fade-down"
         data-aos-easing="ease-in-sine"

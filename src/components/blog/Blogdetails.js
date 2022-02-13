@@ -5,12 +5,23 @@ import blogs from "./blogs";
 
 import "./Blogdetails.css";
 
+import { Helmet } from "react-helmet";
+
 const Blogdetails = () => {
   const { id } = useParams();
   const blog = blogs[id - 1];
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>BLOGDETAILS - GDSC IOIT</title>
+        <meta name="description" content={blog.shortDescription} />
+        <meta
+          name="keywords"
+          content="gdsc blogs details, gdsc aissms blogs details, gdsc aissms ioit blogs details, dsc, dsc aissms blogs details, dsc aissms ioit blogs details, gdsc ioit blogs details, dsc ioit blogs details, ioit dsc blogs details, aissms dsc blogs details, aissms ioit dsc blogs details, aissms ioit gdsc blogs details, gdsc-aissms-ioit blogs details, gdsc-ioit blogs details, dsc-aissms-ioit blogs details, dsc-ioit blogs details"
+        />
+      </Helmet>
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"

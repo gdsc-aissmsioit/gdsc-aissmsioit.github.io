@@ -21,6 +21,8 @@ import Management from "./management";
 
 import TeamCard from "./TeamCard";
 
+import { Helmet } from "react-helmet";
+
 const Team = () => {
   const { id } = useParams();
 
@@ -106,6 +108,18 @@ const Team = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>TEAM - GDSC IOIT</title>
+        <meta
+          name="description"
+          content="Have a look at the great minds of GDSC AISSMS IOIT. None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful."
+        />
+        <meta
+          name="keywords"
+          content="gdsc team, gdsc aissms team, gdsc aissms ioit team, dsc, dsc aissms team, dsc aissms ioit team, gdsc ioit team, dsc ioit team, ioit dsc team, aissms dsc team, aissms ioit dsc team, aissms ioit gdsc team, gdsc-aissms-ioit team, gdsc-ioit team, dsc-aissms-ioit team, dsc-ioit team"
+        />
+      </Helmet>
       <div className="container-fluid team-heading">
         <div className="row">
           <div

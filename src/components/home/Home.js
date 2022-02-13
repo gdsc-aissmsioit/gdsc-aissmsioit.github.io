@@ -16,16 +16,16 @@ import Bubbles from "../bubbles/Bubbles";
 
 import Fade from "react-reveal/Fade";
 
-import events from "../events/events";
+import upcoming from "./upcoming";
 
 import { scrollToTop } from "../footer/ScrollToTop";
 
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 744, 1);
+      numCounter("members", 785, 1);
       numCounter("organizers", 20, 100);
-      numCounter("workshops", 2, 200);
+      numCounter("events", 13, 200);
       numCounter("projects", 2, 1000);
     }, 1000);
   }, []);
@@ -47,27 +47,15 @@ const Home = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    // autoplay: true,
-    // autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 4000,
   };
 
   let upcoming_events = [];
 
-  // const eventSession = JSON.parse(sessionStorage.getItem("events"));
-
-  // let events = [];
-  // if (eventSession === null) {
-  //   fetch("https://gdsc-web-default-rtdb.firebaseio.com/Events.json")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       events = data;
-  //       sessionStorage.setItem("events", JSON.stringify(events));
-  //     });
-  // } else events = eventSession;
-
   const curr_date = new Date();
 
-  events.forEach((event) => {
+  upcoming.forEach((event) => {
     const event_date = new Date(event.date);
     if (event_date.getTime() + 18060000 > curr_date.getTime())
       // 157237218
@@ -147,7 +135,7 @@ const Home = () => {
             <img className="cursor-pointer" src={Home_Svg} alt="Home_Svg" />
           </div>
           <div
-            className="column mt-lg-2"
+            className="column mt-lg-1"
             data-aos="fade-left"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
@@ -164,9 +152,12 @@ const Home = () => {
             </div>
 
             <p className="member-description">
-              Developer Student Clubs is a Google Developers program for
-              students to learn something new, engage themselves in hackathons,
-              events, workshops and Study Jams to grow as a #coder
+              If you love to code and develop, you are welcome to the world of
+              Google Developer Technologies! Here, you can sharpen your skills
+              through our technical sessions, hands-on workshops and project
+              building activities. We'll be working together as a team to build
+              inspiring solutions to tackle real-world problems. Let us begin
+              this journey of learning and growing together as a community!
             </p>
             <ul>
               <li className="content-item">
@@ -189,7 +180,7 @@ const Home = () => {
           <div className="container d-flex align-items-center justify-content-center mt-5">
             <div className="all-divs mt-lg-5">
               <h1 className="text-center home-headings mt-lg-5">
-                Upcoming Events
+                Upcoming Events And Workshops
               </h1>
             </div>
           </div>
@@ -218,6 +209,8 @@ const Home = () => {
           <div className="dot"></div>
           <div className="dot"></div>
           <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
         </div>
 
         <Fade up>
@@ -235,13 +228,13 @@ const Home = () => {
                 </div>
 
                 <div className="col-lg-3 col-6 text-center">
-                  <span id="workshops">0</span>
-                  <p>Workshops</p>
+                  <span id="events">0</span>
+                  <p>Events</p>
                 </div>
 
                 <div className="col-lg-3 col-6 text-center">
                   <span id="projects">0</span>
-                  <p>Projects</p>
+                  <p>Workshops</p>
                 </div>
               </div>
             </div>
@@ -366,7 +359,7 @@ const Home = () => {
                 </h1>
               </Fade>
 
-              <p className="text-center">
+              <p className="text-center px-lg-5">
                 GDSC community thrives to spread awareness about technolgies and
                 engage students in multiple events so that they grow as a
                 developer and meet like minded people.
@@ -393,7 +386,7 @@ const Home = () => {
                 <h1 className="text-center home-headings">Blogs</h1>
               </Fade>
 
-              <p className="text-center">
+              <p className="text-center px-lg-5">
                 Learn about the latest technologies and happening in the IT
                 industry. Head to the page now to learn something new today.
               </p>
@@ -423,12 +416,37 @@ const Home = () => {
             </div>
           </div>
         </Fade>
-
         <Fade up>
           <div className="container d-flex align-items-center justify-content-center">
+            <div className="all-divs">
+              <Fade up>
+                <h1 className="text-center about-home-headings home-headings mt-4">
+                  We Value Our Sponsors
+                </h1>
+              </Fade>
+
+              <p className="text-center">
+                <img
+                  className="sponser-img"
+                  src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644751901/blogs/techm_pmpipl.png"
+                  alt="sponser_img"
+                />
+                <br />
+                <p className="tech-mahindra pt-0">
+                  Tech Mahindra represents the connected world, offering
+                  innovation &amp; human-centric technology experiences to their
+                  customers, stakeholders &amp; communities.
+                </p>
+              </p>
+            </div>
+          </div>
+        </Fade>
+
+        <Fade up>
+          <div className="container d-flex align-items-center justify-content-center mt-5">
             <div className="all-divs col-lg-6">
               <h1 className="text-center home-headings mt-4">Stay Updated</h1>
-              <p className="text-center">
+              <p className="text-center px-lg-5">
                 Don’t miss out on the latest happenings happening in GDSC AISSMS
                 IOIT, Pune. RSVP below to get updates about the latest workshops
                 and events to be conducted by us.

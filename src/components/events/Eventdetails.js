@@ -5,6 +5,8 @@ import events from "./events";
 
 import "./Eventdetails.css";
 
+import { Helmet } from "react-helmet";
+
 const Eventdetails = () => {
   const { id } = useParams();
   const event = events[events.length - id];
@@ -17,6 +19,15 @@ const Eventdetails = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>EVENT DETAILS GDSC - IOIT</title>
+        <meta name="description" content={event.about} />
+        <meta
+          name="keywords"
+          content="gdsc event details, gdsc aissms event details, gdsc aissms ioit event details, dsc, dsc aissms event details, dsc aissms ioit event details, gdsc ioit event details, dsc ioit event details, ioit dsc event details, aissms dsc event details, aissms ioit dsc event details, aissms ioit gdsc event details, gdsc-aissms-ioit event details, gdsc-ioit event details, dsc-aissms-ioit event details, dsc-ioit event details"
+        />
+      </Helmet>
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"
@@ -78,7 +89,7 @@ const Eventdetails = () => {
                 <b>Speaker :</b> {event.speaker}
               </span>
               <div>
-                <b>Description :</b>{" "}
+                <b>Description :</b>
                 {points.map((point) => (
                   <li>{point}</li>
                 ))}

@@ -18,6 +18,9 @@
   font-weight: normal;
   font-style: normal;
 }
+html {
+  min-height: 100%;
+}
 
 /* Domino  */
 .noselect {

@@ -125,7 +125,8 @@ const Footer = () => {
               <h4 className="divider donotcross">GDSC, AISSMS IOIT</h4>
               <div className="col-md-12 copy">
                 <p className="text-center">
-                  &copy; Made by <span className="text-primary">Web Team</span>
+                  &copy; Made by{" "}
+                  <span className="text-primary">GDSC, Web Team</span>
                 </p>
               </div>
             </div>

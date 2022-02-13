@@ -1,7 +1,7 @@
 const events = [
   {
     id: 13,
-    name: "Intro to HashCode and KickStart, 2022 Solution Challenge Goodies Reveal!",
+    name: "Intro to HashCode and KickStart",
     date: "2022-02-11T03:25:00Z",
     dateAlt: "11th February 2022 🗓️",
     day: "Friday",
@@ -35,7 +35,8 @@ const events = [
     day: "Tuesday",
     about:
       "Everyone's talking about cryptocurrency which is an outcome of blockchain. And Web3 is based on this technology; blockchain🤑. *'Web 3.0 is a new iteration of World Wide Web'*. For the future that awaits us, let us prepare ourselves!. Join the session *'Fundamentals of Web3'*. With our speaker, *SHANTANU VISHWNANDH*, Backend Engineer at Mzaalo, Mumbai, Blockchain Consultant, Organiser of GDG Nagpur, Co-founder of Procohat. 💡This will be supplement to help you build your ideas for 2022 Solution Challenge. 🏠Venue: Zoom. Meet you there! 👋",
-    speaker: "SHANTANU VISHWNANDA, Backend Engineer at Mzaalo, Mumbai, Blockchain Consultant,  and organiser of GDG Nagpur.",
+    speaker:
+      "SHANTANU VISHWNANDA, Backend Engineer at Mzaalo, Mumbai, Blockchain Consultant,  and organiser of GDG Nagpur.",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-fundamentals-of-web3/",
     imageSrc: "https://i.ibb.co/rHcLyn8/Fundamentalsof-Web3.jpg",
@@ -47,10 +48,14 @@ const events = [
     date: "2022-02-06T06:00:00Z",
     dateAlt: "6th February 2022 🗓️",
     day: "Sunday",
-    about: "Hey Folks! 🔵🟢🔴🟡. INTERNSHIP at favourite MNC ? 📑. Roadmap | Strategies | Action Plan | Skills 📈. Want to make LinkedIn Profile stand out? ✔. Linkedin is one the most helpful tool for your career !. GDSC AISSMS IOIT is back with one more incredible session with one of the most talented women in tech out there. Get to know about the journey of Aishwarya Mahapatra, Technical Intern at D.E.Shaw and Ex Intern at Goldman Sachs, about how she gave up on coding in her initial years BUT followed some incredible strategies to get going and bag MANY awesome opportunities at Big Tech companies.she is going to share with us about how LinkedIn helped her Network and scale up her pace at finding internships, job search and a 22k+ supportive audience.",
-    speaker: "Aishwarya Mahapatra, A Technical Intern at D.E. Shaw and an Ex Intern at Goldman Sachs",
-    eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-tech-boss-lady-2/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/Copy%20of%20Untitled_YRyeSMq.png",
+    about:
+      "Hey Folks! 🔵🟢🔴🟡. INTERNSHIP at favourite MNC ? 📑. Roadmap | Strategies | Action Plan | Skills 📈. Want to make LinkedIn Profile stand out? ✔. Linkedin is one the most helpful tool for your career !. GDSC AISSMS IOIT is back with one more incredible session with one of the most talented women in tech out there. Get to know about the journey of Aishwarya Mahapatra, Technical Intern at D.E.Shaw and Ex Intern at Goldman Sachs, about how she gave up on coding in her initial years BUT followed some incredible strategies to get going and bag MANY awesome opportunities at Big Tech companies.she is going to share with us about how LinkedIn helped her Network and scale up her pace at finding internships, job search and a 22k+ supportive audience.",
+    speaker:
+      "Aishwarya Mahapatra, A Technical Intern at D.E. Shaw and an Ex Intern at Goldman Sachs",
+    eventLink:
+      "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-tech-boss-lady-2/",
+    imageSrc:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/Copy%20of%20Untitled_YRyeSMq.png",
     dataAos: "fade-left",
   },
   {

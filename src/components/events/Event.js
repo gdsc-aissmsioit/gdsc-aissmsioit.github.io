@@ -23,6 +23,8 @@ import emailjs from "@emailjs/browser";
 
 import { scrollToTop } from "../footer/ScrollToTop";
 
+import { Helmet } from "react-helmet";
+
 const Event = () => {
   const { popup } = useParams();
 
@@ -418,6 +420,19 @@ const Event = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>EVENTS - GDSC IOIT</title>
+        <meta name="title" content="EVENTS GDSC - IOIT" />
+        <meta
+          name="description"
+          content=""
+        />
+        <meta
+          name="keywords"
+          content="gdsc, gdsc aissms, gdsc aissms ioit, dsc, dsc aissms, dsc aissms ioit, gdsc ioit, dsc ioit, ioit dsc, aissms dsc, aissms ioit dsc, aissms ioit gdsc, gdsc-aissms-ioit, gdsc-ioit, dsc-aissms-ioit, dsc-ioit"
+        />
+      </Helmet>
       <div className="container-fluid main">
         <div
           data-aos="fade-down"
@@ -475,10 +490,7 @@ const Event = () => {
 
         <Fade up>
           <div className="container text-center submit_event_idea">
-            <span
-              onClick={() => scrollToTop()}
-              className="cta button"
-            >
+            <span onClick={() => scrollToTop()} className="cta button">
               <span>Submit Event Idea</span>
               <svg width="13px" height="10px" viewBox="0 0 13 10">
                 <path d="M1,5 L11,5"></path>
