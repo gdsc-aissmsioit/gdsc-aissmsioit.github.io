@@ -80,6 +80,7 @@ const App = () => {
             content="Google Developer Student Club - AISSMS IOIT"
           />
           <meta name="audience" content="Everyone" />
+          <meta name="google-site-verification" content="0xRiG-n146B-0JyL40YxOjPw3MBW2cPULE5NLDJGSBQ" />
         </Helmet>
         <HashRouter>
           <Navbar />
