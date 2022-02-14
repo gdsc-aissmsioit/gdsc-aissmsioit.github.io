@@ -123,12 +123,12 @@ const Blog = () => {
     ) {
       setSubmitBlog({ ...submitBlog, error: "Please Enter Valid Data!" });
     } else {
-      const domains = ["web", "cloud", "dsa/cp", "android", "ai/ml", "general"];
+      const domains = ["web", "blockchain", "cloud", "dsa/cp", "android", "ai/ml", "general"];
       const domainIndex = domains.indexOf(values.domain.toLowerCase());
 
       if (domainIndex === -1) {
         setSubmitBlog({
-          ...submitBlogForm,
+          ...submitBlogForm,  
           error: "Please Select Valid Domain!",
         });
       } else {
@@ -311,6 +311,7 @@ const Blog = () => {
                 >
                   <option>Domain</option>
                   <option value="web">Web</option>
+                  <option value="blockchain">Blockchain</option>
                   <option value="cloud">Cloud</option>
                   <option value="ai/ml">AI/ML</option>
                   <option value="dsa/cp">DSA/CP</option>

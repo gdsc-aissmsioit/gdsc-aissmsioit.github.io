@@ -12,6 +12,10 @@ const Leads = [
     to_email: "skhond32@gmail.com",
   },
   {
+    to_name: "Shrinivas Khond",
+    to_email: "skhond32@gmail.com",
+  },
+  {
     to_name: "Harshal Raundal",
     to_email: "harshraundal00@gmail.com",
   },
