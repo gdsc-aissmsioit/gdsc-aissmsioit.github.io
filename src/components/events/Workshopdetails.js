@@ -21,7 +21,8 @@ const Workshopdetails = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>WORKSHOP DETAILS GDSC - IOIT</title>
+        <title>Workshop Details - GDSC</title>
+        <meta name="title" content="Workshop Details - GDSC" />
         <meta name="description" content="" />
         <meta
           name="keywords"

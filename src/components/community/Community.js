@@ -17,7 +17,8 @@ const Community = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>ABOUT US - GDSC IOIT</title>
+        <title>About Us - GDSC</title>
+        <meta name="title" content="About Us - GDSC" />
         <meta
           name="description"
           content="Google Developer Student Clubs (GDSC) are community groups for

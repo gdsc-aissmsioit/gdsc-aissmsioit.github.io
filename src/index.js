@@ -47,7 +47,7 @@ const Index = () => {
           <meta name="title" content="GDSC - AISSMS IOIT" />
           <meta
             name="description"
-            content="Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. If you love to code and develop, you are welcome to the world of Google Developer Technologies! GDSC provides you a platform to enhance your technical skills through our free hands-on workshops, study-jams and project building activities. We work together as a team to build inspiring solutions to solve real-world problems. Not only this, top performers also get a chance to win schwags and goodies! Join us and let’s begin this journey of learning and growing together as a community!"
+            content="Google Developer Student Clubs (GDSC), AISSMS Institute of Information Technology is ambitious towards building a community that aims to change the world with technology. We do this by organizing insightful events, hands-on workshops, interactive sessions, hackathons, study-jams and more. We believe in creating a peer-to-peer learning environment to grow together as a community."
           />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta
@@ -56,21 +56,32 @@ const Index = () => {
           />
           <meta
             name="author"
-            content="Google Developer Student Club - AISSMS IOIT"
+            content="Google Developer Student Club | AISSMS Institute of Information Technology - Pune"
           />
           <meta
             name="publisher"
-            content="Google Developer Student Club - AISSMS IOIT"
+            content="Google Developer Student Club | AISSMS Institute of Information Technology - Pune"
           />
           <meta
             name="copyright"
-            content="Google Developer Student Club - AISSMS IOIT"
+            content="Google Developer Student Club | AISSMS Institute of Information Technology - Pune"
           />
           <meta name="audience" content="Everyone" />
           <meta
             name="google-site-verification"
             content="XXIh1Tg9IGcxhrp9ijmr6R_UaE5GObbtWmWf_Svr7P0"
           />
+          <meta
+            property="og:url"
+            content="https://gdsc-aissmsioit.github.io/"
+          />
+          <meta
+            property="og:title"
+            content="AISSMS Institute of Information Technology - Pune | Google Developer Student Clubs"
+          />
+          <meta property="og:description" content="" />
+          <meta property="og:type" content="website" />
+          <link rel="canonical" href="https://gdsc-aissmsioit.github.io/" />
         </Helmet>
         <HashRouter>
           <Navbar />

@@ -197,7 +197,8 @@ const Blog = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BLOGS - GDSC IOIT</title>
+        <title>Blogs - GDSC</title>
+        <meta name="title" content="Blogs - GDSC" />
         <meta
           name="description"
           content="Learn about the latest technologies and happening in the IT

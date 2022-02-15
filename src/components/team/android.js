@@ -19,7 +19,7 @@ const Android = [
     id: 2,
     name: "Prathamesh Chaudhari",
     position: "Android Co-Lead",
-    image: "",
+    image: "https://i.ibb.co/p08dh50/PRATHMESH-CHAUDHARI.webp",
     alt: "Co_Lead_Image",
     col: 3,
     linkedin: "https://www.linkedin.com/in/prathmeshchaudhari",

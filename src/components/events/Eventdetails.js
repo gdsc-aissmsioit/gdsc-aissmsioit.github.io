@@ -23,7 +23,8 @@ const Eventdetails = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EVENT DETAILS GDSC - IOIT</title>
+        <title>Event Details - GDSC</title>
+        <meta name="title" content="Event Details - GDSC" />
         <meta name="description" content={event.about} />
         <meta
           name="keywords"

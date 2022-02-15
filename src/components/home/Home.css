@@ -744,7 +744,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .member-description {
-    padding: 3%;
+    padding: 4%;
     line-height: 24px;
     text-align: justify;
     letter-spacing: 0.2px;

@@ -110,7 +110,8 @@ const Team = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>TEAM - GDSC IOIT</title>
+        <title>Team - GDSC</title>
+        <meta name="title" content="Team - GDSC" />
         <meta
           name="description"
           content="Have a look at the great minds of GDSC AISSMS IOIT. None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful."

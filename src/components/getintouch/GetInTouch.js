@@ -103,7 +103,8 @@ const Contact = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>GET IN TOUCH GDSC - IOIT</title>
+        <title>Get In Touch - GDSC</title>
+        <meta name="title" content="Get In Touch - GDSC" />
         <meta
           name="description"
           content="Google Developer Student Clubs (GDSC) are community groups for
