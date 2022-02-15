@@ -146,12 +146,12 @@ const Team = () => {
             data-aos-anchor=".example-selector"
             data-aos-anchor-placement="top-center"
           >
-            <h1 className="font-weight-bold">Meet Our Team</h1>
-            <p className="font-weight-light">
-              Have a look at the great minds of GDSC AISSMS IOIT. <br />
-              "None of us, including me, ever do great things. But we can all do
-              small things, with great love, and together we can do something
-              wonderful."
+            <h1 className="font-weight-bold">Meet The Core Team</h1>
+            <p className="font-weight-light core_team_text">
+              Connect with the great minds who have been working rigorously to
+              create a positive impact on the community! "It is literally true
+              that you can succeed best and quickest by helping others to
+              succeed." – Napolean Hill
             </p>
           </div>
         </div>

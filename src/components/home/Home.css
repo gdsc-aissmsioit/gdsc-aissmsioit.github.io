@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .member-description {
-  padding: 0em 3em;
+  padding: 0em 2em;
   overflow: hidden;
   line-height: 28px;
   text-align: center;
@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .animate-character {
-  margin-top: 10rem;
+  margin-top: 8rem;
   text-transform: capitalize;
   background-image: linear-gradient(
     -225deg,
@@ -871,7 +871,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sponser-img {
-  width: 50%;
+  width: 40%;
 }
 
 .tech-mahindra {

@@ -238,7 +238,7 @@
   }
 
   .team-body p {
-    padding: 0;
+    padding: 3%;
     padding-top: 1rem;
     line-height: 30px;
     font-weight: 600;
@@ -305,6 +305,10 @@
 
   .management_tooltip::after {
     top: -12.7em;
+  }
+
+  .core_team_text {
+    text-align: justify;
   }
 }
 

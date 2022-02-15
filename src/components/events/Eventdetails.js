@@ -7,6 +7,8 @@ import "./Eventdetails.css";
 
 import { Helmet } from "react-helmet";
 
+import Fade from "react-reveal/Fade";
+
 const Eventdetails = () => {
   const { id } = useParams();
   const event = events[events.length - id];
@@ -95,15 +97,19 @@ const Eventdetails = () => {
                 ))}
               </div>
             </div>
-            {upcoming ? (
-              <a target="_blank" rel="noreferrer" href={event.eventLink}>
-                <button className="rsvp-btn">Rsvp</button>
-              </a>
-            ) : (
-              <></>
-            )}
           </div>
         </div>
+        <Fade up>
+          {upcoming ? (
+            <a target="_blank" rel="noreferrer" href={event.eventLink}>
+              <button className="rsvp-btn">Rsvp</button>
+            </a>
+          ) : (
+            <a target="_blank" rel="noreferrer" href={event.eventLink}>
+              <button className="rsvp-btn">Recording and PPT</button>
+            </a>
+          )}
+        </Fade>
       </div>
     </>
   );

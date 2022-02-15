@@ -424,10 +424,7 @@ const Event = () => {
         <meta charSet="utf-8" />
         <title>EVENTS - GDSC IOIT</title>
         <meta name="title" content="EVENTS GDSC - IOIT" />
-        <meta
-          name="description"
-          content=""
-        />
+        <meta name="description" content="" />
         <meta
           name="keywords"
           content="gdsc, gdsc aissms, gdsc aissms ioit, dsc, dsc aissms, dsc aissms ioit, gdsc ioit, dsc ioit, ioit dsc, aissms dsc, aissms ioit dsc, aissms ioit gdsc, gdsc-aissms-ioit, gdsc-ioit, dsc-aissms-ioit, dsc-ioit"
@@ -521,15 +518,16 @@ const Event = () => {
                 Please Enter Valid Data!
               </h5>
               <h5 id="submitEventIdeaSuccess" className="text-success d-none">
-                Thank You For Submitting Your Idea ❄️
+                Thank You. We’ll reach out to you if your submission fits our
+                event guidelines.
               </h5>
 
               <img src={Gdsc_Logo} alt="GDSC LOGO" />
 
               <div className="subscribe">
                 <h4>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  <span>Deleniti &amp; quibusdam!</span>.
+                  All great things start with an idea. Submit this form if your
+                  event idea can help the community!
                 </h4>
 
                 <form className="form mt-lg-5" onSubmit={submitEventIdeaForm}>

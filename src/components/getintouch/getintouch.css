@@ -25,11 +25,13 @@
 .form-label {
   pointer-events: none;
   font-weight: lighter !important;
-  font-size: 1.5em !important;
+  font-size: 1.2em !important;
 }
 
 .contact-input {
   font-size: 1em !important;
+  padding: 1% 2%;
+  height: 0%;
 }
 
 .lottie-social {
@@ -48,9 +50,17 @@
   margin-top: 2em;
 }
 
+.thankyou-tag {
+  margin-top: 6em;
+}
+
 .lottie-social div {
   height: 20em !important;
   width: 20em !important;
+}
+
+.lottie-social {
+  margin-top: 6em;
 }
 
 .get-btndiv {

@@ -759,6 +759,10 @@ g>path:nth-of-type(2) {
   height: 22em;
 }
 
+.content .subscribe h4 {
+  padding: 5% 0% 0% 0%;
+}
+
 @media only screen and (max-width: 800px) {
 
   .Upcoming,
@@ -852,7 +856,7 @@ g>path:nth-of-type(2) {
   }
 
   #Events {
-    margin-top: 1.5em;
+    margin-top: 2em;
   }
 
   .dots-div {
@@ -865,7 +869,7 @@ g>path:nth-of-type(2) {
 
   .content .subscribe h4 {
     font-size: 1em;
-    padding: 0% 10%;
+    padding: 5% 0% 0% 0%;
   }
 }
 

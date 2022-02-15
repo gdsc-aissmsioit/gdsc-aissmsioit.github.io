@@ -165,7 +165,7 @@ const Contact = () => {
                     <h3 id="contact_error" className="text-danger d-none">
                       Please Enter Valid Data!
                     </h3>
-                    <div className="my-5 ">
+                    <div className="my-4">
                       <h1
                         className="text-center font-weight-bolder"
                         style={{
@@ -298,7 +298,7 @@ const Contact = () => {
             <div className="success-submit">
               <Row className="p-2 m-2">
                 <Col sm={12} lg={7} md={7} xl={6.5}>
-                  <div className="contact-tag p-lg-5 p-0 h1">
+                  <div className="contact-tag thankyou-tag p-lg-5 p-0 h1">
                     <Typewriter
                       options={{
                         strings: ["Thank you for your response..."],

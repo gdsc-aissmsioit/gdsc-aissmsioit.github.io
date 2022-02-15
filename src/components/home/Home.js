@@ -135,7 +135,7 @@ const Home = () => {
             <img className="cursor-pointer" src={Home_Svg} alt="Home_Svg" />
           </div>
           <div
-            className="column mt-lg-1"
+            className="column"
             data-aos="fade-left"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
@@ -153,11 +153,13 @@ const Home = () => {
 
             <p className="member-description">
               If you love to code and develop, you are welcome to the world of
-              Google Developer Technologies! Here, you can sharpen your skills
-              through our technical sessions, hands-on workshops and project
-              building activities. We'll be working together as a team to build
-              inspiring solutions to tackle real-world problems. Let us begin
-              this journey of learning and growing together as a community!
+              Google Developer Technologies! GDSC provides you a platform to
+              enhance your technical skills through our free hands-on workshops,
+              study-jams and project building activities. We work together as a
+              team to build inspiring solutions to solve real-world problems.
+              Not only this, top performers also get a chance to win schwags and
+              goodies! Join us and let’s begin this journey of learning and
+              growing together as a community!
             </p>
             <ul>
               <li className="content-item">
@@ -294,7 +296,7 @@ const Home = () => {
             <div className="all-divs text-center mt-lg-5">
               <Fade up>
                 <h1 className="text-center team-home-headings home-headings mt-lg-0">
-                  Meet Our GDSC Lead
+                  Meet The GDSC Lead
                 </h1>
               </Fade>
 
@@ -355,7 +357,7 @@ const Home = () => {
             <div className="all-divs">
               <Fade up>
                 <h1 className="text-center about-home-headings home-headings mt-lg-0">
-                  About Community
+                  About The Community
                 </h1>
               </Fade>
 
@@ -387,8 +389,10 @@ const Home = () => {
               </Fade>
 
               <p className="text-center px-lg-5">
-                Learn about the latest technologies and happening in the IT
-                industry. Head to the page now to learn something new today.
+                Find some useful learning resources here and learn about the
+                journey of GDSC Community Members. If you want your inspiring
+                content to reach the masses, we welcome you to submit your blog.
+                “Knowledge is most useful when liberated and shared!”
               </p>
               <div className="btn-section">
                 <button className="other-btns">
@@ -447,9 +451,9 @@ const Home = () => {
             <div className="all-divs col-lg-6">
               <h1 className="text-center home-headings mt-4">Stay Updated</h1>
               <p className="text-center px-lg-5">
-                Don’t miss out on the latest happenings happening in GDSC AISSMS
-                IOIT, Pune. RSVP below to get updates about the latest workshops
-                and events to be conducted by us.
+                Don’t miss out on the exciting happenings at GDSC, AISSMS IOIT.
+                Become a member now and get updates about our latest workshops
+                and events! Button - change it to “Be a member”
               </p>
               <div className="btn-section mb-0">
                 <a
@@ -457,7 +461,7 @@ const Home = () => {
                   target="_blank"
                   href="https://gdsc.community.dev/aissms-institute-of-information-technology-pune/"
                 >
-                  <button className="other-btns">Join With Us</button>
+                  <button className="other-btns">Be a Member</button>
                 </a>
               </div>
             </div>

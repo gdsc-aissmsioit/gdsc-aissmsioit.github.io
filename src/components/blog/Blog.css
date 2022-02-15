@@ -262,3 +262,9 @@
   align-self: center;
   cursor: pointer;
 }
+
+.author-name {
+  font-style: italic;
+  font-weight: bold;
+  color: #242b2e;
+}

@@ -44,6 +44,10 @@ const BlogCard = ({ blog }) => {
               <NavLink onClick={scrollToTop} to={`/blogs/${blog.id}/`}>
                 <h4>{blog.name}</h4>
               </NavLink>
+              <span className="author-name">
+                {" "}
+                {blog.author.replace(":", ",").split("-")[0]}
+              </span>
 
               <p>
                 {blog.shortDescription.substr(0, 500)}

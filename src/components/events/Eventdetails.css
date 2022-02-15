@@ -28,7 +28,6 @@
   width: 95%;
   overflow: hidden;
   border-radius: 5px;
-  margin-bottom: 4%;
 }
 
 .events-body {
@@ -156,7 +155,7 @@
   font-size: 14px;
   font-style: italic;
   text-transform: uppercase;
-  padding: 12px;
+  padding: 1em 4em;
   background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
   background-image: linear-gradient(45deg,
       #09c6f9 0%,
@@ -172,9 +171,7 @@
   transition: background-position-y ease-in-out 250ms;
   transition: 0.5s;
   box-shadow: 0px 0px 14px -7px #007bff;
-  width: 28%;
-  margin-top: 5%;
-  margin-left: 10%;
+  width: 100%;
 }
 
 .rsvp-btn:hover {
@@ -204,12 +201,5 @@
 
   100% {
     background-position: 0% 50%;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .rsvp-btn {
-    width: 40%;
-    margin-left: 30%;
   }
 }

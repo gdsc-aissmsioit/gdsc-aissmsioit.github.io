@@ -123,12 +123,20 @@ const Blog = () => {
     ) {
       setSubmitBlog({ ...submitBlog, error: "Please Enter Valid Data!" });
     } else {
-      const domains = ["web", "blockchain", "cloud", "dsa/cp", "android", "ai/ml", "general"];
+      const domains = [
+        "web",
+        "blockchain",
+        "cloud",
+        "dsa/cp",
+        "android",
+        "ai/ml",
+        "general",
+      ];
       const domainIndex = domains.indexOf(values.domain.toLowerCase());
 
       if (domainIndex === -1) {
         setSubmitBlog({
-          ...submitBlogForm,  
+          ...submitBlogForm,
           error: "Please Select Valid Domain!",
         });
       } else {
@@ -171,8 +179,8 @@ const Blog = () => {
         });
 
         setSubmitBlog({
-          success: `Thank you for showing your Interest 🤩.  
-                    Your Blog will be Published Soon!`,
+          success: `We appreciate your submission. Your blog will be published soon after our team evaluates it.
+          `,
           error: "",
         });
 
@@ -190,8 +198,11 @@ const Blog = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>BLOGS - GDSC IOIT</title>
-        <meta name="description" content="Learn about the latest technologies and happening in the IT
-                industry. Head to the page now to learn something new today." />
+        <meta
+          name="description"
+          content="Learn about the latest technologies and happening in the IT
+                industry. Head to the page now to learn something new today."
+        />
         <meta
           name="keywords"
           content="gdsc blogs, gdsc aissms blogs, gdsc aissms ioit blogs, dsc, dsc aissms blogs, dsc aissms ioit blogs, gdsc ioit blogs, dsc ioit blogs, ioit dsc blogs, aissms dsc blogs, aissms ioit dsc blogs, aissms ioit gdsc blogs, gdsc-aissms-ioit blogs, gdsc-ioit blogs, dsc-aissms-ioit blogs, dsc-ioit blogs"
@@ -277,6 +288,7 @@ const Blog = () => {
             </div>
 
             <div className="subscribe">
+              <h4>Inspire the community by writing a blog!</h4>
               <h5 className="text-danger mt-4">{submitBlog.error}</h5>
               <h5 className="text-success mt-4 mx-lg-2 px-lg-5 px-1">
                 {submitBlog.success}

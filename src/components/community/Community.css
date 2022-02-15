@@ -104,6 +104,7 @@ body {
 }
 
 .about-body p {
+  padding: 6%;
   text-align: center;
   overflow: hidden;
 }
@@ -196,6 +197,10 @@ body {
 
   .what_we_do {
     margin-top: 22%;
+  }
+
+  .about-body p {
+    text-align: justify;
   }
 }
 
