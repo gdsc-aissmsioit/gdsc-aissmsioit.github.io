@@ -69,16 +69,16 @@ const Index = () => {
           <meta name="audience" content="Everyone" />
           <meta
             name="google-site-verification"
-            content="0xRiG-n146B-0JyL40YxOjPw3MBW2cPULE5NLDJGSBQ"
+            content="XXIh1Tg9IGcxhrp9ijmr6R_UaE5GObbtWmWf_Svr7P0"
           />
         </Helmet>
         <HashRouter>
           <Navbar />
-            <App />
+          <App />
           <Footer />
         </HashRouter>
       </div>
-    </ React.Fragment>
+    </React.Fragment>
   );
 };
 
