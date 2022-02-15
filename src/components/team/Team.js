@@ -281,7 +281,7 @@ const Team = () => {
                   data-tooltip="I am pursuing computer engineering , I like to code , listen songs and Wandering the empty roads alone."
                 >
                   <img
-                    src="https://i.ibb.co/K5WwkbT/HARSHAL-RAUNDAL.jpg"
+                    src="https://i.ibb.co/XbMkh0m/HARSHAL-RAUNDAL.png"
                     className="img-fluid team-img"
                     alt="Lead_Image"
                   />

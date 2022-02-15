@@ -453,7 +453,7 @@ const Home = () => {
               <p className="text-center px-lg-5">
                 Don’t miss out on the exciting happenings at GDSC, AISSMS IOIT.
                 Become a member now and get updates about our latest workshops
-                and events! Button - change it to “Be a member”
+                and events! 
               </p>
               <div className="btn-section mb-0">
                 <a

@@ -47,7 +47,7 @@ const Index = () => {
           <meta name="title" content="GDSC - AISSMS IOIT" />
           <meta
             name="description"
-            content="Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. If you love to code and develop, you're at the right place. Students from all departmental backgrounds are welcome to the world of Tech! Here, you can sharpen your skills through our technical sessions, hands-on workshops and project building activities. We'll be working together as a team to build inspiring solutions to tackle real-world problems. Let us begin this journey of learning and growing together as a community!"
+            content="Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. If you love to code and develop, you are welcome to the world of Google Developer Technologies! GDSC provides you a platform to enhance your technical skills through our free hands-on workshops, study-jams and project building activities. We work together as a team to build inspiring solutions to solve real-world problems. Not only this, top performers also get a chance to win schwags and goodies! Join us and let’s begin this journey of learning and growing together as a community!"
           />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta
