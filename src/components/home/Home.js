@@ -460,10 +460,10 @@ const Home = () => {
         </div>
 
         <Fade up>
-          <div className="container d-flex align-items-center justify-content-center mt-5">
-            <div className="all-divs">
+          <div className="container d-flex align-items-center justify-content-center mt-lg-3 mt-5">
+            <div className="all-divs mt-lg-0 mt-2">
               <Fade up>
-                <h1 className="text-center about-home-headings home-headings mt-4">
+                <h1 className="text-center about-home-headings home-headings mt-5">
                   We Value Our Sponsors
                 </h1>
               </Fade>
@@ -511,7 +511,7 @@ const Home = () => {
         </Fade>
 
         <div className="container d-flex align-items-center justify-content-center my-5">
-          <div className="row mt-5">
+          <div className="row mt-lg-5 mt-2">
             <div className="col-lg-5 offset-lg-1">
               <Fade left>
                 <div className="msg-img-home cursor-pointer text-center">
@@ -527,7 +527,7 @@ const Home = () => {
               <div className="all-divs">
                 <Fade right>
                   <div>
-                    <h1 className="text-center home-headings mt-4">
+                    <h1 className="text-center home-headings">
                       Stay Updated
                     </h1>
                     <p className="px-lg-5 home_text">
