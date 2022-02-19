@@ -406,7 +406,7 @@ const Home = () => {
 
         <div className="container d-flex align-items-center justify-content-center">
           <div className="row my-lg-5">
-            <div className="col-lg-6 offset-lg-1 pl-lg-5">
+            <div className="col-lg-6 offset-lg-1 pl-lg-4">
               <Fade left>
                 <div className="all-divs">
                   <h1 className="text-center home-headings">Blogs</h1>
@@ -433,7 +433,7 @@ const Home = () => {
                 </div>
               </Fade>
             </div>
-            <div className="col-lg-4 offset-lg-1 pl-lg-5">
+            <div className="col-lg-4 offset-lg-1 home_blog_image">
               <Fade right>
                 <div className="msg-img-home cursor-pointer">
                   <img
