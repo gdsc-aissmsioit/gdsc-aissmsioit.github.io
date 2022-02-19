@@ -19,7 +19,7 @@ const Android = [
     id: 2,
     name: "Prathamesh Chaudhari",
     position: "Android Co-Lead",
-    image: "https://i.ibb.co/p08dh50/PRATHMESH-CHAUDHARI.webp",
+    image: "https://i.ibb.co/W32632j/PRATHMESH-CHAUDHARI.jpg",
     alt: "Co_Lead_Image",
     col: 3,
     linkedin: "https://www.linkedin.com/in/prathmeshchaudhari",
@@ -59,7 +59,7 @@ const Android = [
     github: "",
     link: "",
     profile: "",
-    details: "",
+    details: "Hi I’m Het Bhalala from SE Comp, I’m proud GDSC Android Member and  have a desire to learn emerging technology and adapt to changing environment.",
     tooltip: "",
   },
 ];

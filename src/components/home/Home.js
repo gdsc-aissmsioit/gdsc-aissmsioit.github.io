@@ -23,9 +23,9 @@ import { scrollToTop } from "../footer/ScrollToTop";
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 785, 1);
+      numCounter("members", 806, 1);
       numCounter("organizers", 20, 100);
-      numCounter("events", 13, 200);
+      numCounter("events", 15, 200);
       numCounter("projects", 2, 1000);
     }, 1000);
   }, []);
@@ -74,7 +74,7 @@ const Home = () => {
       <Slider {...settings}>
         {upcoming_events_map.length === 0 ? (
           <Fade up>
-            <h5 className="text-center mb-5">{noUpcomingEvents}</h5>
+            <h5 className="text-center">{noUpcomingEvents}</h5>
           </Fade>
         ) : (
           upcoming_events_map
@@ -82,7 +82,7 @@ const Home = () => {
       </Slider>
     ) : upcoming_events_map.length === 0 ? (
       <Fade up>
-        <h5 className="text-center mb-5">{noUpcomingEvents}</h5>
+        <h5 className="text-center">{noUpcomingEvents}</h5>
       </Fade>
     ) : (
       upcoming_events_map
@@ -95,7 +95,7 @@ const Home = () => {
         <Slider {...settings}>
           {upcoming_events_map.length === 0 ? (
             <Fade up>
-              <h5 className="text-center mb-5">{noUpcomingEvents}</h5>
+              <h5 className="text-center">{noUpcomingEvents}</h5>
             </Fade>
           ) : (
             upcoming_events_map
@@ -106,7 +106,7 @@ const Home = () => {
       setEventSlider(
         upcoming_events_map.length === 0 ? (
           <Fade up>
-            <h5 className="text-center mb-5">{noUpcomingEvents}</h5>
+            <h5 className="text-center">{noUpcomingEvents}</h5>
           </Fade>
         ) : (
           upcoming_events_map
@@ -161,7 +161,7 @@ const Home = () => {
               goodies! Join us and let’s begin this journey of learning and
               growing together as a community!
             </p>
-            <ul>
+            <ul className="p-0">
               <li className="content-item">
                 <button className="other-btns">
                   <a
@@ -192,6 +192,18 @@ const Home = () => {
           <div className="container events mt-2 mt-lg-5">{eventSlider}</div>
         </Fade>
 
+        <div className="btn-section">
+          <button className="other-btns">
+            <NavLink
+              className="other-btns-link"
+              onClick={scrollToTop}
+              to="/events"
+            >
+              Check Out All Events
+            </NavLink>
+          </button>
+        </div>
+
         <div className="container text-center mb-5">
           <NavLink onClick={scrollToTop} to="/events/idea/popup/">
             <span className="cta button">
@@ -205,8 +217,6 @@ const Home = () => {
         </div>
 
         <div className="dots">
-          <div className="dot"></div>
-          <div className="dot"></div>
           <div className="dot"></div>
           <div className="dot"></div>
           <div className="dot"></div>
@@ -352,76 +362,105 @@ const Home = () => {
           </div>
         </Fade>
 
-        <Fade up>
-          <div className="container d-flex align-items-center justify-content-center">
-            <div className="all-divs">
-              <Fade up>
-                <h1 className="text-center about-home-headings home-headings mt-lg-0">
-                  About The Community
-                </h1>
-              </Fade>
-
-              <p className="text-center px-lg-5">
-                GDSC community thrives to spread awareness about technolgies and
-                engage students in multiple events so that they grow as a
-                developer and meet like minded people.
-              </p>
-              <div className="btn-section">
-                <button className="other-btns">
-                  <NavLink
-                    className="other-btns-link"
-                    onClick={scrollToTop}
-                    to="/about"
-                  >
-                    Check Out
-                  </NavLink>
-                </button>
-              </div>
-            </div>
-          </div>
-        </Fade>
-
-        <Fade up>
-          <div className="container d-flex align-items-center justify-content-center">
-            <div className="all-divs">
-              <Fade up>
-                <h1 className="text-center home-headings">Blogs</h1>
-              </Fade>
-
-              <p className="text-center px-lg-5">
-                Find some useful learning resources here and learn about the
-                journey of GDSC Community Members. If you want your inspiring
-                content to reach the masses, we welcome you to submit your blog.
-                “Knowledge is most useful when liberated and shared!”
-              </p>
-              <div className="btn-section">
-                <button className="other-btns">
-                  <NavLink
-                    onClick={scrollToTop}
-                    to="/blogs"
-                    className="other-btns-link"
-                  >
-                    Check Out
-                  </NavLink>
-                </button>
-
-                <div className="container text-center mt-5">
-                  <NavLink onClick={scrollToTop} to="/blogs/idea/popup/">
-                    <span className="cta button">
-                      <span>Submit Your Blog</span>
-                      <svg width="13px" height="10px" viewBox="0 0 13 10">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </span>
-                  </NavLink>
+        <div className="container d-flex align-items-center justify-content-center">
+          <div className="row my-lg-5">
+            <div className="col-lg-5 offset-lg-1">
+              <Fade left>
+                <div className="msg-img-home cursor-pointer text-center">
+                  <img
+                    src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258208/blogs/WhatsApp_Image_2022-02-19_at_1.19.27_PM_2_ko2uxt.jpg"
+                    alt="about_us"
+                    className="about_us"
+                  />
                 </div>
+              </Fade>
+            </div>
+            <div className="col-lg-6">
+              <div className="all-divs">
+                <Fade right>
+                  <h1 className="text-center about-home-headings home-headings mt-lg-0">
+                    About The Community
+                  </h1>
+
+                  <p className="home_text pr-lg-5">
+                    GDSC community thrives to spread awareness about technolgies
+                    and engage students in multiple events so that they grow as
+                    a developer and meet like minded people.
+                  </p>
+                  <div className="btn-section">
+                    <button className="other-btns">
+                      <NavLink
+                        className="other-btns-link"
+                        onClick={scrollToTop}
+                        to="/about"
+                      >
+                        Check Out
+                      </NavLink>
+                    </button>
+                  </div>
+                </Fade>
               </div>
             </div>
           </div>
-        </Fade>
+        </div>
+
+        <div className="container d-flex align-items-center justify-content-center">
+          <div className="row my-lg-5">
+            <div className="col-lg-6 offset-lg-1 pl-lg-5">
+              <Fade left>
+                <div className="all-divs">
+                  <h1 className="text-center home-headings">Blogs</h1>
+
+                  <p className="home_text">
+                    Find some useful learning resources here and learn about the
+                    journey of GDSC Community Members. If you want your
+                    inspiring content to reach the masses, we welcome you to
+                    submit your blog. “Knowledge is most useful when liberated
+                    and shared!”
+                  </p>
+
+                  <div className="btn-section">
+                    <button className="other-btns">
+                      <NavLink
+                        onClick={scrollToTop}
+                        to="/blogs"
+                        className="other-btns-link"
+                      >
+                        Check Out
+                      </NavLink>
+                    </button>
+                  </div>
+                </div>
+              </Fade>
+            </div>
+            <div className="col-lg-4 offset-lg-1 pl-lg-5">
+              <Fade right>
+                <div className="msg-img-home cursor-pointer">
+                  <img
+                    src="https://i.ibb.co/wrg6y1s/Home-Blog.jpg"
+                    alt="about_us"
+                    className="about_us"
+                  />
+                </div>
+              </Fade>
+            </div>
+
+            <div className="container text-center">
+              <NavLink onClick={scrollToTop} to="/blogs/idea/popup/">
+                <span className="cta button">
+                  <span>Submit Your Blog</span>
+                  <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </span>
+              </NavLink>
+            </div>
+          </div>
+        </div>
+
         <Fade up>
-          <div className="container d-flex align-items-center justify-content-center">
+          <div className="container d-flex align-items-center justify-content-center mt-5">
             <div className="all-divs">
               <Fade up>
                 <h1 className="text-center about-home-headings home-headings mt-4">
@@ -429,44 +468,88 @@ const Home = () => {
                 </h1>
               </Fade>
 
-              <p className="text-center">
-                <img
-                  className="sponser-img"
-                  src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644751901/blogs/techm_pmpipl.png"
-                  alt="sponser_img"
-                />
-                <br />
-                <p className="tech-mahindra pt-0">
-                  Tech Mahindra represents the connected world, offering
-                  innovation &amp; human-centric technology experiences to their
-                  customers, stakeholders &amp; communities.
-                </p>
-              </p>
-            </div>
-          </div>
-        </Fade>
-
-        <Fade up>
-          <div className="container d-flex align-items-center justify-content-center mt-5">
-            <div className="all-divs col-lg-6">
-              <h1 className="text-center home-headings mt-4">Stay Updated</h1>
-              <p className="text-center px-lg-5">
-                Don’t miss out on the exciting happenings at GDSC, AISSMS IOIT.
-                Become a member now and get updates about our latest workshops
-                and events! 
-              </p>
-              <div className="btn-section mb-0">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://gdsc.community.dev/aissms-institute-of-information-technology-pune/"
-                >
-                  <button className="other-btns">Be a Member</button>
-                </a>
+              <div className="row mt-lg-5">
+                <Fade left>
+                  <div className="col-lg-6">
+                    <div className="text-center">
+                      <img
+                        className="sponser-img"
+                        src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644751901/blogs/techm_pmpipl.png"
+                        alt="sponser_img"
+                      />
+                      <br />
+                      <p className="tech-mahindra pt-0">
+                        Tech Mahindra represents the connected world, offering
+                        innovation &amp; human-centric technology experiences to
+                        their customers, stakeholders &amp; communities.
+                      </p>
+                    </div>
+                  </div>
+                </Fade>
+                <Fade right>
+                  <div className="col-lg-6">
+                    <div className="text-center">
+                      <img
+                        className="sponser-img"
+                        src="https://www.regexsoftware.com/wp-content/uploads/2020/02/whatsapp-dp-1-e1582009388784.png"
+                        alt="sponser_img"
+                      />
+                      <br />
+                      <p className="regex-software pt-2">
+                        REGex is devised to bring an extra edge to information
+                        technology. Always opens on all sort of technical
+                        projects and trainings like Python, Web, Android and iOS
+                        App, Cloud and many more. REGex work to bring your
+                        imagination into reality.
+                      </p>
+                    </div>
+                  </div>
+                </Fade>
               </div>
             </div>
           </div>
         </Fade>
+
+        <div className="container d-flex align-items-center justify-content-center my-5">
+          <div className="row mt-5">
+            <div className="col-lg-5 offset-lg-1">
+              <Fade left>
+                <div className="msg-img-home cursor-pointer text-center">
+                  <img
+                    src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258203/blogs/WhatsApp_Image_2022-02-19_at_1.19.28_PM_drgj4s.jpg"
+                    alt="about_us"
+                    className="about_us"
+                  />
+                </div>
+              </Fade>
+            </div>
+            <div className="col-lg-6">
+              <div className="all-divs">
+                <Fade right>
+                  <div>
+                    <h1 className="text-center home-headings mt-4">
+                      Stay Updated
+                    </h1>
+                    <p className="px-lg-5 home_text">
+                      Don’t miss out on the exciting happenings at GDSC, AISSMS
+                      IOIT. Become a member now and get updates about our latest
+                      workshops and events!
+                    </p>
+                    <div className="btn-section mb-0">
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://gdsc.community.dev/aissms-institute-of-information-technology-pune/"
+                      >
+                        <button className="other-btns">Be a Member</button>
+                      </a>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <Bubbles />

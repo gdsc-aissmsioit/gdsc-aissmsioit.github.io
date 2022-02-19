@@ -171,7 +171,7 @@ const Team = () => {
                 <h3 className="font-weight-bold">GDSC Lead</h3>
               </Fade>
 
-              <div id="anim">
+              <div>
                 <span
                   className="Tooltip gdsc_lead_tooltip"
                   data-tooltip="Hi! I'm Prarthana. I love to sleep but coding is my coffee ;) I enjoy problem solving and competitive coding. I'm currently learning Node.js and I'm loving it. Can't wait to meet you guys in a GDSC offline event!"
@@ -263,20 +263,20 @@ const Team = () => {
           {teams.web}
         </div>
 
-        <div id="cloud_team" className="row">
+        <div id="cloud_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Cloud Team</h3>
           </Fade>
           {teams.cloud}
         </div>
 
-        <div id="dsa_cp_team" className="row">
+        <div id="dsa_cp_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">DSA/CP Team</h3>
           </Fade>
           <Fade up>
             <div className="col-lg-12 col-sm-12 teams">
-              <div id="anim">
+              <div>
                 <span
                   className="Tooltip dsa_cp_tooltip"
                   data-tooltip="I am pursuing computer engineering , I like to code , listen songs and Wandering the empty roads alone."
@@ -339,7 +339,7 @@ const Team = () => {
           </Fade>
         </div>
 
-        <div id="ml_team" className="row">
+        <div id="ml_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">
               Machine Learning Team
@@ -348,14 +348,14 @@ const Team = () => {
           {teams.ml}
         </div>
 
-        <div id="android_team" className="row">
+        <div id="android_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Android Team</h3>
           </Fade>
           {teams.android}
         </div>
 
-        <div id="management_team" className="row">
+        <div id="management_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Management Team</h3>
           </Fade>

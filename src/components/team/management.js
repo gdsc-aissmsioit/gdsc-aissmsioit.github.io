@@ -57,7 +57,8 @@ const Management = [
     link: "https://leetcode.com/sanyuktakamble4/",
     profile: "https://gdsc.community.dev/u/m48w4k/#/about",
     details: "I am a UX designer and also love contributing to society by technology. Apart from coding, I am also an avid reader and a part-time writer. I love doing new things and making the best memories out of it",
-    tooltip: "cloud_ml_tooltip"
+    tooltip: "cloud_ml_tooltip",
+    margin: "social_media_lead",
   },
   {
     id: 5,
@@ -72,7 +73,8 @@ const Management = [
     link: "https://www.artstation.com/pornimalokhande0210",
     profile: "https://gdsc.community.dev/u/mp2p7m/",
     details: "I have been working as a freelance graphic and UI/UX designer since the moment I found coding boring ;). I have also cofounded a startup where I work as the lead designer.",
-    tooltip: "cloud_ml_tooltip"
+    tooltip: "cloud_ml_tooltip",
+    margin: "design_lead",
   },
 ];
 

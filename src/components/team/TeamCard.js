@@ -7,8 +7,8 @@ import Gdsc_All from "../../images/gdsc-all.png";
 const TeamCard = (props) => {
   return (
     <Fade up>
-      <div className={`col-lg-${props.member.col} col-12 teams`}>
-        <div id="anim">
+      <div className={`col-lg-${props.member.col} col-12 teams ${props.member.margin}`}>
+        <div>
           <span
             className={`Tooltip ${props.member.tooltip}`}
             data-tooltip={props.member.details}

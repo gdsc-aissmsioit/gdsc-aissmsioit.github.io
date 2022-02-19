@@ -327,7 +327,7 @@ Coming to the application`,
       />
     ),
 
-    author: "Omkar Patil: Management Lead - GDSC, AISSMS IOIT",
+    author: "Omkar Danave: Management Lead - GDSC, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644918411/blogs/omkar_blog_img_wdmlmd.jpg",
     category: "Non- Technical",

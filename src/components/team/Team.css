@@ -40,17 +40,6 @@
   cursor: pointer;
 }
 
-/* .img-fluid.out {
-    animation-name: out;
-    animation-duration: 2s;
-}
-
-.img-fluid.over {
-    animation-name: in;
-    animation-duration: 2s;
-    transform: scale(1.1);
-} */
-
 @keyframes in {
   from {
     transform: scale(1);
@@ -326,4 +315,8 @@
 
 .team-gdsc-logo:hover {
   transform: scale(1.2);
+}
+
+.social_media_lead, .design_lead {
+  margin-top: 8rem;
 }
