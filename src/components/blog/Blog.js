@@ -149,6 +149,7 @@ const Blog = () => {
           lead["name"] = values.name;
           lead["email"] = values.email;
           lead["title"] = values.title;
+          lead["domain"] = values.domain;
           lead["coverImage"] = values.coverImage;
           lead["content"] = values.content;
 
