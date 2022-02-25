@@ -23,10 +23,10 @@ import { scrollToTop } from "../footer/ScrollToTop";
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 806, 1);
+      numCounter("members", 816, 1);
       numCounter("organizers", 20, 100);
-      numCounter("events", 15, 200);
-      numCounter("projects", 2, 1000);
+      numCounter("events", 1895, 200);
+      numCounter("projects", 28, 1000);
     }, 1000);
   }, []);
 
@@ -236,17 +236,17 @@ const Home = () => {
 
                 <div className="col-lg-3 col-6 text-center">
                   <span id="organizers">0</span>
-                  <p>Organizers</p>
+                  <p>Attendees</p>
                 </div>
 
                 <div className="col-lg-3 col-6 text-center">
                   <span id="events">0</span>
-                  <p>Events</p>
+                  <p>Organizers</p>
                 </div>
 
                 <div className="col-lg-3 col-6 text-center">
                   <span id="projects">0</span>
-                  <p>Workshops</p>
+                  <p>Events and Workshops</p>
                 </div>
               </div>
             </div>

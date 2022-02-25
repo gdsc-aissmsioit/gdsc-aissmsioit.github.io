@@ -1,7 +1,7 @@
 const Cloud = [
   {
     id: 1,
-    name: "Shrinivas Khond",
+    name: "Shriniwas Khond",
     position: "Cloud Lead",
     image: "https://i.ibb.co/x7xHcyz/Shriniwas-Khond.png" ,
     alt: "Lead_Image",
