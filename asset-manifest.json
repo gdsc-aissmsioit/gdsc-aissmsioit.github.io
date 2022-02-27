@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e414dffc.css",
-    "main.js": "/static/js/main.586f7af6.js",
+    "main.css": "/static/css/main.716faf9c.css",
+    "main.js": "/static/js/main.f50093c9.js",
     "static/js/787.c0d5fc75.chunk.js": "/static/js/787.c0d5fc75.chunk.js",
     "static/media/Home.gif": "/static/media/Home.e6453183cd7137474a89.gif",
     "static/media/Team.gif": "/static/media/Team.4e178f043864caf2c420.gif",
@@ -14,7 +14,6 @@
     "static/media/GoogleSans-Regular.woff": "/static/media/GoogleSans-Regular.d822df7a3f9a23640e87.woff",
     "static/media/GoogleSans-Regular.woff2": "/static/media/GoogleSans-Regular.8a085c1ee088a9571a3f.woff2",
     "static/media/logo.png": "/static/media/logo.fe77cf292bc1adc237da.png",
-    "static/media/Envelope-bro.svg": "/static/media/Envelope-bro.833dbade652925ef4a2746a0d8a324d4.svg",
     "static/media/logo.jpg": "/static/media/logo.4caae11dc1d366226e2c.jpg",
     "static/media/gdsc-all.png": "/static/media/gdsc-all.9cc6b2a1a804f65b6869.png",
     "index.html": "/index.html",
@@ -22,12 +21,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.e414dffc.css.map": "/static/css/main.e414dffc.css.map",
-    "main.586f7af6.js.map": "/static/js/main.586f7af6.js.map",
+    "main.716faf9c.css.map": "/static/css/main.716faf9c.css.map",
+    "main.f50093c9.js.map": "/static/js/main.f50093c9.js.map",
     "787.c0d5fc75.chunk.js.map": "/static/js/787.c0d5fc75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e414dffc.css",
-    "static/js/main.586f7af6.js"
+    "static/css/main.716faf9c.css",
+    "static/js/main.f50093c9.js"
   ]
 }
