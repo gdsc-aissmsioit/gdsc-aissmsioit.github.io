@@ -5,8 +5,6 @@ import Lottie from "react-lottie";
 import animationData from "./social-media-influencer.json";
 import Typewriter from "typewriter-effect";
 
-import Animation from "../../images/getintouch/Envelope-bro.svg";
-
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
@@ -149,19 +147,19 @@ const Contact = () => {
           {isSubmit === false ? (
             <div>
               <Row>
-                <Col sm={12} lg={5} md={5} xl={5}>
+                <Col sm={12} lg={{ span: 5, offset: 1 }} md={{ span: 5, offset: 1 }} xl={{ span: 5, offset: 1 }}>
                   <div className="contact-illustration">
                     <Fade left>
                       <img
-                        className="img-fluid"
-                        src={Animation}
+                        className="img-fluid contact_img"
+                        src="https://i.ibb.co/d66qDG9/Get-In-Touch.png"
                         alt="Animation_Image"
                       />
                     </Fade>
                   </div>
                 </Col>
 
-                <Col sm={12} lg={7} md={7} xl={7}>
+                <Col sm={12} lg={6} md={6} xl={6}>
                   <Zoom out>
                     <h3 id="contact_error" className="text-danger d-none">
                       Please Enter Valid Data!
@@ -180,7 +178,7 @@ const Contact = () => {
                       </h1>
                     </div>
                     <div className="row">
-                      <div className="col-md-6 col-10 mx-auto">
+                      <div className="col-md-7 col-10 mx-auto">
                         <div className="mb-3">
                           <form onSubmit={formSubmit}>
                             <div className="mb-3">

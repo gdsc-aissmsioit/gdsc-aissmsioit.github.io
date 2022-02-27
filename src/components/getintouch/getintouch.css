@@ -28,6 +28,11 @@
   font-size: 1.2em !important;
 }
 
+.contact_img {
+  width: 90%;
+  height: 90%;
+} 
+
 .contact-input {
   font-size: 1em !important;
   padding: 1% 2%;
@@ -137,4 +142,9 @@
   .lottie-social div {
     margin-left: -3.5em !important;
   }
+
+  .contact_img {
+    width: 100%;
+    height: 100%;
+  }   
 }
