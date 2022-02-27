@@ -606,7 +606,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-animation: float 8s ease-in-out infinite;
   -moz-animation: float 8s ease-in-out infinite;
   -o-animation: float 8s ease-in-out infinite;
-  z-index: 5;
+  z-index: -5;
 }
 
 .dots .dot:nth-of-type(3) {
