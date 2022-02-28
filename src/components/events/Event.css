@@ -856,7 +856,7 @@ g>path:nth-of-type(2) {
   }
 
   #Events {
-    margin-top: 1.5em;
+    margin-top: 20%;
   }
 
   .dots-div {
@@ -908,5 +908,11 @@ g>path:nth-of-type(2) {
 
   .btm-18 {
     bottom: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .events_heading {
+    margin-top: 20% !important;
   }
 }

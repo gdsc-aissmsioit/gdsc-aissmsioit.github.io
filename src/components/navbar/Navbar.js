@@ -109,7 +109,7 @@ const Navbar = () => {
             </div>
             <div className="col-12 col-md-8 second-div">
               <nav className="site-navigation position-relative text-right">
-                <ul id="main-ul" className="site-menu p-0 m-0">
+                <ul id="main-ul" className="site-menu nav-tab-view p-0 m-0">
                   <li>
                     <NavLink to="/">
                       <span

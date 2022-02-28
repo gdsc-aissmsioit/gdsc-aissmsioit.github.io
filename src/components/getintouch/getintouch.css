@@ -148,3 +148,13 @@
     height: 100%;
   }   
 }
+
+@media screen and (max-width: 1200px) {
+  .contact-col, .contact-form {
+    width: 100%;
+  }
+
+  .contact_tag {
+    margin-top: 25%;
+  }
+}

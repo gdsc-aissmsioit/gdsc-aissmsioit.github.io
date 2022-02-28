@@ -122,7 +122,7 @@ const Contact = () => {
         <div className="container-fluid contact-divi p-3">
           <Row>
             {isSubmit === false && (
-              <div className="contact-tag px-lg-5">
+              <div className="contact-tag px-lg-5 contact_tag">
                 <Typewriter
                   options={{
                     strings: ["Want to ask something?"],
@@ -147,7 +147,7 @@ const Contact = () => {
           {isSubmit === false ? (
             <div>
               <Row>
-                <Col sm={12} lg={{ span: 5, offset: 1 }} md={{ span: 5, offset: 1 }} xl={{ span: 5, offset: 1 }}>
+                <Col className="contact-col" sm={12} lg={{ span: 5, offset: 1 }} md={{ span: 5, offset: 1 }} xl={{ span: 5, offset: 1 }}>
                   <div className="contact-illustration">
                     <Fade left>
                       <img
@@ -159,7 +159,7 @@ const Contact = () => {
                   </div>
                 </Col>
 
-                <Col sm={12} lg={6} md={6} xl={6}>
+                <Col className="contact-form" sm={12} lg={6} md={6} xl={6}>
                   <Zoom out>
                     <h3 id="contact_error" className="text-danger d-none">
                       Please Enter Valid Data!

@@ -219,7 +219,7 @@ const Blog = () => {
         data-aos-anchor-placement="top-center"
         className="row mt-1 pl-lg-5 ml-lg-2"
       >
-        <div id="Events" className="mb-33" style={{ marginBottom: "33px" }}>
+        <div id="Events" className="mb-33 blogs_heading" style={{ marginBottom: "33px" }}>
           <span>Blogs</span>
           <span role="img" aria-label=""></span>
         </div>

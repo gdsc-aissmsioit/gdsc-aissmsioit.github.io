@@ -320,3 +320,10 @@
 .social_media_lead, .design_lead {
   margin-top: 8rem;
 }
+
+@media (max-width: 1200px) {
+  .vector-img {
+    margin-top: 18%;
+    width: 100%;
+  }
+}

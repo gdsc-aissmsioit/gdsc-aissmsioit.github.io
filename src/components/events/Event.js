@@ -440,7 +440,7 @@ const Event = () => {
           data-aos-anchor-placement="top-center"
           className="row pl-lg-5 mb-4"
         >
-          <div id="Events">
+          <div id="Events" className="events_heading">
             <span>Events</span>
             <span role="img" aria-label=""></span>
           </div>

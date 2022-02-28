@@ -82,11 +82,13 @@ body::-webkit-scrollbar-thumb {
 .animate-character {
   margin-top: 8rem;
   text-transform: capitalize;
-  background-image: linear-gradient(-225deg,
-      #4285f4 0%,
-      #0f9d58 29%,
-      #ee8379 67%,
-      #fff800 100%);
+  background-image: linear-gradient(
+    -225deg,
+    #4285f4 0%,
+    #0f9d58 29%,
+    #ee8379 67%,
+    #fff800 100%
+  );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -286,17 +288,23 @@ body::-webkit-scrollbar-thumb {
 /*COUNTERS #FIXME:*/
 .counts {
   margin: -20px;
-  background: linear-gradient(90deg,
-      rgba(70, 192, 249, 0.5) 0%,
-      rgba(70, 192, 249, 0.5) 100%);
-  background-image: linear-gradient(45deg,
-      #3aacee 0%,
-      #3aacee 51%,
-      #3aacee 100%);
-  background-image: linear-gradient(45deg,
-      #2eb62c 0%,
-      #57c84d 51%,
-      #83d475 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 192, 249, 0.5) 0%,
+    rgba(70, 192, 249, 0.5) 100%
+  );
+  background-image: linear-gradient(
+    45deg,
+    #3aacee 0%,
+    #3aacee 51%,
+    #3aacee 100%
+  );
+  background-image: linear-gradient(
+    45deg,
+    #2eb62c 0%,
+    #57c84d 51%,
+    #83d475 100%
+  );
   padding: 40px 0 30px 0;
   margin-top: 6em;
 }
@@ -328,10 +336,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .other-btns {
-  background-image: linear-gradient(45deg,
-      #09c6f9 0%,
-      #007bff 51%,
-      #009ffd 100%);
+  background-image: linear-gradient(
+    45deg,
+    #09c6f9 0%,
+    #007bff 51%,
+    #009ffd 100%
+  );
   pointer-events: auto;
   cursor: pointer;
   border: none;
@@ -375,17 +385,21 @@ body::-webkit-scrollbar-thumb {
 /*TODO: submit blog btn*/
 .submit-blog-btn {
   background-color: #34a853;
-  background-image: radial-gradient(200% 70% at center 20%,
-      rgba(48, 44, 45, 1) -30%,
-      rgba(50, 46, 47, 1) 49%,
-      rgba(22, 18, 19, 1) 50%,
-      rgba(22, 18, 19, 1) 150%);
+  background-image: radial-gradient(
+    200% 70% at center 20%,
+    rgba(48, 44, 45, 1) -30%,
+    rgba(50, 46, 47, 1) 49%,
+    rgba(22, 18, 19, 1) 50%,
+    rgba(22, 18, 19, 1) 150%
+  );
   background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
   background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
-  background-image: linear-gradient(45deg,
-      #09c6f9 0%,
-      #007bff 51%,
-      #009ffd 100%);
+  background-image: linear-gradient(
+    45deg,
+    #09c6f9 0%,
+    #007bff 51%,
+    #009ffd 100%
+  );
   background-size: 800% 400%;
   transition: all 0.5s ease-in-out;
   animation: gradient 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
@@ -452,7 +466,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /** EVENTS **/
-.home-svg>img {
+.home-svg > img {
   width: 100%;
   height: 100%;
   margin-left: 10%;
@@ -885,11 +899,24 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1200px) {
   .home_blogs_text,
   .home_about_text {
     padding: 0em;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .home-svg {
+    margin-top: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-svg {
+    margin-top: 0% !important;
   }
 }
 
@@ -921,7 +948,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media only screen and (max-width: 425px) {
-
   /*Small smartphones [325px -> 425px]*/
   .msg-img-home {
     display: none;
@@ -929,5 +955,14 @@ body::-webkit-scrollbar-thumb {
 
   .svg-home-margins {
     margin-left: 0;
+  }
+}
+/*Tab View*/
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .tab-view-css {
+    margin: 0 auto;
+  }
+  .nav-tab-view {
+    padding-left: 50%;
   }
 }

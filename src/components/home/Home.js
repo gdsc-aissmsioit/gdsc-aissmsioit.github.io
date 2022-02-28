@@ -366,7 +366,7 @@ const Home = () => {
           <div className="row my-lg-5">
             <div className="col-lg-5 offset-lg-1">
               <Fade left>
-                <div className="msg-img-home cursor-pointer text-center">
+                <div className="msg-img-home cursor-pointer text-center tab-view-css">
                   <img
                     src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258208/blogs/WhatsApp_Image_2022-02-19_at_1.19.27_PM_2_ko2uxt.jpg"
                     alt="about_us"
@@ -435,7 +435,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 offset-lg-1 home_blog_image">
               <Fade right>
-                <div className="msg-img-home cursor-pointer">
+                <div className="msg-img-home cursor-pointer tab-view-css">
                   <img
                     src="https://i.ibb.co/wrg6y1s/Home-Blog.jpg"
                     alt="about_us"
@@ -514,7 +514,7 @@ const Home = () => {
           <div className="row mt-lg-5 mt-2">
             <div className="col-lg-5 offset-lg-1">
               <Fade left>
-                <div className="msg-img-home cursor-pointer text-center">
+                <div className="msg-img-home cursor-pointer text-center tab-view-css">
                   <img
                     src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258203/blogs/WhatsApp_Image_2022-02-19_at_1.19.28_PM_drgj4s.jpg"
                     alt="about_us"
@@ -527,9 +527,7 @@ const Home = () => {
               <div className="all-divs">
                 <Fade right>
                   <div>
-                    <h1 className="text-center home-headings">
-                      Stay Updated
-                    </h1>
+                    <h1 className="text-center home-headings">Stay Updated</h1>
                     <p className="px-lg-5 home_text">
                       Don’t miss out on the exciting happenings at GDSC, AISSMS
                       IOIT. Become a member now and get updates about our latest

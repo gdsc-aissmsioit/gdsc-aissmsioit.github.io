@@ -49,19 +49,19 @@ li {
   display: inline-block;
 }
 
-.site-navbar .site-navigation .site-menu>li {
+.site-navbar .site-navigation .site-menu > li {
   display: inline-block;
   text-align: center;
 }
 
-.site-navbar .site-navigation .site-menu>li>a {
+.site-navbar .site-navigation .site-menu > li > a {
   padding: 10px 2px;
   color: #fff;
   color: black;
   text-decoration: none !important;
 }
 
-.site-navbar .site-navigation .site-menu>li>a>span {
+.site-navbar .site-navigation .site-menu > li > a > span {
   padding: 5px 20px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -153,17 +153,19 @@ li span {
     height: 100%;
   }
 
-  .site-navbar .site-navigation .site-menu>li {
+  .site-navbar .site-navigation .site-menu > li {
     display: block;
   }
 }
 
 .beamember {
   background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
-  background-image: linear-gradient(45deg,
-      #09c6f9 0%,
-      #007bff 51%,
-      #009ffd 100%);
+  background-image: linear-gradient(
+    45deg,
+    #09c6f9 0%,
+    #007bff 51%,
+    #009ffd 100%
+  );
   background-size: 800% 400%;
   display: inline-block;
   border: none;
@@ -221,18 +223,22 @@ li span {
   .site-menu {
     width: 126%;
   }
+  
+  .site-logo a {
+    margin: 0%;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .site-menu {
-    width: 110%;
+    width: 161%;
   }
 
   .second-div {
     width: 100%;
   }
 
-  .home-svg>img {
+  .home-svg > img {
     width: 22em;
     height: 26em;
     margin-top: 6em;
@@ -251,5 +257,11 @@ li span {
   .site-logo a {
     margin-left: 0em;
     margin-top: 1em;
+  }
+}
+/*Tab View*/
+@media only screen and (min-width: 810px) and (max-width: 1091px) {
+  .nav-tab-view {
+    padding-left: 50%;
   }
 }
