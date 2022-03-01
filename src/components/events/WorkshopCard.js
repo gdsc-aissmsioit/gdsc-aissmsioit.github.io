@@ -28,7 +28,7 @@ const WorkshopCard = (props) => {
         />
       </NavLink>
       <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-13">
-        <span>{props.workshop.name}</span>
+        <span className="workshop_name">{props.workshop.name}</span>
       </div>
       <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-10">
         <span>{props.workshop.dateAlt}</span>

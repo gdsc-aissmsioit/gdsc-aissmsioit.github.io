@@ -162,6 +162,7 @@ body {
 }
 
 .n_0_Days_Of_Google__Cloud_Prog_bb {
+  padding: 0% 12%;
   text-align: center;
   font-family: Segoe UI;
   font-style: normal;
@@ -170,6 +171,10 @@ body {
   letter-spacing: 0.05px;
   position: relative;
   width: 100%;
+}
+
+.event_name, .workshop_name {
+  font-size: 18px;
 }
 
 .OPEN_bc {
@@ -182,6 +187,7 @@ body {
   letter-spacing: 3px;
   position: relative;
   cursor: pointer;
+  margin-top: 5%;
 }
 
 .OPEN_bc:hover {
@@ -206,6 +212,7 @@ body {
 
 .n_0_days_of_Google_Cloud_Progr {
   filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.161));
+  height: 350px;
   width: 100%;
   position: relative;
   padding: 20% 20% 10% 20%;
@@ -871,6 +878,15 @@ g>path:nth-of-type(2) {
     font-size: 1em;
     padding: 5% 0% 0% 0%;
   }
+
+  .n_0_Days_Of_Google__Cloud_Prog_bb {
+    padding: 0%;
+  }
+
+  .n_0_days_of_Google_Cloud_Progr {
+    height: 280px;
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -889,7 +905,7 @@ g>path:nth-of-type(2) {
 
   .Path_39_ba {
     margin: 0%;
-    height: 400px;
+    height: 440px;
     width: 100%;
   }
 

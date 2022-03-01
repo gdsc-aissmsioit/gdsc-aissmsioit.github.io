@@ -5,6 +5,8 @@ import workshops from "./workshops";
 
 import "./Eventdetails.css";
 
+import Fade from "react-reveal/Fade";
+
 import { Helmet } from "react-helmet";
 
 const Workshopdetails = () => {
@@ -82,22 +84,33 @@ const Workshopdetails = () => {
               <span>
                 <b>Speaker :</b> {workshop.speaker}
               </span>
+              {workshop.facilitator ? (
+                <span>
+                  <b>Facilitator :</b> {workshop.facilitator}
+                </span>
+              ) : (
+                <></>
+              )}
               <div>
-                <b>Description :</b>{" "}
+                <b>Description :</b>
                 {points.map((point) => (
                   <li>{point}</li>
                 ))}
               </div>
             </div>
-            {upcoming ? (
-              <a target="_blank" rel="noreferrer" href={workshop.eventLink}>
-                <button className="rsvp-btn">Rsvp</button>
-              </a>
-            ) : (
-              <></>
-            )}
           </div>
         </div>
+        <Fade up>
+          {upcoming ? (
+            <a target="_blank" rel="noreferrer" href={workshop.eventLink}>
+              <button className="rsvp-btn">Rsvp</button>
+            </a>
+          ) : (
+            <a target="_blank" rel="noreferrer" href={workshop.eventLink}>
+              <button className="rsvp-btn">Recording and PPT</button>
+            </a>
+          )}
+        </Fade>
       </div>
     </>
   );

@@ -29,7 +29,7 @@ const EventCard = (props) => {
         />
       </NavLink>
       <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-13 mt-lg-0 mt-3">
-        <span>{props.event.name}</span>
+        <span className="event_name">{props.event.name}</span>
       </div>
       <div className="n_0_Days_Of_Google__Cloud_Prog_bb btm-10">
         <span>{props.event.dateAlt}</span>
