@@ -69,7 +69,7 @@ const workshops = [
     speaker: "",
     facilitator: "Ashish Patil",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-2/",
-    imageSrc: "https://www.upwork.com/catalog-images-resized/75f5f1be4668779a47e3c36375bf2b34/large",
+    imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-right",
   },
   {
@@ -82,7 +82,7 @@ const workshops = [
     speaker: "",
     facilitator: "Ashish Patil",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-1/",
-    imageSrc: "https://www.upwork.com/catalog-images-resized/75f5f1be4668779a47e3c36375bf2b34/large",
+    imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-up",
   },
   {
@@ -94,7 +94,7 @@ const workshops = [
     about: "In continuation of the Dart Essentials workshop, we'll use the data models which we built and turn them into apps using Flutter. We'll finally start seeing the results of our code onto the mobile screen!! We'll be going through all the Flutter basics including widgets, navigation and much more, so don't forget to RSVP and attend!!",
     speaker: "Parth Desai, Flutter Developer Intern, AmazeYoo",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-2/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_500,q_auto:good,w_500/v1/gcs/platform-data-dsc/events/FlutterFestival_Thumbnail_Dark_1080x1080_xeb9O7k.jpg",
+    imageSrc: "https://i.ibb.co/TmKCD4Y/Flutter-Festivals-Day-2.jpg",
     dataAos: "fade-left",
   },
   {
@@ -106,7 +106,7 @@ const workshops = [
     about: "Want to embark on your Flutter Development Journey? Well, we've got you covered!! Join us for our Dart Essentials Workshop and learn everything about Dart that you need to know to start with Flutter. Dart is a client-optimized programming language for fast apps on any platform. The various features for dart include : 1. Dart is optimized for UI, so you'll be able to create beautiful applications in no time. 2. Dart has a productive development, which will get you wanting to do more and more. 3. Dart is fast on all platforms.",
     speaker: "Parth Desai, Flutter Developer Intern, AmazeYoo",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-1/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_500,q_auto:good,w_500/v1/gcs/platform-data-dsc/events/FlutterFestival_Thumbnail_Dark_1080x1080_xeb9O7k.jpg",
+    imageSrc: "https://i.ibb.co/KXdW7QP/Flutter-Festivals-Day-1.jpg",
     dataAos: "fade-right",
   },
   {

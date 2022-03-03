@@ -20,7 +20,7 @@ const upcoming = [{
     speaker: "",
     facilitator: "Ashish Patil",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-2/",
-    imageSrc: "https://www.upwork.com/catalog-images-resized/75f5f1be4668779a47e3c36375bf2b34/large",
+    imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-right",
   },
   {
@@ -33,9 +33,9 @@ const upcoming = [{
     speaker: "",
     facilitator: "Ashish Patil",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-1/",
-    imageSrc: "https://www.upwork.com/catalog-images-resized/75f5f1be4668779a47e3c36375bf2b34/large",
+    imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-up",
-  },
+  }
 ];
 
 export default upcoming;

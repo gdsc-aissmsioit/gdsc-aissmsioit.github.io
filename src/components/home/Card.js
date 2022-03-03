@@ -14,7 +14,6 @@ const Card = (props) => {
           />
         </NavLink>
       </div>
-      <h5 className="mt-3 text-primary">{props.event.dateAlt}</h5>
     </div>
   );
 };
