@@ -9,6 +9,7 @@ const upcoming = [{
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-machine-learning-a-walkthrough-day-1/",
     imageSrc: "https://www.wordstream.com/wp-content/uploads/2021/07/machine-learning1-1.png",
     dataAos: "fade-left",
+    type: "workshop"
   },
   {
     id: 6,
@@ -22,6 +23,7 @@ const upcoming = [{
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-2/",
     imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-right",
+    type: "workshop"
   },
   {
     id: 5,
@@ -35,6 +37,7 @@ const upcoming = [{
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-dive-into-mern-stack-web-development-day-1/",
     imageSrc: "https://i.ibb.co/f1MdKRK/MERN-Stack.jpg",
     dataAos: "fade-up",
+    type: "workshop"
   }
 ];
 

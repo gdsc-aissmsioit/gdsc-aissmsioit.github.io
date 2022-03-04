@@ -24,11 +24,22 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       numCounter("members", 816, 2);
-      numCounter("attendees", 1895, 1);
-      numCounter("organizers", 20, 400);
-      numCounter("eventsandworkshops", 28, 200);
+      attendeeCounter("attendees", 1895);
+      numCounter("organizers", 20, 200);
+      numCounter("eventsandworkshops", 28, 100);
     }, 1000);
   }, []);
+
+  const attendeeCounter = (tagId, maxCount) => {
+    var initialNumber = 1000;
+    setInterval(() => {
+      if (initialNumber < maxCount) {
+        initialNumber++;
+        const tagid = document.getElementById(tagId);
+        if (tagid) tagid.innerText = initialNumber;
+      }
+    }, 1);
+  };
 
   const numCounter = (tagId, maxCount, speed) => {
     var initialNumber = 0;

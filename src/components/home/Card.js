@@ -6,13 +6,23 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="card-content">
-        <NavLink onClick={scrollToTop} to={`/events/${props.event.id}/`}>
-          <img
-            src={props.event.imageSrc}
-            className="img-fluid event-img"
-            alt="Event_Image"
-          />
-        </NavLink>
+        {props.event.type === "event" ? (
+          <NavLink onClick={scrollToTop} to={`/events/${props.event.id}/`}>
+            <img
+              src={props.event.imageSrc}
+              className="img-fluid event-img"
+              alt="Event_Image"
+            />
+          </NavLink>
+        ) : (
+          <NavLink onClick={scrollToTop} to={`/workshops/${props.event.id}/`}>
+            <img
+              src={props.event.imageSrc}
+              className="img-fluid event-img"
+              alt="Event_Image"
+            />
+          </NavLink>
+        )}
       </div>
     </div>
   );
