@@ -44,7 +44,7 @@ const workshops = [
     about: "Artificial intelligence is one of the most emerging technological field. The large amount of data has given a boost to use AI products in different sectors of country. Be it ecommerce , healthcare , finance we can see that AI has leveraged the technology and has proven to be helping hand. 👩‍💻 Machine learning, Deep learning are one of the major aspects contributing for AI products. This workshop will introduce you to some of the important aspects and will also introduce you towards these fields. 🤖 So get ready to upskill yourselves!!🤩",
     speaker: "Aditya Gandhamal, Indian Army Intern",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-deep-learning-a-walkthrough-day-2/",
-    imageSrc: "https://www.wordstream.com/wp-content/uploads/2021/07/machine-learning1-1.png",
+    imageSrc: "https://i.ibb.co/JdbLp9t/ML-and-DL.jpg",
     dataAos: "fade-up",
   },
   {
@@ -56,7 +56,7 @@ const workshops = [
     about: "Artificial intelligence is one of the most emerging technological field. The large amount of data has given a boost to use AI products in different sectors of country. Be it ecommerce , healthcare , finance we can see that AI has leveraged the technology and has proven to be helping hand. 👩‍💻 Machine learning, Deep learning are one of the major aspects contributing for AI products. This workshop will introduce you to some of the important aspects and will also introduce you towards these fields. 🤖 So get ready to upskill yourselves!!🤩",
     speaker: "Akshada Bhandari, Vasundharaa Geo Technologies Data Scientist Intern",
     eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-machine-learning-a-walkthrough-day-1/",
-    imageSrc: "https://www.wordstream.com/wp-content/uploads/2021/07/machine-learning1-1.png",
+    imageSrc: "https://i.ibb.co/JdbLp9t/ML-and-DL.jpg",
     dataAos: "fade-left",
   },
   {

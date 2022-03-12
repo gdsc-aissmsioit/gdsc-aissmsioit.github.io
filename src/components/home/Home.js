@@ -380,7 +380,7 @@ const Home = () => {
                 <div className="msg-img-home cursor-pointer text-center tab-view-css">
                   <img
                     src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258208/blogs/WhatsApp_Image_2022-02-19_at_1.19.27_PM_2_ko2uxt.jpg"
-                    alt="about_us"
+                    alt="About_Us"
                     className="about_us"
                   />
                 </div>
@@ -449,7 +449,7 @@ const Home = () => {
                 <div className="msg-img-home cursor-pointer tab-view-css">
                   <img
                     src="https://i.ibb.co/wrg6y1s/Home-Blog.jpg"
-                    alt="about_us"
+                    alt="Blogs"
                     className="about_us"
                   />
                 </div>
@@ -528,7 +528,7 @@ const Home = () => {
                 <div className="msg-img-home cursor-pointer text-center tab-view-css">
                   <img
                     src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258203/blogs/WhatsApp_Image_2022-02-19_at_1.19.28_PM_drgj4s.jpg"
-                    alt="about_us"
+                    alt="Stay Updated"
                     className="about_us"
                   />
                 </div>
