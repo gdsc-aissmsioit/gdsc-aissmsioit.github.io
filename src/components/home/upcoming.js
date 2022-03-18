@@ -1,17 +1,5 @@
 const upcoming = [
   {
-    id: 11,
-    name: "Blockchain Untangled",
-    date: "2022-03-19",
-    dateAlt: "19th March 2022",
-    day: "Saturday",
-    about: "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin. We are organizing this event to help you understand how blockchain can be used to make supply-chain system more efficient and improve its security. In this session, you will learn to:  - Explain how blockchain enables trust and business processes between participants - Evaluate when to use blockchain for a solution",
-    speaker: "Shriniwas Khond Blockchain Developer Intern, Seracle and Krishna Waske, Software Developer Intern, AyanWorks",
-    eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-blockchain-untangled/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/event_banners/launchpresso-h5iazR-wljU-unsplash.jpg",
-    dataAos: "fade-up",
-  },
-  {
     id: 10,
     name: "Flutter Festival",
     date: "2022-03-18",

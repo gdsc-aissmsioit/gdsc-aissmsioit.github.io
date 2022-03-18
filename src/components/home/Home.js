@@ -23,8 +23,8 @@ import { scrollToTop } from "../footer/ScrollToTop";
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 816, 2);
-      attendeeCounter("attendees", 1895);
+      numCounter("members", 1001, 2);
+      attendeeCounter("attendees", 2296);
       numCounter("organizers", 20, 200);
       numCounter("eventsandworkshops", 28, 100);
     }, 1000);
