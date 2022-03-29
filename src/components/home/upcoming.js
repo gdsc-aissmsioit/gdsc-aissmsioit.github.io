@@ -1,40 +1,19 @@
 const upcoming = [
   {
-    id: 10,
-    name: "Flutter Festival",
-    date: "2022-03-18",
-    dateAlt: "18th March 2022",
-    day: "Friday",
-    about: "In this event, we'll be learning about APIs and how APIs can be used to make our lives much easier. We'll be seeing how APIs can be integrated into Flutter and we'll be working with one very interesting API which will get us our favorite movies and TV Shows!! See you there!",
-    speaker: "Parth Desai, Flutter Developer Intern, AmazeYoo",
-    eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-4/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_500,q_auto:good,w_500/v1/gcs/platform-data-dsc/events/FlutterFestival_Thumbnail_Dark_1080x1080_xeb9O7k.jpg",
-    dataAos: "fade-left",
-  },
-  {
-    id: 9,
-    name: "Flutter Festival",
-    date: "2022-03-15",
-    dateAlt: "15th March 2022",
-    day: "Tuesday",
-    about: "In this session, we'll be going through the basics of Firebase and how it can be integrated with our Flutter app. Firebase is a Google provided Cloud service which makes you not worry about the backend of your app. May it be authentication or database or even hosting, Firebase got you covered!! Connect to Firebase and your app will be online instantly!! Join to learn more about Firebase!",
-    speaker: "Parth Desai, Flutter Developer Intern, AmazeYoo",
-    eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-3/",
-    imageSrc: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_500,q_auto:good,w_500/v1/gcs/platform-data-dsc/events/FlutterFestival_Thumbnail_Dark_1080x1080_xeb9O7k.jpg",
+    id: 15,
+    name: "Be the GDSC Lead for 2022-23",
+    date: "2022-03-31T06:30:00Z",
+    dateAlt: "31th March 2022 🗓️",
+    day: "Thursday",
+    about:
+      "Applications to become a Google #DeveloperStudentsClubs Lead are open! This opportunity is for current university students. As a Lead you can:. 💼 Get access to training and technical knowledge. 📈 Grow your network. 🤝 Build projects and relationships. 🌎 Be the *GDSC Lead for 2022-23*! ✨. 🔴🟢🟡🔵. 📅 - *31/03/2022, Friday*. 🕐 - *6:30PM*. 📍- *https://gdsc.community.dev/e/mzpskn/*. ```RSVP Now and get a chance to earn referrals!```",
+    speaker: "Prarthana Chandak, Lead at GDSC, AISSMS IOIT",
+    eventLink:
+      "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-be-the-gdsc-lead-for-2022-23/",
+    imageSrc: "https://i.ibb.co/CJgQfLx/GDSC-Lead-Applications.jpg",
     dataAos: "fade-right",
-  },
-  {
-    id: 8,
-    name: "Deep Learning - A walkthrough (Day 2)",
-    date: "2022-03-13",
-    dateAlt: "13th March 2022",
-    day: "Sunday",
-    about: "Artificial intelligence is one of the most emerging technological field. The large amount of data has given a boost to use AI products in different sectors of country. Be it ecommerce , healthcare , finance we can see that AI has leveraged the technology and has proven to be helping hand. 👩‍💻 Machine learning, Deep learning are one of the major aspects contributing for AI products. This workshop will introduce you to some of the important aspects and will also introduce you towards these fields. 🤖 So get ready to upskill yourselves!!🤩",
-    speaker: "Aditya Gandhamal, Indian Army Intern",
-    eventLink: "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-deep-learning-a-walkthrough-day-2/",
-    imageSrc: "https://i.ibb.co/JdbLp9t/ML-and-DL.jpg",
-    dataAos: "fade-up",
-  },
+    type: "event"
+  }
 ];
 
 export default upcoming;

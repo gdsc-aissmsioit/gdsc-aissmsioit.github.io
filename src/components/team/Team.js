@@ -14,7 +14,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Fade from "react-reveal/Fade";
 
 import Web from "./web";
-import Cloud from "./cloud";
 import ML from "./ml";
 import Android from "./android";
 import Management from "./management";
@@ -48,10 +47,6 @@ const Team = () => {
     <TeamCard key={member.id} member={member} />
   ));
 
-  const CloudTeam = Cloud.map((member) => (
-    <TeamCard key={member.id} member={member} />
-  ));
-
   const MLTeam = ML.map((member) => (
     <TeamCard key={member.id} member={member} />
   ));
@@ -68,14 +63,12 @@ const Team = () => {
     window.screen.width < 800
       ? {
           web: <Slider {...settings}>{WebTeam}</Slider>,
-          cloud: <Slider {...settings}>{CloudTeam}</Slider>,
           ml: <Slider {...settings}>{MLTeam}</Slider>,
           android: <Slider {...settings}>{AndroidTeam}</Slider>,
           management: <Slider {...settings}>{ManagementTeam}</Slider>,
         }
       : {
           web: WebTeam,
-          cloud: CloudTeam,
           ml: MLTeam,
           android: AndroidTeam,
           management: ManagementTeam,
@@ -86,7 +79,6 @@ const Team = () => {
     if (media.matches) {
       setTeams({
         web: <Slider {...settings}>{WebTeam}</Slider>,
-        cloud: <Slider {...settings}>{CloudTeam}</Slider>,
         ml: <Slider {...settings}>{MLTeam}</Slider>,
         android: <Slider {...settings}>{AndroidTeam}</Slider>,
         management: <Slider {...settings}>{ManagementTeam}</Slider>,
@@ -94,7 +86,6 @@ const Team = () => {
     } else {
       setTeams({
         web: WebTeam,
-        cloud: CloudTeam,
         ml: MLTeam,
         android: AndroidTeam,
         management: ManagementTeam,
@@ -267,7 +258,69 @@ const Team = () => {
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Cloud Team</h3>
           </Fade>
-          {teams.cloud}
+          <Fade up>
+            <div className="col-lg-12 col-sm-12 teams">
+              <div>
+                <span
+                  className="Tooltip dsa_cp_tooltip"
+                  data-tooltip="I am a blockchain and cloud enthusiast, I am passionate about my work and I am a people person who enjoys meeting new individuals."
+                >
+                  <img
+                    src="https://i.ibb.co/x7xHcyz/Shriniwas-Khond.png"
+                    className="img-fluid team-img"
+                    alt="Lead_Image"
+                  />
+                </span>
+              </div>
+
+              <h5 className="mt-4">Shriniwas Khond</h5>
+
+              <h5>Cloud Lead</h5>
+              <span></span>
+              <div className="social-ico-team col-lg-12">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/shriniwas-khond-906329209/"
+                >
+                  <i className="fa fa-linkedin ico-link"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/ShriniwasKhond"
+                >
+                  <i className="fa fa-github ico-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/shriniwas_khond/"
+                >
+                  <i className="fa fa-instagram ico-insta"></i>
+                </a>
+                <a
+                  href="https://www.kaggle.com/shriniwaskhond"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa fa-link ico-link"></i>
+                </a>
+                <a
+                  href="https://gdsc.community.dev/u/m8vetm/#/about"
+                  className="team-profile-link ml-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={Gdsc_All}
+                    alt="gdsc_logo"
+                    className="team-gdsc-logo"
+                  />
+                </a>
+              </div>
+            </div>
+          </Fade>
         </div>
 
         <div id="dsa_cp_team" className="row mt-lg-5">

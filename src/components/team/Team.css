@@ -189,14 +189,6 @@
   left: 6em;
 }
 
-.management_tooltip::before {
-  left: 10em;
-}
-
-.management_tooltip::after {
-  left: -2em;
-}
-
 .slick-list {
   overflow: visible;
 }
@@ -287,15 +279,6 @@
     top: -12.7em;
   }
 
-  .management_tooltip::before {
-    top: -0.7em;
-    left: 6em;
-  }
-
-  .management_tooltip::after {
-    top: -12.7em;
-  }
-
   .core_team_text {
     text-align: justify;
   }
@@ -317,7 +300,8 @@
   transform: scale(1.2);
 }
 
-.social_media_lead, .design_lead {
+.social_media_lead,
+.design_lead {
   margin-top: 8rem;
 }
 
@@ -325,5 +309,12 @@
   .vector-img {
     margin-top: 18%;
     width: 100%;
+  }
+}
+/* Mobile devices design-social lead image correction */
+@media only screen and (max-width: 600px) {
+  .social_media_lead,
+  .design_lead {
+    margin-top: 0;
   }
 }

@@ -23,8 +23,8 @@ import { scrollToTop } from "../footer/ScrollToTop";
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 1001, 2);
-      attendeeCounter("attendees", 2296);
+      numCounter("members", 1046, 2);
+      attendeeCounter("attendees", 3025);
       numCounter("organizers", 20, 200);
       numCounter("eventsandworkshops", 28, 100);
     }, 1000);
@@ -512,6 +512,30 @@ const Home = () => {
                         projects and trainings like Python, Web, Android and iOS
                         App, Cloud and many more. REGex work to bring your
                         imagination into reality.
+                      </p>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+        </Fade>
+
+        <Fade up>
+          <div className="container d-flex align-items-center justify-content-center mt-lg-3 mt-5">
+            <div className="all-divs mt-lg-0 mt-2">
+              <div className="row mt-lg-5">
+                <Fade left>
+                  <div className="offset-lg-2 col-lg-8">
+                    <div className="text-center">
+                      <img
+                        className="sponser-img"
+                        src="https://i.ibb.co/PCxqPXJ/binance-academy4820.jpg"
+                        alt="sponser_img"
+                      />
+                      <br />
+                      <p className="tech-mahindra pt-0">
+                        Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.
                       </p>
                     </div>
                   </div>
