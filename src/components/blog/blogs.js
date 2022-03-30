@@ -125,7 +125,7 @@ const blogs = [
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643207608/blogs/FullStack_dkrske.png",
     category: "Technical",
     fade: "left",
-    read: "8 min",
+    read: "8 mins",
   },
   {
     id: 3,
@@ -151,7 +151,7 @@ const blogs = [
     imageSrc: "https://i.ibb.co/ZWqPPn0/Artificial-Intelligence-v1.png",
     category: "Technical",
     fade: "right",
-    read: "6 min",
+    read: "6 mins",
   },
 
   {
@@ -187,7 +187,7 @@ const blogs = [
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643649387/blogs/erblti475ntbksl3arpu.jpg",
     category: "Technical",
     fade: "left",
-    read: "5 min",
+    read: "5 mins",
   },
   {
     id: 5,
@@ -215,7 +215,7 @@ const blogs = [
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643209543/blogs/bymc2ept7yivcqfrwacx.jpg",
     category: "Technical",
     fade: "left",
-    read: "5 min",
+    read: "5 mins",
   },
   {
     id: 6,
@@ -242,7 +242,7 @@ The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643644432/blogs/lrt2x6uj38ntipav5nhq.jpg",
     category: "Technical",
     fade: "left",
-    read: "3 min",
+    read: "5 mins",
   },
   {
     id: 7,
@@ -285,7 +285,7 @@ Coming to the application`,
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643651023/blogs/bexi6u1apjrfwwhil8ik.png",
     category: "Technical",
     fade: "left",
-    read: "5 min",
+    read: "5 mins",
   },
   {
     id: 8,
@@ -332,7 +332,7 @@ Coming to the application`,
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644918411/blogs/omkar_blog_img_wdmlmd.jpg",
     category: "Non- Technical",
     fade: "left",
-    read: "2 min",
+    read: "4 mins",
   },
 ];
 

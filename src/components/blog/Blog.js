@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Blog.css";
 
 import BlogCard from "./BlogCard";
@@ -256,7 +257,54 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="blog-container">{blogs}</div>
+      <div className="blog-container">
+        <div className="blog-card ">
+          <Fade left>
+            <div className="card__header">
+              <div className="card-image ">
+                <NavLink onClick={scrollToTop} to={`/blogs/`}>
+                  <img
+                    src="https://i.ibb.co/5M763g9/Lead-Application.jpg"
+                    alt="Blog_Image"
+                    className="card__image"
+                    width="600"
+                  />
+                </NavLink>
+              </div>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="card_main">
+              <div className="card__body">
+                <span className="tag tag-green">GDSC Lead Application</span>
+                <NavLink onClick={scrollToTop} to={`/blogs/lead_application/`}>
+                  <h4>Guide to become a GDSC Lead</h4>
+                </NavLink>
+                <span className="author-name">
+                  Prarthana Chandak: Lead - GDSC, AISSMS IOIT
+                </span>
+
+                <p>
+                  Hi everyone! I’m Prarthana Chandak, the founder and the Lead at Google Developer Student Clubs, AISSMS IOIT. I started GDSC at my campus for the very first time and this blog is a complete guide on the entire process that I followed and you can follow while applying.
+                  Index - 
+                  What is a GDSC?
+                  Benefits of being a GDSC Lead
+                  My motivation to run a community
+                  Criteria to become a GDSC Lead
+                  <NavLink
+                    className="text-primary"
+                    onClick={scrollToTop}
+                    to={`/blogs/lead_application/`}
+                  >
+                    ....Read More
+                  </NavLink>
+                </p>
+              </div>
+            </div>
+          </Fade>
+        </div>
+        {blogs}
+      </div>
 
       <Fade up>
         <button

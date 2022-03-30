@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 const BlogCard = ({ blog }) => {
   return (
     <>
-      <div className="blog-card ">
+      <div className="blog-card">
         <Fade left>
           <div className="card__header">
             <div className="card-image ">
@@ -45,7 +45,6 @@ const BlogCard = ({ blog }) => {
                 <h4>{blog.name}</h4>
               </NavLink>
               <span className="author-name">
-                {" "}
                 {blog.author.replace(":", ",").split("-")[0]}
               </span>
 

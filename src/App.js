@@ -12,6 +12,7 @@ import Eventdetails from "./components/events/Eventdetails";
 import Workshopdetails from "./components/events/Workshopdetails";
 import Blog from "./components/blog/Blog";
 import Blogdetails from "./components/blog/Blogdetails";
+import LeadApplication from "./components/blog/LeadApplication";
 import GetInTouch from "./components/getintouch/GetInTouch";
 import Error from "./components/error/Error";
 import Community from "./components/community/Community";
@@ -31,6 +32,7 @@ const App = () => {
         component={() => <Workshopdetails />}
       />
       <Route path="/blogs/" exact component={() => <Blog />} />
+      <Route path="/blogs/lead_application/" exact component={() => <LeadApplication />} />
       <Route path="/blogs/:id/" exact component={() => <Blogdetails />} />
       <Route path="/blogs/idea/:popup/" exact component={() => <Blog />} />
       <Route path="/team/" exact component={() => <Team />} />
