@@ -27,6 +27,28 @@ const BlogResources = (props) => {
 
 const blogs = [
   {
+    id: 'leadguide_by_prarthanachandak',
+    tag: "GDSC Lead Application",
+    name: "Guide to become a GDSC Lead",
+    email: "prarthanachandak@gmail.com",
+    linkedin: "https://www.linkedin.com/in/prarthana-chandak-2a84b81b7",
+    date: "31st March 2022",
+    day: "Thursday",
+    shortDescription: `Hi everyone! I’m Prarthana Chandak, the founder and the Lead at
+    Google Developer Student Clubs, AISSMS IOIT. I started GDSC at
+    my campus for the very first time and this blog is a complete
+    guide on the entire process that I followed and you can follow
+    while applying. Index - What is a GDSC? Benefits of being a GDSC
+    Lead My motivation to run a community Criteria to become a GDSC
+    Lead`,
+    about: "",
+    author: "Prarthana Chandak: Lead - GDSC, AISSMS IOIT",
+    imageSrc: "https://i.ibb.co/5M763g9/Lead-Application.jpg",
+    category: "Technical",
+    fade: "right",
+    read: "8 mins",
+  },
+  {
     id: 1,
     tag: "GDSC Lead",
     name: "My Coding Journey and How I became a Lead at GDSC",
@@ -87,7 +109,7 @@ const blogs = [
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644744738/blogs/yrs4m4qxhphlbktmmej1.jpg",
     category: "Technical",
     fade: "left",
-    read: "7 min",
+    read: "8 mins",
   },
   {
     id: 2,

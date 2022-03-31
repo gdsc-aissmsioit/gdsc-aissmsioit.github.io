@@ -19,7 +19,7 @@ const LeadApplication = () => {
         />
         <meta
           name="keywords"
-          content="gdsc blogs details, gdsc aissms blogs details, gdsc aissms ioit blogs details, dsc, dsc aissms blogs details, dsc aissms ioit blogs details, gdsc ioit blogs details, dsc ioit blogs details, ioit dsc blogs details, aissms dsc blogs details, aissms ioit dsc blogs details, aissms ioit gdsc blogs details, gdsc-aissms-ioit blogs details, gdsc-ioit blogs details, dsc-aissms-ioit blogs details, dsc-ioit blogs details"
+          content="gdsc blogs lead application guide, gdsc aissms blogs lead application guide, gdsc aissms ioit blogs lead application guide, dsc, dsc aissms blogs lead application guide, dsc aissms ioit blogs lead application guide, gdsc ioit blogs lead application guide, dsc ioit blogs lead application guide, ioit dsc blogs lead application guide, aissms dsc blogs lead application guide, aissms ioit dsc blogs lead application guide, aissms ioit gdsc blogs lead application guide, gdsc-aissms-ioit blogs lead application guide, gdsc-ioit blogs lead application guide, dsc-aissms-ioit blogs lead application guide, dsc-ioit blogs lead application guide"
         />
       </Helmet>
       <div
@@ -112,17 +112,6 @@ const LeadApplication = () => {
                     <li>My journey with GDSC</li>
                     <li>Perks and Benefits</li>
                   </ol>
-                  <p>
-                    To read about my motivation of becoming GDSC Lead, I request
-                    you all to read this blog -
-                    <NavLink onClick={scrollToTop} to="/blogs/1/" className="text-primary">
-                      My Coding Journey And How I Became A Lead At GDSC
-                    </NavLink>
-                  </p>
-                  <p>
-                    I and a few classmates of mine were very enthusiastic to
-                    start a GDSC at our college and help the community grow.
-                  </p>
                   <h3>What is a GDSC?</h3>
                   <ul>
                     <li>
@@ -141,8 +130,7 @@ const LeadApplication = () => {
                     </li>
                   </ul>
                   <p>
-                    Read more here -
-                    <a
+                    Read more here - <a
                       href="https://gdsc.community.dev/"
                       target="_blank"
                       rel="noreferrer"
@@ -173,8 +161,7 @@ const LeadApplication = () => {
                     </li>
                   </ul>
                   <p>
-                    My onboarding kit -
-                    <a
+                    My onboarding kit - <a
                       href="https://bit.ly/3wLFbPX"
                       target="_blank"
                       rel="noreferrer"
@@ -187,7 +174,11 @@ const LeadApplication = () => {
                   <h3>What was my motivation to run a GDSC?</h3>
                   <p>
                     Start with this blog -
-                    <NavLink onClick={scrollToTop} to="/blogs/1/" className="text-primary">
+                    <NavLink
+                      onClick={scrollToTop}
+                      to="/blogs/1/"
+                      className="text-primary"
+                    >
                       My Coding Journey And How I Became A Lead At GDSC
                     </NavLink>
                   </p>
@@ -210,8 +201,7 @@ const LeadApplication = () => {
                     </li>
                   </ul>
                   <p>
-                    My onboarding kit -
-                    <a
+                    My onboarding kit - <a
                       href="https://bit.ly/3wLFbPX"
                       target="_blank"
                       rel="noreferrer"
@@ -251,8 +241,7 @@ const LeadApplication = () => {
                   <p>Steps:</p>
                   <ol>
                     <li>
-                      Fill an application form -
-                      <a
+                      Fill an application form - <a
                         href="https://gdsc.advocu.com/home/applications/form"
                         target="_blank"
                         rel="noreferrer"
@@ -421,8 +410,7 @@ const LeadApplication = () => {
                       always be original. It took me 4 to 5 takes to shoot a
                       decent video. I wore a 30 Days of GCP T-shirt while
                       recording the video that displayed my experience with the
-                      club. Check out my video here -
-                      <a
+                      club. Check out my video here - <a
                         href="https://www.youtube.com/watch?v=FWHR9CxuQLA"
                         target="_blank"
                         rel="noreferrer"
@@ -486,8 +474,7 @@ const LeadApplication = () => {
                         of my college life.
                       </li>
                       <li>
-                        Here is a glimpse of the mail that I received -
-                        <a
+                        Here is a glimpse of the mail that I received - <a
                           href="https://bit.ly/3wO0T5I"
                           target="_blank"
                           rel="noreferrer"
@@ -532,8 +519,7 @@ const LeadApplication = () => {
                         that’s the best part about our website.
                       </li>
                       <li>
-                        Check it out -
-                        <a
+                        Check it out - <a
                           href="https://gdsc-aissmsioit.github.io/#/"
                           target="_blank"
                           rel="noreferrer"
@@ -563,6 +549,16 @@ const LeadApplication = () => {
                       opportunity to connect better with people, Leads all over
                       India and the Globe.
                     </li>
+                    <p>
+                      Check out this post - <a
+                        href="https://www.instagram.com/p/CYJX1B3g8Lb/?utm_medium=copy_link"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-primary"
+                      >
+                        https://www.instagram.com/p/CYJX1B3g8Lb/?utm_medium=copy_link
+                      </a>
+                    </p>
                     <li>
                       Amazing core team to work with - I didnt even know these
                       folks before, but GDSC has built the friendship and the
@@ -584,8 +580,7 @@ const LeadApplication = () => {
                     I am keen towards continuing the legacy and have a more
                     powerful and amazing Lead and the Core team for the year
                     2022-23! For any doubts regarding the applications, reach
-                    out to me here -
-                    <a
+                    out to me here - <a
                       href="https://www.linkedin.com/in/prarthana-chandak-2a84b81b7/"
                       target="_blank"
                       rel="noreferrer"
