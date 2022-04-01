@@ -510,6 +510,9 @@ const LeadApplication = () => {
                         I had my friends supporting me throughout.
                       </li>
                       <li>
+                        From organizing 30 Days of Google Cloud, Android Study Jams, Flutter Festivals to Workshops on Github, Heroku, ML, Web, and a National Level Hackathon, I and my team have had a super dooper amazing journey throughout! We approached sponsors and luckily had the tech giant - Tech Mahindra as our sponsor for the hackathon, which had been our best event till date. Following which, we recently organized a series of workshops on various technologies.
+                      </li>
+                      <li>
                         The best part was building our own website, for which
                         the Web Team of GDSC worked really hard! A competition
                         BloggerSpace was conducted on our own website which is a

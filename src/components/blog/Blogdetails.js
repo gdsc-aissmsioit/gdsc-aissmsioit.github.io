@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 
 const Blogdetails = () => {
   const { id } = useParams();
-  const blog = blogs[id - 1];
+  const blog = blogs[id];
 
   return (
     <>
