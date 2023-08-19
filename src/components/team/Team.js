@@ -205,26 +205,26 @@ const Team = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/prarthana-chandak-2a84b81b7"
+                  href=""
                 >
                   <i className="fa fa-linkedin ico-link"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/prarthanachandak"
+                  href=""
                 >
                   <i className="fa fa-github ico-github"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.instagram.com/prarthanachandak"
+                  href=""
                 >
                   <i className="fa fa-instagram ico-insta"></i>
                 </a>
                 <a
-                  href="https://github.com/prarthanachandak"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
