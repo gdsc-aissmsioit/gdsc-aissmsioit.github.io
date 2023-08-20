@@ -13,7 +13,7 @@ const ML = [
   },
   {
     id: 2,
-    name: "Aditya aut",
+    name: "Aditya Raut",
     position: "ML Member",
     image: "https://i.ibb.co/XYkzrDj/Aditya-Raut-Aditya-Raut.jpg",
     alt: "Member_Image",

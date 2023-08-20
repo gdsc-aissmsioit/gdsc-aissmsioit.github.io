@@ -1,7 +1,7 @@
 const Management = [
   {
     id: 1,
-    name: "Kautubha Khandagle",
+    name: "Kaustubha Khandagale",
     position: "Management Lead",
     image: "https://i.ibb.co/hZ2JSMB/IMG-20230217-WA0074-kaustubha-khandagale.jpg",
     alt: "Lead_Image",
@@ -13,7 +13,7 @@ const Management = [
   },
   {
     id: 2,
-    name: "Harsh Mesham",
+    name: "Harsh Meshram",
     position: "Management Member",
     image: "https://i.ibb.co/K9SPtRd/IMG20230127151534-2-Harsh-Meshram.jpg",
     alt: "Member_Image",
