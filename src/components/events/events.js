@@ -11,7 +11,7 @@ const events = [
     guest: "Prarthana Chandak",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-info-session/",
-    imageSrc: "https://ibb.co/3B6Pntf/Info-Session.jpg",
+    imageSrc: "https://i.ibb.co/Hnw9jmN/IMG-20230818-WA0006-ey-FQOob.webp",
     dataAos: "fade-up",
   },
   {

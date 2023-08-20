@@ -1,16 +1,18 @@
 const upcoming = [
   {
-    id: 16,
-    name: "Google Summer of Code with GDSC! ☀️",
-    date: "2022-04-03T03:00:00Z",
-    dateAlt: "3rd April 2022 🗓️",
-    day: "Sunday",
-    about: "☀️ Google Summer of Code ☀️ with Google Developer Student Clubs!. 🔵🟢🔴🟡. 👨‍🏫 A beginner's guide to -. 📌 Open Source. 📌 Roadmap to GSOC. 📌 How to find organizations and start contributing?. 📌 How to draft a proposal?. 📌 Other Open Source Programs like MLH Fellowship, Outreachy, Github Externship, LFX and more!. 🤝 Meet Kumar Saurabh Raj from GSOC'21, Incoming IBM Research CERN, former GDSC Lead. 🗓 - 03/04/2022, Sunday. 🕐 - 03:00PM IST. 📍 - https://gdsc.community.dev/e/mp6an6/. RSVP Now!. Regards,. GDSC AISSMS IOIT. GDSC Delhi Technical Campus. GDSC Sathyabama Institute of Science and Technology",
-    speaker: "Kumar Saurabh Raj from GSOC'21, LFX, xIncoming IBM Research CERN, Former GDSC Lead",
+    id: 17,
+    name: "Info Session",
+    date: "2023-08-21",
+    dateAlt: "21st August 2023 🗓️",
+    day: "Monday",
+    about:
+      "Join us on August 21st, from 12 pm onwards, as we embark on a thrilling journey into the world of technology at the GDSC (Google Developer Student Clubs) Info Session and Inauguration. This event is not just an introduction; it's a celebration of innovation and collaboration. Be inspired by our special guest, an ex-GDSC Lead, who will share their insights, guiding us to new horizons of tech exploration. Don't miss out – connect, learn, and be a part of this exciting chapter in our GDSC community.",
+    speaker: "Core Team",
+    guest: "Prarthana Chandak",
     eventLink:
-      "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-google-summer-of-code-with-gdsc/",
-    imageSrc: "https://i.ibb.co/hWtv0qm/GSOC.jpg",
-    dataAos: "fade-left",
+      "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-info-session/",
+    imageSrc: "https://i.ibb.co/Hnw9jmN/IMG-20230818-WA0006-ey-FQOob.webp",
+    dataAos: "fade-up",
   }
 ];
 
