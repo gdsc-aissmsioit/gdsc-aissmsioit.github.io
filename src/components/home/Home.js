@@ -23,15 +23,26 @@ import { scrollToTop } from "../footer/ScrollToTop";
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
-      numCounter("members", 1046, 2);
-      attendeeCounter("attendees", 3025);
-      numCounter("organizers", 20, 200);
-      numCounter("eventsandworkshops", 28, 100);
+      memberCounter("members", 1680);
+      attendeeCounter("attendees", 4205);
+      numCounter("organizers", 25, 200);
+      numCounter("eventsandworkshops", 45, 100);
     }, 1000);
   }, []);
 
-  const attendeeCounter = (tagId, maxCount) => {
+  const memberCounter = (tagId, maxCount) => {
     var initialNumber = 1000;
+    setInterval(() => {
+      if (initialNumber < maxCount) {
+        initialNumber++;
+        const tagid = document.getElementById(tagId);
+        if (tagid) tagid.innerText = initialNumber;
+      }
+    }, 1);
+  };
+  
+  const attendeeCounter = (tagId, maxCount) => {
+    var initialNumber = 3500;
     setInterval(() => {
       if (initialNumber < maxCount) {
         initialNumber++;
