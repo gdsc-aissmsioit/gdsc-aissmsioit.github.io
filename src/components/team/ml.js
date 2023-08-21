@@ -3,7 +3,7 @@ const ML = [
     id: 1,
     name: "Satvik Nalavade",
     position: "ML Lead",
-    image: "https://i.ibb.co/GtKsyw9/IMG-20230811-001505-382-Satvik-Nalavade.jpg",
+    image: "https://i.ibb.co/njmMJLR/IMG-20230811-001505-382-2.jpg",
     alt: "Lead_Image",
     col: 6,
     linkedin: "https://www.linkedin.com/in/satviknalavade/",

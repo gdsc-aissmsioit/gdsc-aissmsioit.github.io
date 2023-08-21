@@ -195,7 +195,7 @@ const Team = () => {
                 <h3 className="font-weight-bold">GDSC Lead</h3>
               </Fade>
               <img
-                src="https://i.ibb.co/p1Zkk2v/sid.jpg"
+                src="https://i.ibb.co/cCyVvHd/sid.png"
                 className="img-fluid lead-img"
                 alt="Lead_Image"
               />
