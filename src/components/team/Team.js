@@ -27,6 +27,19 @@ const Team = () => {
   const { id } = useParams();
 
   useEffect(() => {
+    const imgFluids = document.getElementsByClassName("img-fluid");
+    Array.from(imgFluids).forEach((img) => {
+      img.addEventListener("mouseover", () => {
+        img.classList.remove("out");
+        img.classList.add("over");
+      });
+
+      img.addEventListener("mouseout", () => {
+        img.classList.remove("over");
+        img.classList.add("out");
+      });
+    });
+
     if (id) {
       document.getElementById(id).scrollIntoView({
         behavior: "smooth",
