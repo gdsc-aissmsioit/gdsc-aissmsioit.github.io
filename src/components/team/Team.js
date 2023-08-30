@@ -96,7 +96,7 @@ const Team = () => {
 		</div>
 	  
 		{selectedYear === '2021' && <Team2021 />}
-		{selectedYear === '2022' && /* condition to disable Team2022 */ false && <Team2022 />}
+		{selectedYear === '2022' && <Team2022 />}
 		{selectedYear === '2023' && <Team2023 />}
     </div>
 	
