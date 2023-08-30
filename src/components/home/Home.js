@@ -301,12 +301,12 @@ const Home = () => {
             </Fade>
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
-                <span className="-button cloud-domain">Cloud Computing</span>
+                <span className="-button dsacp-domain">Design ‎ㅤ</span>
               </div>
             </Fade>
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
-                <span className="-button dsacp-domain">DSA / CP</span>
+                <span className="-button cloud-domain">Cloud Computing</span>
               </div>
             </Fade>
           </div>
@@ -325,31 +325,31 @@ const Home = () => {
                 <div id="gdsc_lead" className="row">
                   <div className="col-lg-12 col-sm-12 member-body">
                     <img
-                      src="https://i.ibb.co/QbYjh69/Prarthana-Chandak.jpg"
+                      src="https://i.ibb.co/p1Zkk2v/sid.jpg"
                       className="img-fluid lead-img"
                       alt="Lead_Image"
                     />
-                    <h5>Prarthana Chandak</h5>
+                    <h5>Siddhant Sangale</h5>
                     <span></span>
                     <div className="social-ico m-0">
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/prarthana-chandak-2a84b81b7"
+                        href=""
                       >
                         <i className="fa fa-linkedin ico-link"></i>
                       </a>
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.instagram.com/prarthanachandak"
+                        href=""
                       >
                         <i className="fa fa-instagram ico-insta"></i>
                       </a>
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://github.com/prarthanachandak"
+                        href=""
                       >
                         <i className="fa fa-github ico-github"></i>
                       </a>
@@ -469,81 +469,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <Fade up>
-          <div className="container d-flex align-items-center justify-content-center mt-lg-3 mt-5">
-            <div className="all-divs mt-lg-0 mt-2">
-              <Fade up>
-                <h1 className="text-center about-home-headings home-headings mt-5">
-                  We Value Our Sponsors
-                </h1>
-              </Fade>
-
-              <div className="row mt-lg-5">
-                <Fade left>
-                  <div className="col-lg-6">
-                    <div className="text-center">
-                      <img
-                        className="sponser-img"
-                        src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644751901/blogs/techm_pmpipl.png"
-                        alt="sponser_img"
-                      />
-                      <br />
-                      <p className="tech-mahindra pt-0">
-                        Tech Mahindra represents the connected world, offering
-                        innovation &amp; human-centric technology experiences to
-                        their customers, stakeholders &amp; communities.
-                      </p>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade right>
-                  <div className="col-lg-6">
-                    <div className="text-center">
-                      <img
-                        className="sponser-img"
-                        src="https://www.regexsoftware.com/wp-content/uploads/2020/02/whatsapp-dp-1-e1582009388784.png"
-                        alt="sponser_img"
-                      />
-                      <br />
-                      <p className="regex-software pt-2">
-                        REGex is devised to bring an extra edge to information
-                        technology. Always opens on all sort of technical
-                        projects and trainings like Python, Web, Android and iOS
-                        App, Cloud and many more. REGex work to bring your
-                        imagination into reality.
-                      </p>
-                    </div>
-                  </div>
-                </Fade>
-              </div>
-            </div>
-          </div>
-        </Fade>
-
-        <Fade up>
-          <div className="container d-flex align-items-center justify-content-center mt-lg-3 mt-5">
-            <div className="all-divs mt-lg-0 mt-2">
-              <div className="row mt-lg-5">
-                <Fade left>
-                  <div className="offset-lg-2 col-lg-8">
-                    <div className="text-center">
-                      <img
-                        className="sponser-img"
-                        src="https://i.ibb.co/PCxqPXJ/binance-academy4820.jpg"
-                        alt="sponser_img"
-                      />
-                      <br />
-                      <p className="tech-mahindra pt-0">
-                        Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.
-                      </p>
-                    </div>
-                  </div>
-                </Fade>
-              </div>
-            </div>
-          </div>
-        </Fade>
 
         <div className="container d-flex align-items-center justify-content-center my-5">
           <div className="row mt-lg-5 mt-2">

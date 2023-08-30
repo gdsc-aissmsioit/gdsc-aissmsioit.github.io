@@ -49,8 +49,8 @@ const Footer = () => {
                       </NavLink>
                     </li>
                     <li className="gogreen col-lg-2 col-md-4 col-6">
-                      <NavLink onClick={scrollToTop} to="/team/dsa_cp_team">
-                        DSA/CP
+                      <NavLink onClick={scrollToTop} to="/team/design_team">
+                        Design
                       </NavLink>
                     </li>
                     <li className="gogreen col-lg-2 col-md-4 col-6 quick-links-li">
@@ -126,7 +126,7 @@ const Footer = () => {
               <div className="col-md-12 copy">
                 <p className="text-center">
                   &copy; Made by{" "}
-                  <span className="text-primary">GDSC, Web Team</span>
+                  <span className="text-primary">GDSC, AISSMS IOIT</span>
                 </p>
               </div>
             </div>

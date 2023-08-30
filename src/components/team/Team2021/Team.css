@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.team-body {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.team span::after {
+  display: table;
+  margin: 0 auto;
+  content: "";
+  border: 0.2rem solid #2b98c3;
+  border-radius: 4px;
+  width: 4rem;
+}
+
+.team-body p {
+  padding: 9rem;
+  padding-top: 1rem;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  overflow: hidden;
+}
+
+.vector-img {
+  margin-top: 8em;
+  padding-left: 4%;
+}
+
+.vector-img img {
+  width: 100%;
+  height: 90%;
+}
+
+.img-fluid {
+  cursor: pointer;
+}
+
+@keyframes in {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes out {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.team-members {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.lead-img {
+  margin-top: 2rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 4px rgb(0 0 0 / 20%);
+}
+
+.team-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 4px rgb(0 0 0 / 20%);
+}
+
+.social-ico {
+  margin-bottom: 3rem;
+}
+
+.social-ico-team a i {
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-ico-team a:hover i {
+  transform: scale(1.5);
+}
+
+.social-ico a i {
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-ico a:hover i {
+  transform: scale(1.5);
+}
+
+.ico-link {
+  color: #0a66c2 !important;
+}
+
+.ico-insta {
+  color: #da2b6d !important;
+}
+
+.ico-face {
+  color: #1877f2 !important;
+}
+
+.Tooltip:before,
+.Tooltip:after {
+  position: absolute;
+  content: "";
+  opacity: 0;
+  transition: all 0.4s ease;
+  color: white;
+  font-weight: bold;
+}
+
+.Tooltip:before {
+  border-width: 10px 8px 0 8px;
+  border-style: solid;
+  border-color: #43bfa2 transparent transparent transparent;
+  top: 0.4em;
+  left: 7em;
+  transform: translateY(20px);
+}
+
+.Tooltip:after {
+  content: attr(data-tooltip);
+  background: #43bfa2;
+  width: 20em;
+  height: 11.8em;
+  font-size: 12px;
+  font-weight: 300;
+  top: -11.2em;
+  left: -6em;
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(20px);
+  text-align: justify;
+}
+
+.Tooltip:hover::before,
+.Tooltip:hover::after {
+  opacity: 1;
+  transform: translateY(-2px);
+  animation: shake 500ms ease-in-out forwards;
+}
+
+.gdsc_lead_tooltip:before {
+  top: 4em;
+  left: 16.5em;
+}
+
+.gdsc_lead_tooltip:after {
+  height: 11em;
+  top: -5.6em;
+  left: 6.8em;
+}
+
+.dsa_cp_tooltip::before {
+  top: -0.7em !important;
+  left: 36.8em;
+}
+
+.dsa_cp_tooltip::after {
+  height: 8em;
+  top: -8.9em !important;
+  left: 34em;
+}
+
+.cloud_ml_tooltip::before {
+  left: 16.5em;
+}
+
+.cloud_ml_tooltip::after {
+  left: 6em;
+}
+
+.slick-list {
+  overflow: visible;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/****** RESPONSIVE *****/
+@media (max-width: 769px) {
+  .team-body {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .team-body p {
+    padding: 3%;
+    padding-top: 1rem;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+  }
+
+  .vector-img img {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+  }
+
+  .web-team span::after {
+    margin-left: auto;
+  }
+
+  .vector-img {
+    margin-top: 4em;
+    padding: 0;
+  }
+
+  .Tooltip:before {
+    top: -0.6em;
+  }
+
+  .Tooltip:after {
+    top: -12.5em;
+    left: 0em;
+  }
+
+  .gdsc_lead_tooltip:before {
+    left: 8em;
+    top: 3.7em;
+  }
+
+  .gdsc_lead_tooltip:after {
+    left: 1em;
+    top: -6em;
+  }
+
+  .dsa_cp_tooltip::before {
+    left: 8em;
+  }
+
+  .dsa_cp_tooltip::after {
+    left: 1em;
+  }
+
+  .cloud_ml_tooltip::before {
+    top: -0.7em;
+    left: 6em;
+  }
+
+  .cloud_ml_tooltip::after {
+    top: -12.7em;
+  }
+
+  .core_team_text {
+    text-align: justify;
+  }
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-gdsc-logo {
+  display: inline-block;
+  width: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-gdsc-logo:hover {
+  transform: scale(1.2);
+}
+
+.social_media_lead,
+.design_lead {
+  margin-top: 8rem;
+}
+
+@media (max-width: 1200px) {
+  .vector-img {
+    margin-top: 18%;
+    width: 100%;
+  }
+}
+/* Mobile devices design-social lead image correction */
+@media only screen and (max-width: 600px) {
+  .social_media_lead,
+  .design_lead {
+    margin-top: 0;
+  }
+}
