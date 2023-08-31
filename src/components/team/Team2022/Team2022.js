@@ -59,10 +59,11 @@ const Team2022 = () => {
     <TeamCard key={member.id} member={member} />
   ));
 
-  const ManagementTeam = Management.map((member) =>{
+  const ManagementTeam = Management.map((member) => (
     <TeamCard key={member.id} member={member} />
-  });
+  ));
 
+  
   const MLTeam = ML.map((member) => (
     <TeamCard key={member.id} member={member} />
   ));
@@ -93,7 +94,7 @@ const Team2022 = () => {
           ml: <Slider {...settings}>{MLTeam}</Slider>,
           android: <Slider {...settings}>{AndroidTeam}</Slider>,
           management: <Slider {...settings}>{ManagementTeam}</Slider>,
-          design: <Slider {...settings}>{ManagementTeam}</Slider>,
+          design: <Slider {...settings}>{DesignTeam}</Slider>,
           cloud: <Slider {...settings}>{CloudTeam}</Slider>,
           outreach: <Slider {...settings}>{OutreachTeam}</Slider>,
           dsa: <Slider {...settings}>{DsaTeam}</Slider>,
@@ -110,6 +111,7 @@ const Team2022 = () => {
         }
   );
 
+  // console.log(teams.management);
   const responsive = (media) => {
     if (media.matches) {
       setTeams({
@@ -243,12 +245,6 @@ const Team2022 = () => {
           </Fade>
           {teams.dsa}
         </div>
-        <div id="outreach_team" className="row">
-          <Fade up>
-            <h3 className="my-5 font-weight-bold">Outreach Team</h3>
-          </Fade>
-          {teams.outreach}
-        </div>
 
         <div id="management_team" className="row">
           <Fade up>
@@ -256,7 +252,15 @@ const Team2022 = () => {
           </Fade>
           {teams.management}
         </div>
+        
+        <div id="outreach_team" className="row">
+          <Fade up>
+            <h3 className="my-5 font-weight-bold">Outreach Team</h3>
+          </Fade>
+          {teams.outreach}
+        </div>
       </div>
+
     </>
   );
 };

@@ -3,6 +3,34 @@
     padding: 0px;
     /*outline: 1px solid red;*/
 }
+#cloud_team{
+    display: flex;
+    justify-content: center;
+}
+#ml_team{
+    display: flex;
+    justify-content: center;
+}
+#DSA_team{
+    display: flex;
+    justify-content: center;
+}
+#web_team{
+    display: flex;
+    justify-content: center;
+}
+#android_team{
+    display: flex;
+    justify-content: center;
+}
+#design_team{
+    display: flex;
+    justify-content: center;
+}
+#management_team{
+    display: flex;
+    justify-content: center;
+}
 
 .team-body {
     margin-top: 15rem;
@@ -153,18 +181,7 @@
 .ico-face {
     color: #1877F2 !important;
 }
-#web_team{
-    display: flex;
-    justify-content: center;
-}
-#android_team{
-    display: flex;
-    justify-content: center;
-}
-#design_team{
-    display: flex;
-    justify-content: center;
-}
+
 
 /****** RESPONSIVE *****/
 @media (max-width: 769px) {

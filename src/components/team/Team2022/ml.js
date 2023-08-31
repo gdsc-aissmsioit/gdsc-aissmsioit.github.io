@@ -27,7 +27,7 @@ const ML = [
       id: 3,
       name: "Onkar Sonavane",
       position: "ML Member",
-      image: "",
+      image: "https://i.ibb.co/n0VnLvJ/Onkar-Sonavane.jpg",
       alt: "Member_Image",
       col: 6,
       linkedin: "",
