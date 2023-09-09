@@ -6,7 +6,7 @@ const Cloud = [
       image: "https://i.ibb.co/1MPtsfP/Sanket-Patil.jpg",
       alt: "Lead_Image",
       col: 6,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/sanket-p27/",
       instagram: "",
       github: "",
       googleCloud: "",

@@ -147,7 +147,7 @@ const Team2022 = () => {
       <div className="container team-members teams">
         <Fade up>
           <div id="gdsc_lead" className="row">
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <Fade up>
                 <h3 className="font-weight-bold">GDSC Lead</h3>
               </Fade>
@@ -169,7 +169,7 @@ const Team2022 = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href=""
+                  href="https://www.linkedin.com/in/prakalp-pande/"
                 >
                   <i className="fa fa-linkedin ico-link"></i>
                 </a>
@@ -189,7 +189,49 @@ const Team2022 = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6 teams">
+			<div className="col-lg-4 col-sm-6">
+              <Fade up>
+                <h3 className="font-weight-bold">GDSC Co-Lead</h3>
+              </Fade>
+
+              <div>
+                <span>
+                  <img
+                    src="https://i.ibb.co/cCyVvHd/sid.png"
+                    className="img-fluid lead-img"
+                    alt="Lead_Image"
+                  />
+                </span>
+              </div>
+
+              <h5 className="mt-4">Siddhant Sangale</h5>
+
+              <span></span>
+              <div className="social-ico">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/siddhant-sangale-39a29724b/"
+                >
+                  <i className="fa fa-linkedin ico-link"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/SiddhantSangale"
+                >
+                  <i className="fa fa-github ico-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/sidd.hant_17"
+                >
+                  <i className="fa fa-instagram ico-insta"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 teams">
               <Fade up>
                 <h3 className="font-weight-bold">Faculty Advisor</h3>
               </Fade>
