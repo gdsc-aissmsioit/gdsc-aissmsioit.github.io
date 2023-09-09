@@ -149,21 +149,21 @@ const Team2023 = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href=""
+                  href="https://www.linkedin.com/in/siddhant-sangale-39a29724b/"
                 >
                   <i className="fa fa-linkedin ico-link"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href=""
+                  href="https://github.com/SiddhantSangale"
                 >
                   <i className="fa fa-github ico-github"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href=""
+                  href="https://www.instagram.com/sidd.hant_17"
                 >
                   <i className="fa fa-instagram ico-insta"></i>
                 </a>
