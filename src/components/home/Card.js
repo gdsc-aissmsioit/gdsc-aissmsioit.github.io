@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="card-content">
-        {props.event.type === "event" ? (
+        {props.event.type === "evennts/$" ? (
           <NavLink onClick={scrollToTop} to={`/events/${props.event.id}/`}>
             <img
               src={props.event.imageSrc}

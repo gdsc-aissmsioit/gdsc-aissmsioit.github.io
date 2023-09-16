@@ -2,7 +2,7 @@ import React from "react";
 
 import Fade from "react-reveal/Fade";
 
-import Gdsc_All from "../../images/gdsc-all.png";
+import Gdsc_All from "../../../images/gdsc-all.png";
 
 const TeamCard = (props) => {
   return (

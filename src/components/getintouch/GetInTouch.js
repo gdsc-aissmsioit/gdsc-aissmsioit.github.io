@@ -53,7 +53,7 @@ const Contact = () => {
       contactError.classList.remove("d-none");
     } else {
       const response = await fetch(
-        "https://gdsc-web-default-rtdb.firebaseio.com/contacts.json",
+        "https://gdsc-ioit-test-default-rtdb.firebaseio.com/contacts.json",
         {
           method: "POST",
           headers: {

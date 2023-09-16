@@ -92,11 +92,13 @@ const Workshopdetails = () => {
                 <></>
               )}
               <div>
-                <b>Description :</b>
-                {points.map((point) => (
-                  <li>{point}</li>
-                ))}
-              </div>
+				  <b>Description :</b>
+				  <ul>
+					{points.map((point, index) => (
+					  <li key={index}>{point}</li>
+					))}
+				  </ul>
+			  </div>
             </div>
           </div>
         </div>

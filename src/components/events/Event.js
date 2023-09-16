@@ -363,7 +363,7 @@ const Event = () => {
       setSubmitBtn(<div className="loader"></div>);
 
       const response = await fetch(
-        "https://gdsc-web-default-rtdb.firebaseio.com/event_ideas.json",
+        "https://gdsc-ioit-test-default-rtdb.firebaseio.com/event_ideas.json",
         {
           method: "POST",
           headers: {

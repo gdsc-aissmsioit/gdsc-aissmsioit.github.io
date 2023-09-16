@@ -155,10 +155,10 @@ const Blog = () => {
 
           emailjs
             .send(
-              "service_qczueio",
-              "template_a9jln6k",
+              "service_yz4z5pu",
+              "template_47x941g",
               lead,
-              "user_N5oJI9nV7pdO3wXurZ08r"
+              "zrb8Cvq2f4tMi6CKX"
             )
             .then(
               (result) => {
