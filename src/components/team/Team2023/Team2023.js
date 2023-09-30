@@ -135,7 +135,7 @@ const Team2023 = () => {
               <div>
                 <span>
                   <img
-                    src="https://i.ibb.co/QDh8fyK/profile-pic-31.png"
+                    src="https://i.ibb.co/x5D0mL2/Sidd-Pfp.png"
                     className="img-fluid lead-img"
                     alt="Lead_Image"
                   />
