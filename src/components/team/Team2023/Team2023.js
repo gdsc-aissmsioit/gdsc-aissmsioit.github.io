@@ -156,13 +156,6 @@ const Team2023 = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/SiddhantSangale"
-                >
-                  <i className="fa fa-github ico-github"></i>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
                   href="https://www.instagram.com/sidd.hant_17"
                 >
                   <i className="fa fa-instagram ico-insta"></i>
