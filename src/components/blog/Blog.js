@@ -80,7 +80,7 @@ const Blog = () => {
   let technicalBlogsMap = technicalBlogs.map((blog) => (
     <BlogCard key={blog.id} blog={blog} />
   ));
-  
+
   const [blogs, setBlogs] = useState(technicalBlogsMap);
 
   const technicalClick = () => {
@@ -141,34 +141,33 @@ const Blog = () => {
         });
       } else {
         setSubmitBtn(<div className="loader"></div>);
+        
+        const userDetails = {
+          name: values.name,
+          email:values.email,
+          message: `name : ${values.name}
+          email: ${values.email}, 
+          Domain : ${values.domain}, 
+          title : ${values.title}, 
+          Image Link : ${values.coverImage}, 
+          Blog Content : ${values.content}`
+        }
 
-        const leads = [Leads[0], Leads[domainIndex + 1]];
-
-        leads.forEach((lead) => {
-          lead["from_name"] = "GDSC, AISSMS IOIT";
-          lead["name"] = values.name;
-          lead["email"] = values.email;
-          lead["title"] = values.title;
-          lead["domain"] = values.domain;
-          lead["coverImage"] = values.coverImage;
-          lead["content"] = values.content;
-
-          emailjs
-            .send(
-              "service_yz4z5pu",
-              "template_47x941g",
-              lead,
-              "zrb8Cvq2f4tMi6CKX"
-            )
-            .then(
-              (result) => {
-                console.log(result.text);
-              },
-              (error) => {
-                console.log(error.text);
-              }
-            );
-        });
+        emailjs
+          .send(
+            "service_6jubq15",
+            "template_kf4ba27",
+            userDetails,
+            "nfjC249obMJBeOF0k"
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
 
         setValues({
           name: "",
