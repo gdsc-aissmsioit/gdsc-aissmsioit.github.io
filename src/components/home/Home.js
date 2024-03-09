@@ -357,13 +357,6 @@ const Home = () => {
                       >
                         <i className="fa fa-instagram ico-insta"></i>
                       </a>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://github.com/SiddhantSangale"
-                      >
-                        <i className="fa fa-github ico-github"></i>
-                      </a>
                     </div>
                   </div>
                 </div>
