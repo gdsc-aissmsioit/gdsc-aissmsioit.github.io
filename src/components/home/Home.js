@@ -40,7 +40,7 @@ const Home = () => {
       }
     }, 1);
   };
-  
+
   const attendeeCounter = (tagId, maxCount) => {
     var initialNumber = 3500;
     setInterval(() => {
@@ -167,15 +167,13 @@ const Home = () => {
           >
             <div className="heading-text">
               <div className="text-center">
-                <h2 className="animate-character">
-                  Google Developer Student Clubs
-                </h2>
+                <h2 className="animate-character">Google Developer Groups</h2>
               </div>
             </div>
 
             <p className="member-description">
               If you love to code and develop, you are welcome to the world of
-              Google Developer Technologies! GDSC provides you a platform to
+              Google Developer Technologies! GDG provides you a platform to
               enhance your technical skills through our free hands-on workshops,
               study-jams and project building activities. We work together as a
               team to build inspiring solutions to solve real-world problems.
@@ -278,7 +276,7 @@ const Home = () => {
         <div className="container gdsc-revolve">
           <Fade up>
             <h1 className="text-center about-home-headings home-headings mt-lg-0 mt-5">
-              GDSC Revolves Around
+              GDG Revolves Around
             </h1>
           </Fade>
 
@@ -328,7 +326,7 @@ const Home = () => {
             <div className="all-divs text-center mt-lg-5">
               <Fade up>
                 <h1 className="text-center team-home-headings home-headings mt-lg-0">
-                  Meet The GDSC Lead
+                  Meet The GDG Lead
                 </h1>
               </Fade>
 
@@ -340,20 +338,20 @@ const Home = () => {
                       className="img-fluid lead-img"
                       alt="Lead_Image"
                     />
-                    <h5>Siddhant Sangale</h5>
+                    <h5>Yash Divekar</h5>
                     <span></span>
                     <div className="social-ico m-0">
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/siddhant-sangale-39a29724b/"
+                        href="https://www.linkedin.com/in/yash-laxman-divekar/"
                       >
                         <i className="fa fa-linkedin ico-link"></i>
                       </a>
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.instagram.com/sidd.hant_17"
+                        href="https://www.instagram.com/d_yash19"
                       >
                         <i className="fa fa-instagram ico-insta"></i>
                       </a>
@@ -398,7 +396,7 @@ const Home = () => {
                   </h1>
 
                   <p className="home_text pr-lg-5">
-                    GDSC community thrives to spread awareness about technolgies
+                    GDG community thrives to spread awareness about technolgies
                     and engage students in multiple events so that they grow as
                     a developer and meet like minded people.
                   </p>
@@ -428,10 +426,9 @@ const Home = () => {
 
                   <p className="home_text">
                     Find some useful learning resources here and learn about the
-                    journey of GDSC Community Members. If you want your
-                    inspiring content to reach the masses, we welcome you to
-                    submit your blog. “Knowledge is most useful when liberated
-                    and shared!”
+                    journey of GDG Community Members. If you want your inspiring
+                    content to reach the masses, we welcome you to submit your
+                    blog. “Knowledge is most useful when liberated and shared!”
                   </p>
 
                   <div className="btn-section">
@@ -493,7 +490,7 @@ const Home = () => {
                   <div>
                     <h1 className="text-center home-headings">Stay Updated</h1>
                     <p className="px-lg-5 home_text">
-                      Don’t miss out on the exciting happenings at GDSC, AISSMS
+                      Don’t miss out on the exciting happenings at GDG, AISSMS
                       IOIT. Become a member now and get updates about our latest
                       workshops and events!
                     </p>

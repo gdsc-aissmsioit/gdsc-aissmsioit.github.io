@@ -422,9 +422,12 @@ const Event = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Events - GDSC</title>
-        <meta name="title" content="Events - GDSC" />
-        <meta name="description" content="All great things start with an idea. Submit this form if your event idea can help the community!" />
+        <title>Events - GDG</title>
+        <meta name="title" content="Events - GDG" />
+        <meta
+          name="description"
+          content="All great things start with an idea. Submit this form if your event idea can help the community!"
+        />
         <meta
           name="keywords"
           content="gdsc events, gdsc aissms events, gdsc aissms ioit events, dsc, dsc aissms events, dsc aissms ioit events, gdsc ioit events, dsc ioit events, ioit dsc events, aissms dsc events, aissms ioit dsc events, aissms ioit gdsc events, gdsc-aissms-ioit events, gdsc-ioit events, dsc-aissms-ioit events, dsc-ioit events"

@@ -23,8 +23,8 @@ const Workshopdetails = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Workshop Details - GDSC</title>
-        <meta name="title" content="Workshop Details - GDSC" />
+        <title>Workshop Details - GDG</title>
+        <meta name="title" content="Workshop Details - GDG" />
         <meta name="description" content="" />
         <meta
           name="keywords"
@@ -92,13 +92,13 @@ const Workshopdetails = () => {
                 <></>
               )}
               <div>
-				  <b>Description :</b>
-				  <ul>
-					{points.map((point, index) => (
-					  <li key={index}>{point}</li>
-					))}
-				  </ul>
-			  </div>
+                <b>Description :</b>
+                <ul>
+                  {points.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ const events = [
     dateAlt: "21st August 2023 🗓️",
     day: "Monday",
     about:
-      "Join us on August 21st, from 12 pm onwards, as we embark on a thrilling journey into the world of technology at the GDSC (Google Developer Student Clubs) Info Session and Inauguration. This event is not just an introduction; it's a celebration of innovation and collaboration. Be inspired by our special guest, an ex-GDSC Lead, who will share their insights, guiding us to new horizons of tech exploration. Don't miss out – connect, learn, and be a part of this exciting chapter in our GDSC community.",
+      "Join us on August 21st, from 12 pm onwards, as we embark on a thrilling journey into the world of technology at the GDG (Google Developer Groups) Info Session and Inauguration. This event is not just an introduction; it's a celebration of innovation and collaboration. Be inspired by our special guest, an ex-GDSC Lead, who will share their insights, guiding us to new horizons of tech exploration. Don't miss out – connect, learn, and be a part of this exciting chapter in our GDG community.",
     speaker: "Core Team",
     guest: "Prarthana Chandak",
     eventLink:
@@ -16,12 +16,14 @@ const events = [
   },
   {
     id: 16,
-    name: "Google Summer of Code with GDSC! ☀️",
+    name: "Google Summer of Code with GDG! ☀️",
     date: "2022-04-03T03:00:00Z",
     dateAlt: "3rd April 2022 🗓️",
     day: "Sunday",
-    about: "☀️ Google Summer of Code ☀️ with Google Developer Student Clubs!. 🔵🟢🔴🟡. 👨‍🏫 A beginner's guide to -. 📌 Open Source. 📌 Roadmap to GSOC. 📌 How to find organizations and start contributing?. 📌 How to draft a proposal?. 📌 Other Open Source Programs like MLH Fellowship, Outreachy, Github Externship, LFX and more!. 🤝 Meet Kumar Saurabh Raj from GSOC'21, Incoming IBM Research CERN, former GDSC Lead. 🗓 - 03/04/2022, Sunday. 🕐 - 03:00PM IST. 📍 - https://gdsc.community.dev/e/mp6an6/. RSVP Now!. Regards,. GDSC AISSMS IOIT. GDSC Delhi Technical Campus. GDSC Sathyabama Institute of Science and Technology",
-    speaker: "Kumar Saurabh Raj from GSOC'21, LFX, Incoming IBM Research CERN, Former GDSC Lead",
+    about:
+      "☀️ Google Summer of Code ☀️ with Google Developer Groups!. 🔵🟢🔴🟡. 👨‍🏫 A beginner's guide to -. 📌 Open Source. 📌 Roadmap to GSOC. 📌 How to find organizations and start contributing?. 📌 How to draft a proposal?. 📌 Other Open Source Programs like MLH Fellowship, Outreachy, Github Externship, LFX and more!. 🤝 Meet Kumar Saurabh Raj from GSOC'21, Incoming IBM Research CERN, former GDG Lead. 🗓 - 03/04/2022, Sunday. 🕐 - 03:00PM IST. 📍 - https://gdsc.community.dev/e/mp6an6/. RSVP Now!. Regards,. GDG AISSMS IOIT. GDG Delhi Technical Campus. GDG Sathyabama Institute of Science and Technology",
+    speaker:
+      "Kumar Saurabh Raj from GSOC'21, LFX, Incoming IBM Research CERN, Former GDG Lead",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-google-summer-of-code-with-gdsc/",
     imageSrc: "https://i.ibb.co/hWtv0qm/GSOC.jpg",
@@ -29,13 +31,13 @@ const events = [
   },
   {
     id: 15,
-    name: "Be the GDSC Lead for 2022-23",
+    name: "Be the GDG Lead for 2022-23",
     date: "2022-03-31T06:30:00Z",
     dateAlt: "31th March 2022 🗓️",
     day: "Thursday",
     about:
       "Applications to become a Google #DeveloperStudentsClubs Lead are open! This opportunity is for current university students. As a Lead you can:. 💼 Get access to training and technical knowledge. 📈 Grow your network. 🤝 Build projects and relationships. 🌎 Be the *GDSC Lead for 2022-23*! ✨. 🔴🟢🟡🔵. 📅 - *31/03/2022, Friday*. 🕐 - *6:30PM*. 📍- *https://gdsc.community.dev/e/mzpskn/*. ```RSVP Now and get a chance to earn referrals!```",
-    speaker: "Prarthana Chandak, Lead at GDSC, AISSMS IOIT",
+    speaker: "Prarthana Chandak, Lead at GDG, AISSMS IOIT",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-be-the-gdsc-lead-for-2022-23/",
     imageSrc: "https://i.ibb.co/CJgQfLx/GDSC-Lead-Applications.jpg",
@@ -48,8 +50,8 @@ const events = [
     dateAlt: "17th February 2022 🗓️",
     day: "Thursday",
     about:
-      "Want to build beautiful, natively compiled, cross-platform apps from a single codebase?. An Open Source Framework from Google is here to your rescue!. GDSC AISSMS IOIT brings to you, The Flutter Festivals!. 💙✨🎉. What can you do with Flutter?. Flutter is used to build awesome apps which run across various platforms (Android, IOS, Web, Windows, etc.) without the worry of writing different code. These are some of the apps made from Flutter :. 1 Google Pay. 2 Dream11. 3 eBay. 4 BMW. What's in it for you?. 💙Customized learning quests. 💙Hands-on Workshops 👨‍🏫💻. 💙Schwags for winners 🎊🎁. 💙Certificates for participants 📃🏆. Join the Intro Session to know more -. RSVP now!",
-    speaker: "Parth Desai, Android Lead, GDSC, AISSMS IOIT",
+      "Want to build beautiful, natively compiled, cross-platform apps from a single codebase?. An Open Source Framework from Google is here to your rescue!. GDG AISSMS IOIT brings to you, The Flutter Festivals!. 💙✨🎉. What can you do with Flutter?. Flutter is used to build awesome apps which run across various platforms (Android, IOS, Web, Windows, etc.) without the worry of writing different code. These are some of the apps made from Flutter :. 1 Google Pay. 2 Dream11. 3 eBay. 4 BMW. What's in it for you?. 💙Customized learning quests. 💙Hands-on Workshops 👨‍🏫💻. 💙Schwags for winners 🎊🎁. 💙Certificates for participants 📃🏆. Join the Intro Session to know more -. RSVP now!",
+    speaker: "Parth Desai, Android Lead, GDG, AISSMS IOIT",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune/",
     imageSrc: "https://i.ibb.co/fSMHcq0/Flutter-Festival.jpg",
@@ -62,7 +64,7 @@ const events = [
     dateAlt: "11th February 2022 🗓️",
     day: "Friday",
     about:
-      "Google Developer Student Clubs, AISSMS IOIT brings to The Intro event for Google's HashCode and KickStart!✨. 🏆 Hop in to know more about these coding competition, earn exciting prizes and a chance to intern at Google!! 🏆. 🎁This is not it, we'll also be Revealing Goodies for Solution Challange 2022!. And and.... 🎁We have an amazing surprise for you!. So what are you waiting for? Join us. 📌 RSVP and Join here:. Regards, GDSC AISSMS IOIT",
+      "Google Developer Groups, AISSMS IOIT brings to The Intro event for Google's HashCode and KickStart!✨. 🏆 Hop in to know more about these coding competition, earn exciting prizes and a chance to intern at Google!! 🏆. 🎁This is not it, we'll also be Revealing Goodies for Solution Challange 2022!. And and.... 🎁We have an amazing surprise for you!. So what are you waiting for? Join us. 📌 RSVP and Join here:. Regards, GDG AISSMS IOIT",
     speaker: "Harshal Raundal",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-intro-to-hashcode-and-kickstart-2022-solution-challenge-goodies-reveal/",
@@ -76,7 +78,7 @@ const events = [
     dateAlt: "9th February 2022 🗓️",
     day: "Wednesday",
     about:
-      "✨2022 Solution Challenge✨. The mission of the 2022 Solution Challenge is to solve for one or more of the United Nations 17 Sustainable Development Goals using technologies. It gives students a platform to showcase their innovative ideas and solutions that solve real world problems. Google Developer Student Clubs, AISSMS IOIT brings to you the most awaited and exciting 2022 SOLUTION CHALLENGE!✨🏆. 💡It's time to showcase your innovative ideas and solutions to solve real-world problems under United Nations Sustainable Development Goals!. 🏆🎉 Hop in for the Info-Session to know more about 2022 Solution Challenge, Design Sprint, Team Building, Prizes, Winners and much more!! 🎉🏆. This is not it, we'll also be discussing about Hashcode and Kickstart - Coding Competitions at Google where you stand a chance to earn an Internship at Google!. Join us for the info-session to know more about Solution Challenge, UN Sustainable Development Goals, Design Sprint, Prizes, Winners and much more!. Solution Challenge is open to all the members of GDSC. If you aren't a member of GDSC, hop in to understand how to be a member for free!",
+      "✨2022 Solution Challenge✨. The mission of the 2022 Solution Challenge is to solve for one or more of the United Nations 17 Sustainable Development Goals using technologies. It gives students a platform to showcase their innovative ideas and solutions that solve real world problems. Google Developer Groups, AISSMS IOIT brings to you the most awaited and exciting 2022 SOLUTION CHALLENGE!✨🏆. 💡It's time to showcase your innovative ideas and solutions to solve real-world problems under United Nations Sustainable Development Goals!. 🏆🎉 Hop in for the Info-Session to know more about 2022 Solution Challenge, Design Sprint, Team Building, Prizes, Winners and much more!! 🎉🏆. This is not it, we'll also be discussing about Hashcode and Kickstart - Coding Competitions at Google where you stand a chance to earn an Internship at Google!. Join us for the info-session to know more about Solution Challenge, UN Sustainable Development Goals, Design Sprint, Prizes, Winners and much more!. Solution Challenge is open to all the members of GDG. If you aren't a member of GDG, hop in to understand how to be a member for free!",
     speaker: "Prarthana Chandak",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-solution-challenge-info-session/",
@@ -105,7 +107,7 @@ const events = [
     dateAlt: "6th February 2022 🗓️",
     day: "Sunday",
     about:
-      "Hey Folks! 🔵🟢🔴🟡. INTERNSHIP at favourite MNC ? 📑. Roadmap | Strategies | Action Plan | Skills 📈. Want to make LinkedIn Profile stand out? ✔. Linkedin is one the most helpful tool for your career !. GDSC AISSMS IOIT is back with one more incredible session with one of the most talented women in tech out there. Get to know about the journey of Aishwarya Mahapatra, Technical Intern at D.E.Shaw and Ex Intern at Goldman Sachs, about how she gave up on coding in her initial years BUT followed some incredible strategies to get going and bag MANY awesome opportunities at Big Tech companies.she is going to share with us about how LinkedIn helped her Network and scale up her pace at finding internships, job search and a 22k+ supportive audience.",
+      "Hey Folks! 🔵🟢🔴🟡. INTERNSHIP at favourite MNC ? 📑. Roadmap | Strategies | Action Plan | Skills 📈. Want to make LinkedIn Profile stand out? ✔. Linkedin is one the most helpful tool for your career !. GDG AISSMS IOIT is back with one more incredible session with one of the most talented women in tech out there. Get to know about the journey of Aishwarya Mahapatra, Technical Intern at D.E.Shaw and Ex Intern at Goldman Sachs, about how she gave up on coding in her initial years BUT followed some incredible strategies to get going and bag MANY awesome opportunities at Big Tech companies.she is going to share with us about how LinkedIn helped her Network and scale up her pace at finding internships, job search and a 22k+ supportive audience.",
     speaker:
       "Aishwarya Mahapatra, A Technical Intern at D.E. Shaw and an Ex Intern at Goldman Sachs",
     eventLink:
@@ -121,8 +123,8 @@ const events = [
     dateAlt: "21st January 2022 🗓️",
     day: "Friday",
     about:
-      "Guys, GDSC and MLSC are planning to conduct a buddy program where we (Core team members) would be connecting with FE and SE students to just talk about how the internships and placements are like, and we can also share some resources with them that we found useful. We'll announce this in the induction event and all those who are interested can fill the form. Then we would randomly and equally distribute the freshers to their buddy. I think it'll be a great opportunity to help juniors connect with seniors and gain an insight on what they have ahead of them",
-    speaker: "MLSAC and GDSC Core Team",
+      "Guys, GDG and MLSC are planning to conduct a buddy program where we (Core team members) would be connecting with FE and SE students to just talk about how the internships and placements are like, and we can also share some resources with them that we found useful. We'll announce this in the induction event and all those who are interested can fill the form. Then we would randomly and equally distribute the freshers to their buddy. I think it'll be a great opportunity to help juniors connect with seniors and gain an insight on what they have ahead of them",
+    speaker: "MLSAC and GDG Core Team",
     eventLink: "",
     imageSrc: "https://i.ibb.co/gtDjD9y/FE-Orientaion.jpg",
     dataAos: "fade-right",
@@ -134,7 +136,7 @@ const events = [
     dateAlt: "15th January 2022 🗓️",
     day: "Saturday",
     about:
-      "🔵🔴🟡🟢.  Hello ASJ Champs! ✨. Greetings from GDSC, AISSMS IOIT. As Android Study Jams is about to conclude, I'm sure many of you are excited to dive deeper into Android Development !. To celebrate and support the learning of students achieving all the badges in Android Study Jams, GDSC will be offering reimbursement for 'Associate Android Developer with Kotlin' Certification! 🎁🥳. For learning more about Android Certifications and reimbursements, we are hosting a live session for you all where we can discuss more about the same. We also have surprises for freshers !",
+      "🔵🔴🟡🟢.  Hello ASJ Champs! ✨. Greetings from GDG, AISSMS IOIT. As Android Study Jams is about to conclude, I'm sure many of you are excited to dive deeper into Android Development !. To celebrate and support the learning of students achieving all the badges in Android Study Jams, GDG will be offering reimbursement for 'Associate Android Developer with Kotlin' Certification! 🎁🥳. For learning more about Android Certifications and reimbursements, we are hosting a live session for you all where we can discuss more about the same. We also have surprises for freshers !",
     speaker: "Prarthana Chandak",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-guide-to-certifications/",
@@ -148,7 +150,7 @@ const events = [
     dateAlt: "4th January 2022 🗓️",
     day: "Tuesday",
     about:
-      "🔵🔴🟡🟢.  Hello ASJ Champs! ✨. Greetings from GDSC, AISSMS IOIT. Join us for the 2nd session of Android Study Jams!. We'll be creating our first app and will be learning basics of Kotlin",
+      "🔵🔴🟡🟢.  Hello ASJ Champs! ✨. Greetings from GDG, AISSMS IOIT. Join us for the 2nd session of Android Study Jams!. We'll be creating our first app and will be learning basics of Kotlin",
     speaker: "Prarthana Chandak",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-android-study-jams-2/",
@@ -162,7 +164,7 @@ const events = [
     dateAlt: "29th November 2021 🗓️",
     day: "Monday",
     about:
-      "❓ Want to build apps? ❓Don't know where to start? GDSC AISSMS IOIT brings to you ANDROID STUDY JAMS to kickstart your journey as an Android Developer. 💡 TRACKS - Android basics in kotlin course 📌What's in it for you? ✨Learn Android fundamentals from basics. ✨Earn badges for Google Developer Profile. ✨Get certificate of completion. ✨Get ready for Associate Android Developer Exam. ✨ Develop real-world Android Apps in team",
+      "❓ Want to build apps? ❓Don't know where to start? GDG AISSMS IOIT brings to you ANDROID STUDY JAMS to kickstart your journey as an Android Developer. 💡 TRACKS - Android basics in kotlin course 📌What's in it for you? ✨Learn Android fundamentals from basics. ✨Earn badges for Google Developer Profile. ✨Get certificate of completion. ✨Get ready for Associate Android Developer Exam. ✨ Develop real-world Android Apps in team",
     speaker: "Prathamesh Chaudhari",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-android-study-jams/",
@@ -176,7 +178,7 @@ const events = [
     dateAlt: "28th October 2021 🗓️",
     day: "Thursday",
     about:
-      "📌93% of IT decision-makers around the world agree that certified employees provide added value above and beyond the cost of certification. 📌87% of Google Cloud-certified individuals are more confident about their cloud skills. 📌More than 1 in 4 Google Cloud certified individuals took on more responsibilities or leadership roles in their respective domains. Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology. Join us for the event CloudFest 2.0: Road to Google Cloud Certifications with GDSC AISSMS IOIT that will take you to Google Cloud certification journey and will be helping you to begin your journey of becoming Google Cloud certified. Discover all about Google Cloud Certifications and get all your queries answered!",
+      "📌93% of IT decision-makers around the world agree that certified employees provide added value above and beyond the cost of certification. 📌87% of Google Cloud-certified individuals are more confident about their cloud skills. 📌More than 1 in 4 Google Cloud certified individuals took on more responsibilities or leadership roles in their respective domains. Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology. Join us for the event CloudFest 2.0: Road to Google Cloud Certifications with GDG AISSMS IOIT that will take you to Google Cloud certification journey and will be helping you to begin your journey of becoming Google Cloud certified. Discover all about Google Cloud Certifications and get all your queries answered!",
     speaker: "Magda Jary",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-road-to-google-cloud-certifications/",
@@ -191,7 +193,7 @@ const events = [
     day: "Wednesday",
     guest: "Dr. Varsha Harpale Ma'am",
     about:
-      "🔵🔴 Google Developer Student Clubs-AISSMS IOIT. 🟢🟡 Brings you the Grand Hackathon - 💥 DEVELOPER HACKS-21 💥 along with the collaborators -🔥🖥️ Computer Engineering Student's Association 🖥️🔥 and⚡ IEEE Signal Processing society, Pune Chapter⚡. Sponsored by Tech Mahindra 🔥🏆. PRIZES - 💰 Prizes worth Rs.5,000/- 🥳 Special Prize for the Best Idea 🎁. Certificates by Google Developer Student Clubs, CESA and IEEE Signal Processing Society, Pune Chapter to all the participants!",
+      "🔵🔴 Google Developer Groups-AISSMS IOIT. 🟢🟡 Brings you the Grand Hackathon - 💥 DEVELOPER HACKS-21 💥 along with the collaborators -🔥🖥️ Computer Engineering Student's Association 🖥️🔥 and⚡ IEEE Signal Processing society, Pune Chapter⚡. Sponsored by Tech Mahindra 🔥🏆. PRIZES - 💰 Prizes worth Rs.5,000/- 🥳 Special Prize for the Best Idea 🎁. Certificates by Google Developer Groups, CESA and IEEE Signal Processing Society, Pune Chapter to all the participants!",
     speaker: "Core Team",
     Sponsor: "Tech Mahindra",
     recording: "https://youtu.be/au0OkYuaDFI",
@@ -220,7 +222,7 @@ const events = [
     dateAlt: "15th September 2021 🗓️",
     day: "Wednesday",
     about:
-      "What is GDSC?. Meet the Core Team & Faculty Advisor. Events Launch. Introducing Developer Hacks - 21",
+      "What is GDG?. Meet the Core Team & Faculty Advisor. Events Launch. Introducing Developer Hacks - 21",
     speaker: "Core Team",
     sponsor: "Tech Mahindra",
     recording: "https://youtu.be/DKzCNpLOjX4",
@@ -231,12 +233,12 @@ const events = [
   },
   {
     id: 1,
-    name: "Intro-Meet of GDSC, AISSMS IOIT",
+    name: "Intro-Meet of GDG, AISSMS IOIT",
     date: "2021-08-26",
     dateAlt: "26th August 2021 🗓️",
     day: "Thursday",
     about:
-      "Introducing GDSC at AISSMS IOIT, GDSC membership, Core team applications",
+      "Introducing GDG at AISSMS IOIT, GDG membership, Core team applications",
     speaker: "Prarthana Chandak",
     guest: "Ankita Ugale",
     recording: "https://youtu.be/qWuQMssG0nQ",

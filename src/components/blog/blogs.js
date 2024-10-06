@@ -27,22 +27,22 @@ const BlogResources = (props) => {
 
 const blogs = [
   {
-    id: 'leadguide_by_prarthanachandak',
+    id: "leadguide_by_prarthanachandak",
     tag: "GDSC Lead Application",
-    name: "Guide to become a GDSC Lead",
+    name: "Guide to become a GDG Lead",
     email: "prarthanachandak@gmail.com",
     linkedin: "https://www.linkedin.com/in/prarthana-chandak-2a84b81b7",
     date: "31st March 2022",
     day: "Thursday",
     shortDescription: `Hi everyone! I’m Prarthana Chandak, the founder and the Lead at
-    Google Developer Student Clubs, AISSMS IOIT. I started GDSC at
+    Google Developer Groups, AISSMS IOIT. I started GDG at
     my campus for the very first time and this blog is a complete
     guide on the entire process that I followed and you can follow
-    while applying. Index - What is a GDSC? Benefits of being a GDSC
-    Lead My motivation to run a community Criteria to become a GDSC
+    while applying. Index - What is a GDG? Benefits of being a GDG
+    Lead My motivation to run a community Criteria to become a GDG
     Lead`,
     about: "",
-    author: "Prarthana Chandak: Lead - GDSC, AISSMS IOIT",
+    author: "Prarthana Chandak: Lead - GDG, AISSMS IOIT",
     imageSrc: "https://i.ibb.co/5M763g9/Lead-Application.jpg",
     category: "Technical",
     fade: "right",
@@ -51,23 +51,23 @@ const blogs = [
   {
     id: 1,
     tag: "GDSC Lead",
-    name: "My Coding Journey and How I became a Lead at GDSC",
+    name: "My Coding Journey and How I became a Lead at GDG",
     email: "prarthanachandak@gmail.com",
     linkedin: "https://www.linkedin.com/in/prarthana-chandak-2a84b81b7",
     date: "13th Feb 2022",
     day: "Sunday",
-    shortDescription: `Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Student Clubs,
+    shortDescription: `Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Groups,
     AISSMS Institute of Information Technology. Currently, I’m also interning at Reliance Jio. I’m very
     excited to share with you all about how I started my journey with coding and became the Lead at
-    GDSC.
+    GDG.
     So, I hated computers during my school days. I knew this .`,
     about: (
       <BlogAbout
         content="
-        Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Student Clubs,
+        Hi everyone! I’m Prarthana Chandak, Lead and Founder at Google Developer Groups,
         AISSMS Institute of Information Technology. Currently, I’m also interning at Reliance Jio. I’m very
         excited to share with you all about how I started my journey with coding and became the Lead at
-        GDSC. @#$& So, I hated computers during my school days. I knew this was the last time that I was studying
+        GDG. @#$& So, I hated computers during my school days. I knew this was the last time that I was studying
         computers.. When the whole class got excited about computer practicals, I was the one who would
         prefer sitting in the class. Those HTML tags would really terrify me to the core.
         I gave my JEE and CET attempt in class 12 and I still didn’t know what branch I’m gonna take. So, to
@@ -85,26 +85,26 @@ const blogs = [
         started with python and kept solving various problems. That really made me more confident and I
         enjoyed it as well. @#$& Now, as I couldn’t really do very well in JEE, I had this in my mind that I want to explore as much as I
         can in college, and try everything to my best. That’s how, while exploring, I came across this 30 Days
-        of Google Cloud Program by GDSC AISSMS COE in my 2nd year. I joined the club, completed all the
-        challenges and really enjoyed it. I used to wonder why we don’t have a GDSC in our college and
+        of Google Cloud Program by GDG AISSMS COE in my 2nd year. I joined the club, completed all the
+        challenges and really enjoyed it. I used to wonder why we don’t have a GDG in our college and
         that’s when I decided to start a club at our college. It was back in April, 2021 when the applications for
-        Lead position at Google Developer Student Clubs opened. I along with a few classmates applied for
+        Lead position at Google Developer Groups opened. I along with a few classmates applied for
         the same. We were supposed to fill out an application form, and an introductory video. Results were
         out in a few days, and I along with my 2 friends got selected for the interview round. @#$& I was very nervous as we three had equal chances of getting selected, and this was going to be my
         first interview. We had to book slots for the interview, and my interview day finally came. I was
-        nervous but very excited. I had prepared well about my projects, my motivation to start a GDSC and I
+        nervous but very excited. I had prepared well about my projects, my motivation to start a GDG and I
         knew I had to do my best for the interview. It was August 5, when I saw a letter in my mailbox,
-        congratulating me for getting selected as the Lead at Google Developer Student Clubs. Establishing a
-        GDSC at our campus wasn’t possible without constant support of Principal Sir, teachers and faculty
-        advisor of GDSC, Wagh Sir. And that’s how the journey began. @#$& I would encourage everyone reading this to apply for such programs. It really gives a boost to your
+        congratulating me for getting selected as the Lead at Google Developer Groups. Establishing a
+        GDG at our campus wasn’t possible without constant support of Principal Sir, teachers and faculty
+        advisor of GDG, Wagh Sir. And that’s how the journey began. @#$& I would encourage everyone reading this to apply for such programs. It really gives a boost to your
         confidence, public speaking, handling critical situations at last moments, managing a team and a lot
         more. It helps you build your personality overall. @#$& This was a brief about my journey, but in upcoming blogs, I’ll share more about resources to practice
-        coding and DSA, and will share a detailed article which will help you apply for the GDSC Lead
+        coding and DSA, and will share a detailed article which will help you apply for the GDG Lead
         position. I hope you enjoyed this blog!
       "
       />
     ),
-    author: "Prarthana Chandak: Lead - GDSC, AISSMS IOIT",
+    author: "Prarthana Chandak: Lead - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1644744738/blogs/yrs4m4qxhphlbktmmej1.jpg",
     category: "Technical",
@@ -121,14 +121,14 @@ const blogs = [
     day: "Thursday",
     shortDescription: `
       Hello Developers,
-      This is Ashish Patil, working as Web Development Lead at GDSC, AISSMS IOIT. In this blog, I will be sharing my entire journey of how I started working as a Full Stack Web Developer.
+      This is Ashish Patil, working as Web Development Lead at GDG, AISSMS IOIT. In this blog, I will be sharing my entire journey of how I started working as a Full Stack Web Developer.
   
       So, let's get started!!!!
   
       I will start from the beginning when I was totally blank and was not aware of how coding and development work. In the first year, we had one subject called PPS and at that time I become acquainted with what exactly p. 
       `,
     about: (
-      <BlogAbout content="Hello Developers, @#$& This is Ashish Patil, working as Web Development Lead at GDSC, AISSMS IOIT. In this blog, I will be sharing my entire journey of how I started working as a Full Stack Web Developer. @#$& So, let's get started!!!! @#$& I will start from the beginning when I was totally blank and was not aware of how coding and development work. In the first year, we had one subject called PPS and at that time I become acquainted with what exactly python and coding is 😅. But unfortunately, due to the rise in Covid-19 cases, entire India was locked and our syllabus was not completed 😥. But I decided not to waste time and started taking benefit of each and every second in lockdown 🎯. @#$& Buckle up guys, now my coding journey has started 😁. @#$& So first of all, I started learning Python from basic to advanced. And I assure you guys that there is no other platform as best as *YouTube* for beginners. Then In my second year, I got introduced to C++, DSA, Competitive Coding. Then I started learning C++, Data Structures, and Algorithms. Practicing questions from coding platforms like HackerRank and CodeChef. Up till now, I had not specifically decided to work in any domain. I was just practicing python, C++, basic HTML/CSS projects in order to build my programming and development skills. But I was sure that I have to develop my career in Python Language only, because of its simplicity, powerful libraries, lot of opportunities available, and of course it was my first programming language that dive me into the coding journey. @#$& After that, I came across Django which is a web framework of Python. I was fascinated by this framework 🤩, due to its features like rapid development, clean and pragmatic design, orm, security, admin panel, csrf middleware, celery, channels, etc. And this is how my journey to *Full Stack Development* started. @#$& I had completed almost all the features of Django by applying for various courses, youtube, documentation, and projects in the span of 4-5 months. After that, I spent time learning Django REST Framework which is widely used for creating REST APIs. At the same time, I started working with a Start-Up named *Search-In* which is location-based service provider, enhancing user engagement in indoor spaces. From that day onwards, precious time had begun💎. It was golden opportunity which I got in my life, where I have developed many applications in Django and Django rest framework. As per the need, I started learning and deploying applications on Heroku and AWS. And that's how my cloud computing journey was also started 💫. Subsequently, I got into MERN Stack and started working on client-side rendering. Needless to say, if you want to work on client-side rendering then *JavaScript is the most important scripting language*, you must be cleared with. That being the case I learned all the key concepts of JavaScript and then proceeded with Node, Express, React, and MongoDB. @#$& At the same time, I have also applied for Django Mentorship at REGex Software Services, a software company in Jaipur that provides Training and IT-related services. Fortunately, I got selected for this position and I have worked with them for 3 months where I helped a lot of students and led different teams on different projects. @#$& Henceforth, I applied for a Web Development Internship at Studentpeeps, a platform where university students get exclusive student discounts when they shop. Where I have worked on the development and deployment of their website. @#$& Quality time started, I applied for the position in the core team at Google Developer Student  Club in our college. And guess what, I got selected as Web Lead 🤩. Where we have organised many Events, Workshops and shared valuable knowledge with each other. Still, I am enjoying working  with this great team 🌀. After that, I worked at TCS iON Digital Learning Hub as Python Intern where I developed Plagiarism Seeker Web App. @#$& Yet my journey is not completed 🏋️. I continued developing applications and now I am learning complex concepts of AWS, DevOps, Linux, and System Design. @#$& I hope, this blog will help you a bit in your vast and never-ending development journey 😊." />
+      <BlogAbout content="Hello Developers, @#$& This is Ashish Patil, working as Web Development Lead at GDG, AISSMS IOIT. In this blog, I will be sharing my entire journey of how I started working as a Full Stack Web Developer. @#$& So, let's get started!!!! @#$& I will start from the beginning when I was totally blank and was not aware of how coding and development work. In the first year, we had one subject called PPS and at that time I become acquainted with what exactly python and coding is 😅. But unfortunately, due to the rise in Covid-19 cases, entire India was locked and our syllabus was not completed 😥. But I decided not to waste time and started taking benefit of each and every second in lockdown 🎯. @#$& Buckle up guys, now my coding journey has started 😁. @#$& So first of all, I started learning Python from basic to advanced. And I assure you guys that there is no other platform as best as *YouTube* for beginners. Then In my second year, I got introduced to C++, DSA, Competitive Coding. Then I started learning C++, Data Structures, and Algorithms. Practicing questions from coding platforms like HackerRank and CodeChef. Up till now, I had not specifically decided to work in any domain. I was just practicing python, C++, basic HTML/CSS projects in order to build my programming and development skills. But I was sure that I have to develop my career in Python Language only, because of its simplicity, powerful libraries, lot of opportunities available, and of course it was my first programming language that dive me into the coding journey. @#$& After that, I came across Django which is a web framework of Python. I was fascinated by this framework 🤩, due to its features like rapid development, clean and pragmatic design, orm, security, admin panel, csrf middleware, celery, channels, etc. And this is how my journey to *Full Stack Development* started. @#$& I had completed almost all the features of Django by applying for various courses, youtube, documentation, and projects in the span of 4-5 months. After that, I spent time learning Django REST Framework which is widely used for creating REST APIs. At the same time, I started working with a Start-Up named *Search-In* which is location-based service provider, enhancing user engagement in indoor spaces. From that day onwards, precious time had begun💎. It was golden opportunity which I got in my life, where I have developed many applications in Django and Django rest framework. As per the need, I started learning and deploying applications on Heroku and AWS. And that's how my cloud computing journey was also started 💫. Subsequently, I got into MERN Stack and started working on client-side rendering. Needless to say, if you want to work on client-side rendering then *JavaScript is the most important scripting language*, you must be cleared with. That being the case I learned all the key concepts of JavaScript and then proceeded with Node, Express, React, and MongoDB. @#$& At the same time, I have also applied for Django Mentorship at REGex Software Services, a software company in Jaipur that provides Training and IT-related services. Fortunately, I got selected for this position and I have worked with them for 3 months where I helped a lot of students and led different teams on different projects. @#$& Henceforth, I applied for a Web Development Internship at Studentpeeps, a platform where university students get exclusive student discounts when they shop. Where I have worked on the development and deployment of their website. @#$& Quality time started, I applied for the position in the core team at Google Developer Student  Club in our college. And guess what, I got selected as Web Lead 🤩. Where we have organised many Events, Workshops and shared valuable knowledge with each other. Still, I am enjoying working  with this great team 🌀. After that, I worked at TCS iON Digital Learning Hub as Python Intern where I developed Plagiarism Seeker Web App. @#$& Yet my journey is not completed 🏋️. I continued developing applications and now I am learning complex concepts of AWS, DevOps, Linux, and System Design. @#$& I hope, this blog will help you a bit in your vast and never-ending development journey 😊." />
     ),
     resources: (
       <BlogResources
@@ -142,7 +142,7 @@ const blogs = [
         }}
       />
     ),
-    author: "Ashish Patil: Web Lead - GDSC, AISSMS IOIT",
+    author: "Ashish Patil: Web Lead - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643207608/blogs/FullStack_dkrske.png",
     category: "Technical",
@@ -160,7 +160,7 @@ const blogs = [
     shortDescription:
       "The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field.",
     about: (
-      <BlogAbout content="The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. @#$& It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites. I was so fascinated by the working of satellites, their automation, and the artificial intelligence research going in the space technology for India. Returning from the journey I had already planned my career in the field of artificial intelligence. @#$& And the hunt started ………..!!! @#$& I started researching about degrees in AI in India, but to my vain, there were not that many courses available in the destined field. I spoke to various industry persons and then came to conclusion about pursuing BE in Computer Engineering. This made me land in the AISSMS Institute of Information Technology. Being a sophomore I was unaware of the programming languages. After, my first sem I joined DISHA classes to get cleared with my concepts for C, C++. Within a year I had nearly mastered C, C++, Python along-with DSA. @#$& In my second year during my mid-vacations, I had attended the workshop conducted by Machine Learning India at Ai-adventures, Pune. And my journey towards ML started. Building projects, practising python programming, reading books and references started. I started learning from various youtube channels - Edureka, codewithharry, and many live sessions. But these were not enough. Machine learning is not a one day thing. @#$& Having many resources but not the best was the problem. During the covid pandemic I came across the ML Masters course by iNeuron.ai. It was indeed one of the best course I came across. The course started from basic python programming and ended with NLP, DL. It had various modules like database management, API, EDA, ML pipelines, Deep Learning and NLP. The course was not just theoretical but practical too. I had build a couple of projects too. Meanwhile I got selected as ML lead at GDSC and MLASC. @#$& After completing this course I interned at the same company as a ML intern. I had a major contribution in data researching, data analysing, data preprocessing and writing python scripts. After this, I started interning as a Developer at Apartmint solutions wherein my major tasks included scraping the data from real estate website and integrating it with postgresql using python scripts. @#$& There is a no complete roadmap for being a ML engineer. One needs to start self learning, practise and take advice from seniors, learn from mistakes and stop procrastinating. I would like to share some resources too. @#$& Reading blogs on medium, wire" />
+      <BlogAbout content="The pace of growing artificial intelligence is incredibly fast. It has its influence in all the fields like healthcare, banking, agriculture, business, e-commerce, space, and many more. Artificial Intelligence, Machine Learning, Computer Vision, Robotics will be the ever-evolving fields in the coming decades. There are lot many opportunities available in these fields. Extensive research opportunities are the core reason for the development in this field. Thus I feel that one should surely think about pursuing their career in Artificial Intelligence due to its exposure and plethora of opportunities. @#$& It gives me immense pleasure in writing this blog. I would like to highlight my journey in selecting this technology as my career. I had got an opportunity from my college in 11th grade to visit ISRO, Ahmedabad to study satellites. I was so fascinated by the working of satellites, their automation, and the artificial intelligence research going in the space technology for India. Returning from the journey I had already planned my career in the field of artificial intelligence. @#$& And the hunt started ………..!!! @#$& I started researching about degrees in AI in India, but to my vain, there were not that many courses available in the destined field. I spoke to various industry persons and then came to conclusion about pursuing BE in Computer Engineering. This made me land in the AISSMS Institute of Information Technology. Being a sophomore I was unaware of the programming languages. After, my first sem I joined DISHA classes to get cleared with my concepts for C, C++. Within a year I had nearly mastered C, C++, Python along-with DSA. @#$& In my second year during my mid-vacations, I had attended the workshop conducted by Machine Learning India at Ai-adventures, Pune. And my journey towards ML started. Building projects, practising python programming, reading books and references started. I started learning from various youtube channels - Edureka, codewithharry, and many live sessions. But these were not enough. Machine learning is not a one day thing. @#$& Having many resources but not the best was the problem. During the covid pandemic I came across the ML Masters course by iNeuron.ai. It was indeed one of the best course I came across. The course started from basic python programming and ended with NLP, DL. It had various modules like database management, API, EDA, ML pipelines, Deep Learning and NLP. The course was not just theoretical but practical too. I had build a couple of projects too. Meanwhile I got selected as ML lead at GDG and MLASC. @#$& After completing this course I interned at the same company as a ML intern. I had a major contribution in data researching, data analysing, data preprocessing and writing python scripts. After this, I started interning as a Developer at Apartmint solutions wherein my major tasks included scraping the data from real estate website and integrating it with postgresql using python scripts. @#$& There is a no complete roadmap for being a ML engineer. One needs to start self learning, practise and take advice from seniors, learn from mistakes and stop procrastinating. I would like to share some resources too. @#$& Reading blogs on medium, wire" />
     ),
     resources: (
       <BlogResources
@@ -169,7 +169,7 @@ const blogs = [
         }}
       />
     ),
-    author: "Akshada Bhandari: ML Lead - GDSC, AISSMS IOIT",
+    author: "Akshada Bhandari: ML Lead - GDG, AISSMS IOIT",
     imageSrc: "https://i.ibb.co/ZWqPPn0/Artificial-Intelligence-v1.png",
     category: "Technical",
     fade: "right",
@@ -204,7 +204,7 @@ const blogs = [
         }}
       />
     ),
-    author: "Parth Desai: Android Lead - GDSC, AISSMS IOIT",
+    author: "Parth Desai: Android Lead - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643649387/blogs/erblti475ntbksl3arpu.jpg",
     category: "Technical",
@@ -232,7 +232,7 @@ const blogs = [
         }}
       />
     ),
-    author: "Aditya Gandhamal: ML Co Lead - GDSC, AISSMS IOIT",
+    author: "Aditya Gandhamal: ML Co Lead - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643209543/blogs/bymc2ept7yivcqfrwacx.jpg",
     category: "Technical",
@@ -248,18 +248,18 @@ const blogs = [
     date: "20th Jan 2022",
     day: "Tuesday",
     shortDescription: `
-    Hi everyone, I am Shriniwas Khond and here I would be talking about my journey as a Cloud domain lead at a GDSC and Blockchain developer intern. 
+    Hi everyone, I am Shriniwas Khond and here I would be talking about my journey as a Cloud domain lead at a GDG and Blockchain developer intern. 
 The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator (GCRF) program which was scheduled from 10th of April,2021 through the 10th of June,2021. The registration period for this campaign was around the end of March, the very same period when I had started hunting for internship.
     
       `,
     about: (
       <BlogAbout
-        content="Hi everyone, I am Shriniwas Khond and here I would be about talking my journey as a Cloud domain lead at a GDSC and Blockchain developer intern. @#$& The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator (GCRF) program which was scheduled from 10th of April,2021 through the 10th of June,2021. The registration period for this campaign was around the end of March, the very same period when I had started hunting for internships. This was a 2-month long campaign, it was a totally new experience for me as I was a complete fresher in the field of cloud computing at that time. There were 4 learning tracks, each of which was perfectly designed to build an individual’s knowledge and gain experience while working on the Google Cloud Platform, similarly I went for Microsoft learn cloud skills challenge. @#$& As I progressed through this campaign, I kept taking notes of various products and services offered by Google cloud platform, throughout this campaign. It was during this campaign I was able to fetch an internship as a blockchain developer intern at a startup named “Richedu Co.”. I was a complete fresher in the field of blockchain, attracted by the then buzzword “cryptocurrency”. I had disciplined myself to one strategy i.e., “Jack of all trades, master of none, but oftentimes better than a master of none”. @#$& Thus, I started exploring the field of blockchain through Microsoft Learn, cybersecurity through Cisco Networking Academy. After the GCRF campaign ended, I was more focused towards my work at the startup, mostly dealing with Smart Contracts and networking with other interns, most of them are now my mentors. They used to share various resources and their tips and tricks with me, as I was the youngest amongst the interns. I came across the concept of learning platforms like Coursera, EDX, NPTEL and etc. which offered introductory courses for free. I exploited the “free courses” feature from various e-learning platforms and I used to gather as much knowledge as I could. Most of my motivation comes from scrolling on my LinkedIn feed. @#$& Then one day, a certain announcement was made on the college group regarding the establishment of Google Developer Students Club, and the fact that there was an opening for Cloud domain lead caught my attention, and then I applied for the position, which eventually help to me become a Cloud domain Lead at GDSC, AISSMS IOIT.
+        content="Hi everyone, I am Shriniwas Khond and here I would be about talking my journey as a Cloud domain lead at a GDG and Blockchain developer intern. @#$& The genesis of my Cloud Computing journey was the Google Cloud Ready Facilitator (GCRF) program which was scheduled from 10th of April,2021 through the 10th of June,2021. The registration period for this campaign was around the end of March, the very same period when I had started hunting for internships. This was a 2-month long campaign, it was a totally new experience for me as I was a complete fresher in the field of cloud computing at that time. There were 4 learning tracks, each of which was perfectly designed to build an individual’s knowledge and gain experience while working on the Google Cloud Platform, similarly I went for Microsoft learn cloud skills challenge. @#$& As I progressed through this campaign, I kept taking notes of various products and services offered by Google cloud platform, throughout this campaign. It was during this campaign I was able to fetch an internship as a blockchain developer intern at a startup named “Richedu Co.”. I was a complete fresher in the field of blockchain, attracted by the then buzzword “cryptocurrency”. I had disciplined myself to one strategy i.e., “Jack of all trades, master of none, but oftentimes better than a master of none”. @#$& Thus, I started exploring the field of blockchain through Microsoft Learn, cybersecurity through Cisco Networking Academy. After the GCRF campaign ended, I was more focused towards my work at the startup, mostly dealing with Smart Contracts and networking with other interns, most of them are now my mentors. They used to share various resources and their tips and tricks with me, as I was the youngest amongst the interns. I came across the concept of learning platforms like Coursera, EDX, NPTEL and etc. which offered introductory courses for free. I exploited the “free courses” feature from various e-learning platforms and I used to gather as much knowledge as I could. Most of my motivation comes from scrolling on my LinkedIn feed. @#$& Then one day, a certain announcement was made on the college group regarding the establishment of Google Developer Students Club, and the fact that there was an opening for Cloud domain lead caught my attention, and then I applied for the position, which eventually help to me become a Cloud domain Lead at GDG, AISSMS IOIT.
       "
       />
     ),
     // resources: <BlogResources resources={{}} />,
-    author: "Shriniwas Khond: Cloud Lead - GDSC, AISSMS IOIT",
+    author: "Shriniwas Khond: Cloud Lead - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643644432/blogs/lrt2x6uj38ntipav5nhq.jpg",
     category: "Technical",
@@ -302,7 +302,7 @@ Coming to the application`,
         }}
       />
     ),
-    author: "Aniruddh Karekar: Android Member - GDSC, AISSMS IOIT",
+    author: "Aniruddh Karekar: Android Member - GDG, AISSMS IOIT",
     imageSrc:
       "https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643651023/blogs/bexi6u1apjrfwwhil8ik.png",
     category: "Technical",
@@ -318,7 +318,7 @@ Coming to the application`,
     date: "14th Feb 2022",
     day: "Tuesday",
     shortDescription: `Hello guys!
-    I’m Omkar Danave, Management Lead at GDSC AISSMS IOIT.
+    I’m Omkar Danave, Management Lead at GDG AISSMS IOIT.
     My journey as a Management Lead is not as easy as it seems. I was very shy at first when I
     entered college, thinking if I would be able to mix up with people, or match their vibes, make
     myself stand out from others. But then came the first opportunity to showcase myself, that was
@@ -327,7 +327,7 @@ Coming to the application`,
       <BlogAbout
         content="
         Hello guys!
-        I’m Omkar Danave, Management Lead at GDSC AISSMS IOIT.
+        I’m Omkar Danave, Management Lead at GDG AISSMS IOIT.
         My journey as a Management Lead is not as easy as it seems. I was very shy at first when I
         entered college, thinking if I would be able to mix up with people, or match their vibes, make
         myself stand out from others. But then came the first opportunity to showcase myself, that was

@@ -11,17 +11,15 @@ import "slick-carousel/slick/slick-theme.css";
 import Fade from "react-reveal/Fade";
 
 import Web from "./web";
+import Cloud from "./cloud";
 import ML from "./ml";
 import Android from "./android";
 import Management from "./management";
 import Design from "./design";
-import Dsa from "./dsa";
-import Outreach from "./outreach";
-import Cloud from "./cloud";
 
 import TeamCard from "./TeamCard";
 
-const Team2022 = () => {
+const Team2024 = () => {
   const { id } = useParams();
 
   useEffect(() => {
@@ -59,7 +57,10 @@ const Team2022 = () => {
     <TeamCard key={member.id} member={member} />
   ));
 
-  const ManagementTeam = Management.map((member) => (
+  const CloudTeam = Cloud.map((member) => (
+    <TeamCard key={member.id} member={member} />
+  ));
+  const DesignTeam = Design.map((member) => (
     <TeamCard key={member.id} member={member} />
   ));
 
@@ -70,19 +71,8 @@ const Team2022 = () => {
   const AndroidTeam = Android.map((member) => (
     <TeamCard key={member.id} member={member} />
   ));
-  const CloudTeam = Cloud.map((member) => (
-    <TeamCard key={member.id} member={member} />
-  ));
 
-  const DesignTeam = Design.map((member) => (
-    <TeamCard key={member.id} member={member} />
-  ));
-
-  const DsaTeam = Dsa.map((member) => (
-    <TeamCard key={member.id} member={member} />
-  ));
-
-  const OutreachTeam = Outreach.map((member) => (
+  const ManagementTeam = Management.map((member) => (
     <TeamCard key={member.id} member={member} />
   ));
 
@@ -90,49 +80,40 @@ const Team2022 = () => {
     window.screen.width < 800
       ? {
           web: <Slider {...settings}>{WebTeam}</Slider>,
+          cloud: <Slider {...settings}>{CloudTeam}</Slider>,
+          design: <Slider {...settings}>{DesignTeam}</Slider>,
           ml: <Slider {...settings}>{MLTeam}</Slider>,
           android: <Slider {...settings}>{AndroidTeam}</Slider>,
           management: <Slider {...settings}>{ManagementTeam}</Slider>,
-          design: <Slider {...settings}>{DesignTeam}</Slider>,
-          cloud: <Slider {...settings}>{CloudTeam}</Slider>,
-          outreach: <Slider {...settings}>{OutreachTeam}</Slider>,
-          dsa: <Slider {...settings}>{DsaTeam}</Slider>,
         }
       : {
           web: WebTeam,
+          cloud: CloudTeam,
+          design: DesignTeam,
           ml: MLTeam,
           android: AndroidTeam,
           management: ManagementTeam,
-          cloud: CloudTeam,
-          design: DesignTeam,
-          outreach: OutreachTeam,
-          dsa: DsaTeam,
         }
   );
 
-  // console.log(teams.management);
   const responsive = (media) => {
     if (media.matches) {
       setTeams({
         web: <Slider {...settings}>{WebTeam}</Slider>,
+        cloud: <Slider {...settings}>{CloudTeam}</Slider>,
+        design: <Slider {...settings}>{DesignTeam}</Slider>,
         ml: <Slider {...settings}>{MLTeam}</Slider>,
         android: <Slider {...settings}>{AndroidTeam}</Slider>,
         management: <Slider {...settings}>{ManagementTeam}</Slider>,
-        design: <Slider {...settings}>{ManagementTeam}</Slider>,
-        cloud: <Slider {...settings}>{CloudTeam}</Slider>,
-        outreach: <Slider {...settings}>{OutreachTeam}</Slider>,
-        dsa: <Slider {...settings}>{DsaTeam}</Slider>,
       });
     } else {
       setTeams({
         web: WebTeam,
+        cloud: CloudTeam,
+        design: DesignTeam,
         ml: MLTeam,
         android: AndroidTeam,
         management: ManagementTeam,
-        design: DesignTeam,
-        cloud: CloudTeam,
-        outreach: OutreachTeam,
-        dsa: DsaTeam,
       });
     }
   };
@@ -146,49 +127,15 @@ const Team2022 = () => {
       <div className="container team-members teams">
         <Fade up>
           <div id="gdsc_lead" className="row">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <Fade up>
-                <h3 className="font-weight-bold">GDG Lead</h3>
+                <h3 className="font-weight-bold">GDSC Lead</h3>
               </Fade>
 
               <div>
                 <span>
                   <img
-                    src="https://i.ibb.co/RhLkD2k/PRAKALP-PANDE.jpg"
-                    className="img-fluid lead-img"
-                    alt="Lead_Image"
-                  />
-                </span>
-              </div>
-
-              <h5 className="mt-4">Prakalp Pande</h5>
-
-              <span></span>
-              <div className="social-ico">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.linkedin.com/in/prakalp-pande/"
-                >
-                  <i className="fa fa-linkedin ico-link"></i>
-                </a>
-                <a target="_blank" rel="noreferrer" href="#">
-                  <i className="fa fa-github ico-github"></i>
-                </a>
-                <a target="_blank" rel="noreferrer" href="#">
-                  <i className="fa fa-instagram ico-insta"></i>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <Fade up>
-                <h3 className="font-weight-bold">GDG Co-Lead</h3>
-              </Fade>
-
-              <div>
-                <span>
-                  <img
-                    src="https://i.ibb.co/cCyVvHd/sid.png"
+                    src="https://i.ibb.co/x5D0mL2/Sidd-Pfp.png"
                     className="img-fluid lead-img"
                     alt="Lead_Image"
                   />
@@ -209,20 +156,13 @@ const Team2022 = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/SiddhantSangale"
-                >
-                  <i className="fa fa-github ico-github"></i>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
                   href="https://www.instagram.com/sidd.hant_17"
                 >
                   <i className="fa fa-instagram ico-insta"></i>
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 teams">
+            <div className="col-lg-6 col-sm-6 teams">
               <Fade up>
                 <h3 className="font-weight-bold">Faculty Advisor</h3>
               </Fade>
@@ -272,29 +212,15 @@ const Team2022 = () => {
           {teams.android}
         </div>
 
-        <div id="DSA_team" className="row">
-          <Fade up>
-            <h3 className="my-5 font-weight-bold">DSA Team</h3>
-          </Fade>
-          {teams.dsa}
-        </div>
-
         <div id="management_team" className="row">
           <Fade up>
             <h3 className="my-5 font-weight-bold">Management Team</h3>
           </Fade>
           {teams.management}
         </div>
-
-        <div id="outreach_team" className="row">
-          <Fade up>
-            <h3 className="my-5 font-weight-bold">Outreach Team</h3>
-          </Fade>
-          {teams.outreach}
-        </div>
       </div>
     </>
   );
 };
 
-export default Team2022;
+export default Team2024;
