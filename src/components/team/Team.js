@@ -11,7 +11,7 @@ import Team_Svg from "../../images/team/Team.gif";
 import { Helmet } from "react-helmet";
 
 const Team = () => {
-  const [selectedYear, setSelectedYear] = useState("2023"); // Default year
+  const [selectedYear, setSelectedYear] = useState("2024"); // Default year
 
   const handleToggle = (year) => {
     setSelectedYear(year);
