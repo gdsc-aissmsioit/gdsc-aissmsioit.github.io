@@ -135,28 +135,98 @@ const Team2024 = () => {
               <div>
                 <span>
                   <img
-                    src="https://i.ibb.co/x5D0mL2/Sidd-Pfp.png"
+                    src="https://i.ibb.co/6BzPS6n/profile-pic-17.png"
                     className="img-fluid lead-img"
                     alt="Lead_Image"
                   />
                 </span>
               </div>
 
-              <h5 className="mt-4">Siddhant Sangale</h5>
+              <h5 className="mt-4">Yash Divekar</h5>
 
               <span></span>
               <div className="social-ico">
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/siddhant-sangale-39a29724b/"
+                  href="https://www.linkedin.com/in/yash-laxman-divekar/"
                 >
                   <i className="fa fa-linkedin ico-link"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.instagram.com/sidd.hant_17"
+                  href="https://www.instagram.com/d_yash19"
+                >
+                  <i className="fa fa-instagram ico-insta"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6">
+              <Fade up>
+                <h3 className="font-weight-bold">GDSC Co-Lead</h3>
+              </Fade>
+
+              <div>
+                <span>
+                  <img
+                    src="https://i.ibb.co/f87ZrYn/profile-pic-21.png"
+                    className="img-fluid lead-img"
+                    alt="Lead_Image"
+                  />
+                </span>
+              </div>
+
+              <h5 className="mt-4">Janvi Singh</h5>
+
+              <span></span>
+              <div className="social-ico">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/yash-laxman-divekar/"
+                >
+                  <i className="fa fa-linkedin ico-link"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/d_yash19"
+                >
+                  <i className="fa fa-instagram ico-insta"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6">
+              <Fade up>
+                <h3 className="font-weight-bold">GDSC Administrator</h3>
+              </Fade>
+
+              <div>
+                <span>
+                  <img
+                    src="https://i.ibb.co/2cvSJzR/profile-pic-20.png"
+                    className="img-fluid lead-img"
+                    alt="Lead_Image"
+                  />
+                </span>
+              </div>
+
+              <h5 className="mt-4">Laukik Patil</h5>
+
+              <span></span>
+              <div className="social-ico">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/yash-laxman-divekar/"
+                >
+                  <i className="fa fa-linkedin ico-link"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/d_yash19"
                 >
                   <i className="fa fa-instagram ico-insta"></i>
                 </a>

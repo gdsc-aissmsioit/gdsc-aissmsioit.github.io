@@ -1,7 +1,7 @@
 const Android = [
   {
     id: 1,
-    name: "Dhanashree Yadav",
+    name: "Om Jadhav",
     position: "Android Lead",
     image: "https://i.ibb.co/kSy1J2H/profile-pic-25.png",
     alt: "Lead_Image",
@@ -13,8 +13,8 @@ const Android = [
   },
   {
     id: 2,
-    name: "Omkar Mansulkar",
-    position: "Android Member",
+    name: "Namit Solanki",
+    position: "Android Co-Lead",
     image: "https://i.ibb.co/XXX5bNn/Omkar-final-2.png",
     alt: "Co_Lead_Image",
     col: 5,
@@ -22,7 +22,7 @@ const Android = [
     instagram: "https://instagram.com/_.omkar.mansulkar._",
     github: "",
     link: "",
-  }
+  },
 ];
 
 export default Android;

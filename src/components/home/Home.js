@@ -334,7 +334,7 @@ const Home = () => {
                 <div id="gdsc_lead" className="row">
                   <div className="col-lg-12 col-sm-12 member-body">
                     <img
-                      src="https://i.ibb.co/x5D0mL2/Sidd-Pfp.png"
+                      src="https://i.ibb.co/6BzPS6n/profile-pic-17.png"
                       className="img-fluid lead-img"
                       alt="Lead_Image"
                     />
