@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# GDSC AISSMS IOIT Website
 
-In the project directory, you can run:
+This repository contains the source code for the GDSC AISSMS IOIT official website. Below are instructions to get the project set up on your local machine, make changes, and deploy updates.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ensure you have the following installed before proceeding:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Git**
+- **Node.js** (with npm)
+- **GitHub Personal Access Token (PAT)**: Required to push changes to the repository.
 
-### `npm test`
+Use this token in the setup steps below to authenticate your Git operations.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## First-Time Setup
 
-### `npm run build`
+Follow these steps to clone the repository and configure your remote:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/gdsc-aissmsioit/gdsc-aissmsioit.github.io.git
+    ```
+2. Navigate into the project directory:
+    ```bash
+    cd gdsc-aissmsioit.github.io
+    ```
+3. Set the remote URL to push changes using your GitHub username and personal access token:
+    ```bash
+    git remote set-url origin https://<github_username>:<github_personal_access_token>@github.com/gdsc-aissmsioit/gdsc-aissmsioit.github.io.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Replace `<github_username>` with your GitHub username and `<github_personal_access_token>` with the token you generated.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Making Changes
 
-### `npm run eject`
+Once you've made the required changes to the code, follow these steps to commit and push your updates:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Add your changes:
+    ```bash
+    git add .
+    ```
+2. (Optional) Check the status of your changes:
+    ```bash
+    git status
+    ```
+3. Commit your changes with a message:
+    ```bash
+    git commit -m "put commit message here"
+    ```
+4. Push the changes to the repository:
+    ```bash
+    git push
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Building and Deploying
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To build the project and deploy it to production, use the following commands:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
+2. Build the project:
+    ```bash
+    npm run build
+    ```
+3. (Optional) For local debugging, start a development server on localhost:
+    ```bash
+    npm start
+    ```
+4. Deploy the project:
+    ```bash
+    npm run deploy
+    ```
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Ensure your GitHub username and personal access token are correctly configured for pushing changes.
+- Use `npm start` to test your changes locally before deploying.
+- Make sure  you have write-access to this repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute and improve the project!
