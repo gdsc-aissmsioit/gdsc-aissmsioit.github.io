@@ -101,15 +101,15 @@ const Contact = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Get In Touch - GDSC</title>
-        <meta name="title" content="Get In Touch - GDSC" />
+        <title>Get In Touch - GDG</title>
+        <meta name="title" content="Get In Touch - GDG" />
         <meta
           name="description"
-          content="Google Developer Student Clubs (GDSC) are community groups for
+          content="Google Developer Groups (GDSC) are community groups for
           college and university students interested in Google developer
           technologies. Students from all undergraduate or graduate
           programs with an interest in growing as a developer are
-          welcome. By joining a GDSC, students grow their knowledge in a
+          welcome. By joining a GDG, students grow their knowledge in a
           peer-to-peer learning environment and build solutions for
           local businesses and their community."
         />
@@ -147,7 +147,13 @@ const Contact = () => {
           {isSubmit === false ? (
             <div>
               <Row>
-                <Col className="contact-col" sm={12} lg={{ span: 5, offset: 1 }} md={{ span: 5, offset: 1 }} xl={{ span: 5, offset: 1 }}>
+                <Col
+                  className="contact-col"
+                  sm={12}
+                  lg={{ span: 5, offset: 1 }}
+                  md={{ span: 5, offset: 1 }}
+                  xl={{ span: 5, offset: 1 }}
+                >
                   <div className="contact-illustration">
                     <Fade left>
                       <img

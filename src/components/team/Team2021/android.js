@@ -59,7 +59,8 @@ const Android = [
     github: "",
     link: "",
     profile: "",
-    details: "Hi I’m Het Bhalala from SE Comp, I’m proud GDSC Android Member and  have a desire to learn emerging technology and adapt to changing environment.",
+    details:
+      "Hi I’m Het Bhalala from SE Comp, I’m proud GDG Android Member and  have a desire to learn emerging technology and adapt to changing environment.",
     tooltip: "",
   },
 ];

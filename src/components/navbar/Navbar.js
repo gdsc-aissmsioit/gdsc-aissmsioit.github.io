@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import MenuOpenIcon from "@material-ui/icons/MenuOpen";
 import "./Navbar.css";
 
-import Gdsc_Logo from "../../images/gdsc_logo.png";
+import Gdsc_Logo from "../../images/gdg.png";
 
 import { scrollToTop } from "../footer/ScrollToTop";
 

@@ -15,8 +15,8 @@ const Blogdetails = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Blog Details - GDSC</title>
-        <meta name="title" content="Blog Details - GDSC" />
+        <title>Blog Details - GDG</title>
+        <meta name="title" content="Blog Details - GDG" />
         <meta name="description" content={blog.shortDescription} />
         <meta
           name="keywords"

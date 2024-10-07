@@ -17,15 +17,15 @@ const Community = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>About Us - GDSC</title>
-        <meta name="title" content="About Us - GDSC" />
+        <title>About Us - GDG</title>
+        <meta name="title" content="About Us - GDG" />
         <meta
           name="description"
-          content="Google Developer Student Clubs (GDSC) are community groups for
+          content="Google Developer Groups (GDSC) are community groups for
           college and university students interested in Google developer
           technologies. Students from all undergraduate or graduate
           programs with an interest in growing as a developer are
-          welcome. By joining a GDSC, students grow their knowledge in a
+          welcome. By joining a GDG, students grow their knowledge in a
           peer-to-peer learning environment and build solutions for
           local businesses and their community."
         />
@@ -64,11 +64,11 @@ const Community = () => {
                   About Us
                 </h1>
                 <p className="card-text about-para font-weight-light px-lg-5">
-                  Google Developer Student Clubs (GDSC) are community groups for
+                  Google Developer Groups (GDSC) are community groups for
                   college and university students interested in Google developer
                   technologies. Students from all undergraduate or graduate
                   programs with an interest in growing as a developer are
-                  welcome. By joining a GDSC, students grow their knowledge in a
+                  welcome. By joining a GDG, students grow their knowledge in a
                   peer-to-peer learning environment and build solutions for
                   local businesses and their community.
                 </p>
@@ -105,7 +105,7 @@ const Community = () => {
                     alt="Logo"
                   />
                   <p className="card-text pt-2 text-center">
-                    We at GDSC, AISSMS Institute of Information Technology are
+                    We at GDG, AISSMS Institute of Information Technology are
                     ambitious towards building a community that aims to change
                     the world with technology. We do this by organizing
                     insightful events, hands-on workshops, interactive sessions,

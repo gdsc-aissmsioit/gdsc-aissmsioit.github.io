@@ -11,11 +11,11 @@ const LeadApplication = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Blog Details - GDSC</title>
-        <meta name="title" content="Blog Details - GDSC" />
+        <title>Blog Details - GDG</title>
+        <meta name="title" content="Blog Details - GDG" />
         <meta
           name="description"
-          content="Hi everyone! I’m Prarthana Chandak, the founder and the Lead at Google Developer Student Clubs, AISSMS IOIT. I started GDSC at my campus for the very first time and this blog is a complete guide on the entire process that I followed and you can follow while applying. Index - What is a GDSC? Benefits of being a GDSC Lead My motivation to run a community Criteria to become a GDSC Lead"
+          content="Hi everyone! I’m Prarthana Chandak, the founder and the Lead at Google Developer Groups, AISSMS IOIT. I started GDG at my campus for the very first time and this blog is a complete guide on the entire process that I followed and you can follow while applying. Index - What is a GDG? Benefits of being a GDG Lead My motivation to run a community Criteria to become a GDG Lead"
         />
         <meta
           name="keywords"
@@ -67,11 +67,11 @@ const LeadApplication = () => {
           >
             <>
               <div className="blog-post-content max-width-2 m-auto my-2 m-auto">
-                <h1 className="font1">Guide to become a GDSC Lead</h1>
+                <h1 className="font1">Guide to become a GDG Lead</h1>
                 <div className="blogpost-meta">
                   <div className="author-info">
                     <div>
-                      <b>Prarthana Chandak: Lead - GDSC, AISSMS IOIT</b>
+                      <b>Prarthana Chandak: Lead - GDG, AISSMS IOIT</b>
                     </div>
                     <div>31st March 2022 | 10 mins</div>
                   </div>
@@ -98,39 +98,40 @@ const LeadApplication = () => {
                 <div className="font1">
                   <p>
                     Hi everyone! I’m Prarthana Chandak, the founder and the Lead
-                    at Google Developer Student Clubs, AISSMS IOIT. I started
-                    GDSC at my campus for the very first time and this blog is a
-                    complete guide on the entire process that I followed and you
-                    can follow while applying.
+                    at Google Developer Groups, AISSMS IOIT. I started GDG at my
+                    campus for the very first time and this blog is a complete
+                    guide on the entire process that I followed and you can
+                    follow while applying.
                   </p>
                   <ol>
-                    <li>What is a GDSC?</li>
-                    <li>Benefits of being a GDSC Lead</li>
+                    <li>What is a GDG?</li>
+                    <li>Benefits of being a GDG Lead</li>
                     <li>My motivation to run a community</li>
-                    <li>Criteria to become a GDSC Lead</li>
+                    <li>Criteria to become a GDG Lead</li>
                     <li>Application process</li>
-                    <li>My journey with GDSC</li>
+                    <li>My journey with GDG</li>
                     <li>Perks and Benefits</li>
                   </ol>
-                  <h3>What is a GDSC?</h3>
+                  <h3>What is a GDG?</h3>
                   <ul>
                     <li>
-                      - Google Developer Student Clubs are university based
-                      community groups for students interested in Google
-                      developer technologies.
+                      - Google Developer Groups are university based community
+                      groups for students interested in Google developer
+                      technologies.
                     </li>
                     <li>
                       - Students from all undergraduate or graduate programs
                       with an interest in growing as a developer are welcome.
                     </li>
                     <li>
-                      - By joining a GDSC, students grow their knowledge in a
+                      - By joining a GDG, students grow their knowledge in a
                       peer-to-peer learning environment and build solutions for
                       local businesses and their community.
                     </li>
                   </ul>
                   <p>
-                    Read more here - <a
+                    Read more here -{" "}
+                    <a
                       href="https://gdsc.community.dev/"
                       target="_blank"
                       rel="noreferrer"
@@ -140,12 +141,11 @@ const LeadApplication = () => {
                     </a>
                   </p>
 
-                  <h3>What are the benefits of being a GDSC Lead?</h3>
+                  <h3>What are the benefits of being a GDG Lead?</h3>
                   <p>
-                    GDSC Leads are the student leaders who are passionate
-                    towards technology and want to change the world with
-                    technology. Here are some of the benefits that I got from
-                    being a lead.
+                    GDG Leads are the student leaders who are passionate towards
+                    technology and want to change the world with technology.
+                    Here are some of the benefits that I got from being a lead.
                   </p>
                   <ul>
                     <li> - Network growth and instance exposure.</li>
@@ -161,7 +161,8 @@ const LeadApplication = () => {
                     </li>
                   </ul>
                   <p>
-                    My onboarding kit - <a
+                    My onboarding kit -{" "}
+                    <a
                       href="https://bit.ly/3wLFbPX"
                       target="_blank"
                       rel="noreferrer"
@@ -171,7 +172,7 @@ const LeadApplication = () => {
                     </a>
                   </p>
 
-                  <h3>What was my motivation to run a GDSC?</h3>
+                  <h3>What was my motivation to run a GDG?</h3>
                   <p>
                     Start with this blog -
                     <NavLink
@@ -179,7 +180,7 @@ const LeadApplication = () => {
                       to="/blogs/1/"
                       className="text-primary"
                     >
-                      My Coding Journey And How I Became A Lead At GDSC
+                      My Coding Journey And How I Became A Lead At GDG
                     </NavLink>
                   </p>
                   <ul>
@@ -201,7 +202,8 @@ const LeadApplication = () => {
                     </li>
                   </ul>
                   <p>
-                    My onboarding kit - <a
+                    My onboarding kit -{" "}
+                    <a
                       href="https://bit.ly/3wLFbPX"
                       target="_blank"
                       rel="noreferrer"
@@ -211,7 +213,7 @@ const LeadApplication = () => {
                     </a>
                   </p>
 
-                  <h3>What are the prerequisites to become a GDSC Lead?</h3>
+                  <h3>What are the prerequisites to become a GDG Lead?</h3>
                   <ul>
                     <li>- Have a minimum of one year left until graduation.</li>
                     <li>
@@ -241,7 +243,8 @@ const LeadApplication = () => {
                   <p>Steps:</p>
                   <ol>
                     <li>
-                      Fill an application form - <a
+                      Fill an application form -{" "}
+                      <a
                         href="https://gdsc.advocu.com/home/applications/form"
                         target="_blank"
                         rel="noreferrer"
@@ -252,7 +255,7 @@ const LeadApplication = () => {
                     </li>
                     <ul>
                       <li>
-                        - Select country and the name of your GDSC (if exists),
+                        - Select country and the name of your GDG (if exists),
                         or add new chapter.
                       </li>
                       <li> - Share your social media profiles.</li>
@@ -265,7 +268,7 @@ const LeadApplication = () => {
                       <li>
                         - Write about all the experiences you had being a part
                         of the community. Mention if you’ve been a member/core
-                        team member of GDSC. Describe your experience and
+                        team member of GDG. Describe your experience and
                         motivation to run a community.
                       </li>
                       <li>
@@ -307,8 +310,8 @@ const LeadApplication = () => {
                         become a lead and what you’ll do after getting selected.
                       </li>
                       <li>
-                        If you already have a GDSC at your campus, mention how
-                        it has helped students and how you can help create a
+                        If you already have a GDG at your campus, mention how it
+                        has helped students and how you can help create a
                         greater impact. If not, mention why you want to start
                         one.
                       </li>
@@ -381,15 +384,15 @@ const LeadApplication = () => {
                   <h3>My experience while applying - </h3>
                   <ol>
                     <li>
-                      I was already a member of GDSC AISSMS COE before we had
-                      one in our college therefore I knew what GDSC is.
+                      I was already a member of GDG AISSMS COE before we had one
+                      in our college therefore I knew what GDG is.
                     </li>
                     <li>
                       I was in touch with the lead of AISSMS COE - Ankita Ugale,
                       who guided me a lot during my application process. I also
                       got in touch with K.S. Wagh Sir during the application
                       process. He was very supportive and motivated all of us to
-                      apply for the post and start a GDSC at our campus.
+                      apply for the post and start a GDG at our campus.
                     </li>
                     <li>
                       I prepared very well with my answers in my application. I
@@ -410,7 +413,8 @@ const LeadApplication = () => {
                       always be original. It took me 4 to 5 takes to shoot a
                       decent video. I wore a 30 Days of GCP T-shirt while
                       recording the video that displayed my experience with the
-                      club. Check out my video here - <a
+                      club. Check out my video here -{" "}
+                      <a
                         href="https://www.youtube.com/watch?v=FWHR9CxuQLA"
                         target="_blank"
                         rel="noreferrer"
@@ -424,7 +428,7 @@ const LeadApplication = () => {
                       very excited and nervous when I received an invitation for
                       the interview round. 2 of my friends were also selected
                       and they were equally eligible for the post and hence I
-                      was a little nervous, but we 3 were excited to have a GDSC
+                      was a little nervous, but we 3 were excited to have a GDG
                       at our campus.
                     </li>
                     <li>
@@ -448,7 +452,7 @@ const LeadApplication = () => {
                       profiles and links handy.
                     </li>
                   </ol>
-                  <h3>My experience as a GDSC Lead- </h3>
+                  <h3>My experience as a GDG Lead- </h3>
                   <ol>
                     <li>The Selection Day-</li>
                     <ul>
@@ -461,7 +465,7 @@ const LeadApplication = () => {
                       <li>
                         My phone rang and I went to my room to pick up the call
                         and the moment I was going to shut my phone off, I saw
-                        an email notification from Advocu - GDSC. Even before I
+                        an email notification from Advocu - GDG. Even before I
                         opened it, my heart had already started pumping.
                       </li>
                       <li>
@@ -474,7 +478,8 @@ const LeadApplication = () => {
                         of my college life.
                       </li>
                       <li>
-                        Here is a glimpse of the mail that I received - <a
+                        Here is a glimpse of the mail that I received -{" "}
+                        <a
                           href="https://bit.ly/3wO0T5I"
                           target="_blank"
                           rel="noreferrer"
@@ -486,20 +491,20 @@ const LeadApplication = () => {
                       <li>
                         Although, I was also sad for 2 of my equally capable
                         friends who gave the interviews. But they were happy
-                        too, at least we now had a GDSC at our campus.
+                        too, at least we now had a GDG at our campus.
                       </li>
                     </ul>
                     <li>Further steps - </li>
                     <ul>
                       <li>
-                        We had an amazing introductory session by GDSC India
+                        We had an amazing introductory session by GDG India
                         where I got to connect with all the leads around the
                         country.
                       </li>
                       <li>
-                        Now the next step was to introduce GDSC to the college
+                        Now the next step was to introduce GDG to the college
                         and identify a core team of passionate leaders. With
-                        guidance of Wagh SirFaculty Advisor of our GDSC) and
+                        guidance of Wagh SirFaculty Advisor of our GDG) and
                         permission of Principal Sir, I had to organize an intro
                         event and this was the very first time I was going to
                         deliver/host an event to the public in the college. I
@@ -510,11 +515,19 @@ const LeadApplication = () => {
                         I had my friends supporting me throughout.
                       </li>
                       <li>
-                        From organizing 30 Days of Google Cloud, Android Study Jams, Flutter Festivals to Workshops on Github, Heroku, ML, Web, and a National Level Hackathon, I and my team have had a super dooper amazing journey throughout! We approached sponsors and luckily had the tech giant - Tech Mahindra as our sponsor for the hackathon, which had been our best event till date. Following which, we recently organized a series of workshops on various technologies.
+                        From organizing 30 Days of Google Cloud, Android Study
+                        Jams, Flutter Festivals to Workshops on Github, Heroku,
+                        ML, Web, and a National Level Hackathon, I and my team
+                        have had a super dooper amazing journey throughout! We
+                        approached sponsors and luckily had the tech giant -
+                        Tech Mahindra as our sponsor for the hackathon, which
+                        had been our best event till date. Following which, we
+                        recently organized a series of workshops on various
+                        technologies.
                       </li>
                       <li>
                         The best part was building our own website, for which
-                        the Web Team of GDSC worked really hard! A competition
+                        the Web Team of GDG worked really hard! A competition
                         BloggerSpace was conducted on our own website which is a
                         matter of pride for us. Website not only brags about the
                         achievements of the club but also lets the community
@@ -522,7 +535,8 @@ const LeadApplication = () => {
                         that’s the best part about our website.
                       </li>
                       <li>
-                        Check it out - <a
+                        Check it out -{" "}
+                        <a
                           href="https://gdsc-aissmsioit.github.io/#/"
                           target="_blank"
                           rel="noreferrer"
@@ -535,11 +549,11 @@ const LeadApplication = () => {
                     <li>
                       One of the important steps was also creating a Volunteers
                       Team of fresh minds from 1st year who will secure the
-                      future of GDSC at our college.
+                      future of GDG at our college.
                     </li>
                   </ol>
                   <h3>
-                    What have I achieved being a GDSC Lead? - Perks and Benefits
+                    What have I achieved being a GDG Lead? - Perks and Benefits
                   </h3>
                   <ol>
                     <li>
@@ -548,12 +562,13 @@ const LeadApplication = () => {
                       team together, helping everyone thrive as leaders.
                     </li>
                     <li>
-                      <strong>Insane network growth - </strong>GDSC gave me an
+                      <strong>Insane network growth - </strong>GDG gave me an
                       opportunity to connect better with people, Leads all over
                       India and the Globe.
                     </li>
                     <p>
-                      Check out this post - <a
+                      Check out this post -{" "}
+                      <a
                         href="https://www.instagram.com/p/CYJX1B3g8Lb/?utm_medium=copy_link"
                         target="_blank"
                         rel="noreferrer"
@@ -564,7 +579,7 @@ const LeadApplication = () => {
                     </p>
                     <li>
                       Amazing core team to work with - I didnt even know these
-                      folks before, but GDSC has built the friendship and the
+                      folks before, but GDG has built the friendship and the
                       trust between us. For all of the tough decisions, we have
                       stood together as one team. Honesty and loyalty towards
                       the club is what makes you a perfect team member, and my
@@ -579,11 +594,12 @@ const LeadApplication = () => {
                     </li>
                   </ol>
                   <p>
-                    It’s beyond words what GDSC has given to me. And that’s why
-                    I am keen towards continuing the legacy and have a more
+                    It’s beyond words what GDG has given to me. And that’s why I
+                    am keen towards continuing the legacy and have a more
                     powerful and amazing Lead and the Core team for the year
                     2022-23! For any doubts regarding the applications, reach
-                    out to me here - <a
+                    out to me here -{" "}
+                    <a
                       href="https://www.linkedin.com/in/prarthana-chandak-2a84b81b7/"
                       target="_blank"
                       rel="noreferrer"

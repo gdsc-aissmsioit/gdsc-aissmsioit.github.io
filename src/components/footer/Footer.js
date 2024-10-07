@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
-import Gdsc_All from "../../images/logo.png";
+import Gdsc_All from "../../images/gdg-campus.png";
 
 import ScrollToTop, { scrollToTop } from "./ScrollToTop";
 
@@ -122,11 +122,11 @@ const Footer = () => {
             </div>
 
             <div className="row mt-2">
-              <h4 className="divider donotcross">GDSC, AISSMS IOIT</h4>
+              <h4 className="divider donotcross">GDG, AISSMS IOIT</h4>
               <div className="col-md-12 copy">
                 <p className="text-center">
                   &copy; Made by{" "}
-                  <span className="text-primary">GDSC, AISSMS IOIT</span>
+                  <span className="text-primary">GDG, AISSMS IOIT</span>
                 </p>
               </div>
             </div>

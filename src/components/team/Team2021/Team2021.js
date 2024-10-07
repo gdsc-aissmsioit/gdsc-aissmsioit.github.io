@@ -101,13 +101,13 @@ const Team2021 = () => {
           <div id="gdsc_lead" className="row">
             <div className="col-lg-6 col-sm-6">
               <Fade up>
-                <h3 className="font-weight-bold">GDSC Lead</h3>
+                <h3 className="font-weight-bold">GDG Lead</h3>
               </Fade>
 
               <div>
                 <span
                   className="Tooltip gdsc_lead_tooltip"
-                  data-tooltip="Hi! I'm Prarthana. I love to sleep but coding is my coffee ;) I enjoy problem solving and competitive coding. I'm currently learning Node.js and I'm loving it. Can't wait to meet you guys in a GDSC offline event!"
+                  data-tooltip="Hi! I'm Prarthana. I love to sleep but coding is my coffee ;) I enjoy problem solving and competitive coding. I'm currently learning Node.js and I'm loving it. Can't wait to meet you guys in a GDG offline event!"
                 >
                   <img
                     src="https://i.ibb.co/QbYjh69/Prarthana-Chandak.jpg"

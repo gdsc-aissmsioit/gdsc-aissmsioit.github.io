@@ -5,8 +5,10 @@ const workshops = [
     date: "2023-09-14",
     dateAlt: "14th September 2023 🗓️",
     day: "Thursday",
-    about: "🔴🔵🟢🟡. From Clone to Collaboration: The Git & GitHub Experience. A journey into the heart of version control awaits you!✨. Google Developer's Students Club of AISSMS IOIT hereby brings you an opportunity to learn about Git and Github. 🗓 Date : Thursday, 14th Sept. ⏰ Time : 3:00 PM IST. 📍 Venue : Lab No.112, AISSMS IOIT. What can you get from this workshop??. 🔹 You will get answer to all your questions. 🔹 Hands-on experience. 🔹You will get a certificate. So Hurry Up! and Register for the Event by clicking on the following link. https://gdsc.community.dev/e/m5qpmj/ Regards, GDSC AISSMS IOIT",
-    speaker: "Satvik Nalavade, Machine Learning Lead and Archit Barve, Cloud Team Member",
+    about:
+      "🔴🔵🟢🟡. From Clone to Collaboration: The Git & GitHub Experience. A journey into the heart of version control awaits you!✨. Google Developer's Students Club of AISSMS IOIT hereby brings you an opportunity to learn about Git and Github. 🗓 Date : Thursday, 14th Sept. ⏰ Time : 3:00 PM IST. 📍 Venue : Lab No.112, AISSMS IOIT. What can you get from this workshop??. 🔹 You will get answer to all your questions. 🔹 Hands-on experience. 🔹You will get a certificate. So Hurry Up! and Register for the Event by clicking on the following link. https://gdsc.community.dev/e/m5qpmj/ Regards, GDG AISSMS IOIT",
+    speaker:
+      "Satvik Nalavade, Machine Learning Lead and Archit Barve, Cloud Team Member",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-introduction-to-git-and-github/",
     imageSrc:
@@ -19,12 +21,13 @@ const workshops = [
     date: "2022-03-28",
     dateAlt: "28th March 2022",
     day: "Monday",
-    about: "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin. We are organizing this event to help you understand how blockchain can be used to make supply-chain system more efficient and improve its security. In this session, you will learn to:. - Explain how blockchain enables trust and business processes between participants. - Evaluate when to use blockchain for a solution. Grab some snacks and join for _'Blockchain Untangled'_!. 📅 - 28/03/2022 , Monday. 🕐 - 7:30PM. 📍- Link in bio. 🔴🔵🟢🟡. ```Cherry 🍒 to the Cake 🎂 - ```. - Learn about *Binance Campus BUIDLer* Program!. 📌AMA. 📌Career guidance in Blockchain. 📌Cool schwags like GDSC branded 👕 and Stickers!. 📌Certificates for participants.",
-    speaker: "Shriniwas Khond, Cloud Domain lead and Krishna Waske, Management Team Member",
+    about:
+      "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin. We are organizing this event to help you understand how blockchain can be used to make supply-chain system more efficient and improve its security. In this session, you will learn to:. - Explain how blockchain enables trust and business processes between participants. - Evaluate when to use blockchain for a solution. Grab some snacks and join for _'Blockchain Untangled'_!. 📅 - 28/03/2022 , Monday. 🕐 - 7:30PM. 📍- Link in bio. 🔴🔵🟢🟡. ```Cherry 🍒 to the Cake 🎂 - ```. - Learn about *Binance Campus BUIDLer* Program!. 📌AMA. 📌Career guidance in Blockchain. 📌Cool schwags like GDG branded 👕 and Stickers!. 📌Certificates for participants.",
+    speaker:
+      "Shriniwas Khond, Cloud Domain lead and Krishna Waske, Management Team Member",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-blockchain-untangled/",
-    imageSrc:
-      "https://i.ibb.co/j3dKW9H/Blockchain-Untangled.jpg",
+    imageSrc: "https://i.ibb.co/j3dKW9H/Blockchain-Untangled.jpg",
     dataAos: "fade-left",
   },
   {
@@ -33,12 +36,13 @@ const workshops = [
     date: "2022-03-27",
     dateAlt: "27th March 2022",
     day: "Sunday",
-    about: "We are elated to announce the fourth event of the “ Flutter Festivals ”, in collaboration with GDSC AISSMS PHCET!🤩. 'Online Workshop' on Firebase Integration in Flutter🔥. Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. Learn more about firebase and how to integrate it in your flutter apps live in this workshop. 📌RSVP now: Link in bio!!. 📅 Date: 26th March 2022 (Saturday). 🕒 Time: 2:00 pm onwards. 📍 Location: Online. 💁‍♀️ Speakers: Aniruddha Karekar & Parth Desai. Regards, Team GDSC AISSMS IOIT💙",
-    speaker: "Aniruddha Karekar and Parth Desai, Flutter Developer Intern, AmazeYoo",
+    about:
+      "We are elated to announce the fourth event of the “ Flutter Festivals ”, in collaboration with GDG AISSMS PHCET!🤩. 'Online Workshop' on Firebase Integration in Flutter🔥. Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. Learn more about firebase and how to integrate it in your flutter apps live in this workshop. 📌RSVP now: Link in bio!!. 📅 Date: 26th March 2022 (Saturday). 🕒 Time: 2:00 pm onwards. 📍 Location: Online. 💁‍♀️ Speakers: Aniruddha Karekar & Parth Desai. Regards, Team GDG AISSMS IOIT💙",
+    speaker:
+      "Aniruddha Karekar and Parth Desai, Flutter Developer Intern, AmazeYoo",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-5/",
-    imageSrc:
-      "https://i.ibb.co/3FdsMhG/Flutter-Festival-Firebase.jpg",
+    imageSrc: "https://i.ibb.co/3FdsMhG/Flutter-Festival-Firebase.jpg",
     dataAos: "fade-right",
   },
   {
@@ -49,11 +53,11 @@ const workshops = [
     day: "Saturday",
     about:
       "In this session, we'll be going through various Flutter projects which we have built. You'll learn exciting stuff like what it takes to publish apps on the Playstore and app store and how apps are built in the real-world. We'll also be getting a brief about apis and how they are used to get data from the internet or any othet source. See you there!",
-    speaker: "Aniruddha Karekar and Parth Desai, Flutter Developer Intern, AmazeYoo",
+    speaker:
+      "Aniruddha Karekar and Parth Desai, Flutter Developer Intern, AmazeYoo",
     eventLink:
       "https://gdsc.community.dev/events/details/developer-student-clubs-aissms-institute-of-information-technology-pune-presents-flutter-festival-aissms-institute-of-information-technology-pune-5/",
-    imageSrc:
-      "https://i.ibb.co/3FdsMhG/Flutter-Festival-Firebase.jpg",
+    imageSrc: "https://i.ibb.co/3FdsMhG/Flutter-Festival-Firebase.jpg",
     dataAos: "fade-up",
   },
   {
@@ -122,7 +126,7 @@ const workshops = [
     dateAlt: "6th March 2022",
     day: "Sunday",
     about:
-      "Want to start your development journey and build some amazing projects that solve real-world problems?. GDSC AISSMS IOIT brings to you a hands-on workshop on MERN (Mongodb, Express.js, React.js, Node). MERN Stack is used for developing Full Stack Applications in fast and easy way💫. We are organizing this workshop in collaboration with renowned company REGex Software Services which will help you to understand how client and server side interact with each other and also to develop responsive and dynamic web applications🌀. We will be having a project which will provide you practical exposure of how all the designs, features and components of MERN Stack works🎯. So guys let's join us, we assure you that this workshop will definitely enhance your knowledge about Frontend and Backend Technologies 💯. Attend the workshop on - 📅- 5th and 6th Mar, 2022 🕔- 10:30 A.M.",
+      "Want to start your development journey and build some amazing projects that solve real-world problems?. GDG AISSMS IOIT brings to you a hands-on workshop on MERN (Mongodb, Express.js, React.js, Node). MERN Stack is used for developing Full Stack Applications in fast and easy way💫. We are organizing this workshop in collaboration with renowned company REGex Software Services which will help you to understand how client and server side interact with each other and also to develop responsive and dynamic web applications🌀. We will be having a project which will provide you practical exposure of how all the designs, features and components of MERN Stack works🎯. So guys let's join us, we assure you that this workshop will definitely enhance your knowledge about Frontend and Backend Technologies 💯. Attend the workshop on - 📅- 5th and 6th Mar, 2022 🕔- 10:30 A.M.",
     speaker: "",
     facilitator: "Ashish Patil, Technical Lead",
     eventLink:
@@ -137,7 +141,7 @@ const workshops = [
     dateAlt: "5th March 2022",
     day: "Tuesday",
     about:
-      "Want to start your development journey and build some amazing projects that solve real-world problems?. GDSC AISSMS IOIT brings to you a hands-on workshop on MERN (Mongodb, Express.js, React.js, Node). MERN Stack is used for developing Full Stack Applications in fast and easy way💫. We are organizing this workshop in collaboration with renowned company REGex Software Services which will help you to understand how client and server side interact with each other and also to develop responsive and dynamic web applications🌀. We will be having a project which will provide you practical exposure of how all the designs, features and components of MERN Stack works🎯. So guys let's join us, we assure you that this workshop will definitely enhance your knowledge about Frontend and Backend Technologies 💯. Attend the workshop on - 📅- 5th and 6th Mar, 2022 🕔- 10:30 A.M.",
+      "Want to start your development journey and build some amazing projects that solve real-world problems?. GDG AISSMS IOIT brings to you a hands-on workshop on MERN (Mongodb, Express.js, React.js, Node). MERN Stack is used for developing Full Stack Applications in fast and easy way💫. We are organizing this workshop in collaboration with renowned company REGex Software Services which will help you to understand how client and server side interact with each other and also to develop responsive and dynamic web applications🌀. We will be having a project which will provide you practical exposure of how all the designs, features and components of MERN Stack works🎯. So guys let's join us, we assure you that this workshop will definitely enhance your knowledge about Frontend and Backend Technologies 💯. Attend the workshop on - 📅- 5th and 6th Mar, 2022 🕔- 10:30 A.M.",
     speaker: "",
     facilitator: "Ashish Patil, Technical Lead",
     eventLink:
@@ -181,7 +185,7 @@ const workshops = [
     day: "Tuesday",
     about:
       "Do you guys want to host your project? Come join us where we will be learning concepts like what is cloud, cloud computing, service models and how to deploy Django Project on Heroku.",
-    speaker: "Ashish Patil, Web Lead, GDSC, AISSMS IOIT",
+    speaker: "Ashish Patil, Web Lead, GDG, AISSMS IOIT",
     eventLink: "",
     imageSrc: "https://i.ibb.co/ypvdTSy/Heroku-Workshop.png",
     dataAos: "fade-up",
@@ -195,7 +199,7 @@ const workshops = [
     about:
       "Get yourself introduced to the world of open-source. Get familiar with basic Git terminology and Github interface in this hands-on workshop! This workshop is an add-on to Developer Hacks - 21.",
     speaker:
-      "Aditya Gandhamal, Cloud Co-Lead and Prarthana Chandak, Lead, GDSC, AISSMS IOIT",
+      "Aditya Gandhamal, Cloud Co-Lead and Prarthana Chandak, Lead, GDG, AISSMS IOIT",
     eventLink: "",
     imageSrc: "https://i.ibb.co/BG1r00M/Git-Github-Workshop.png",
     dataAos: "fade-left",

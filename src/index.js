@@ -43,11 +43,11 @@ const Index = () => {
       <div className={contentDisplay}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>GDSC - AISSMS IOIT</title>
+          <title>GDG - AISSMS IOIT</title>
           <meta name="title" content="GDSC - AISSMS IOIT" />
           <meta
             name="description"
-            content="Google Developer Student Clubs (GDSC), AISSMS Institute of Information Technology is ambitious towards building a community that aims to change the world with technology. We do this by organizing insightful events, hands-on workshops, interactive sessions, hackathons, study-jams and more. We believe in creating a peer-to-peer learning environment to grow together as a community."
+            content="Google Developer Groups (GDSC), AISSMS Institute of Information Technology is ambitious towards building a community that aims to change the world with technology. We do this by organizing insightful events, hands-on workshops, interactive sessions, hackathons, study-jams and more. We believe in creating a peer-to-peer learning environment to grow together as a community."
           />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta
@@ -77,7 +77,7 @@ const Index = () => {
           />
           <meta
             property="og:title"
-            content="AISSMS Institute of Information Technology - Pune | Google Developer Student Clubs"
+            content="AISSMS Institute of Information Technology - Pune | Google Developer Groups"
           />
           <meta property="og:description" content="" />
           <meta property="og:type" content="website" />

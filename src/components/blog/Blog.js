@@ -141,17 +141,17 @@ const Blog = () => {
         });
       } else {
         setSubmitBtn(<div className="loader"></div>);
-        
+
         const userDetails = {
           name: values.name,
-          email:values.email,
+          email: values.email,
           message: `name : ${values.name}
           email: ${values.email}, 
           Domain : ${values.domain}, 
           title : ${values.title}, 
           Image Link : ${values.coverImage}, 
-          Blog Content : ${values.content}`
-        }
+          Blog Content : ${values.content}`,
+        };
 
         emailjs
           .send(
@@ -197,8 +197,8 @@ const Blog = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Blogs - GDSC</title>
-        <meta name="title" content="Blogs - GDSC" />
+        <title>Blogs - GDG</title>
+        <meta name="title" content="Blogs - GDG" />
         <meta
           name="description"
           content="Learn about the latest technologies and happening in the IT
